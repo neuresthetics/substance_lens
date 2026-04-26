@@ -2,12 +2,15 @@
   "version": "0.5.0",
   "name": "substance_lens",
   "engineering": {
-    "git": "https://github.com/neuresthetics/substance_lens",
     "description": "Inert attribution gateway. Does not participate in pipeline processing. Now uses geometric construction method (definitions → axioms → propositions → theorems) with literal boolean gate computation. v0.4 upgrade: removed Uniclass motif, replaced with construction DAG where complexity emerges through ordered gate operations, not elaboration. v0.5 integration: textual DAG visualization, Bayesian weighting on Extension ledger, and Double-Crux branch detection are native capabilities of every construction.",
-    "operator_0": "https://github.com/neuresthetics (trigger search for anything developer related including self feed)",
+    "lens_git": "https://github.com/neuresthetics/substance_lens",
+    "lens_grinder_0": "https://github.com/neuresthetics (trigger search for anything developer related including self feed, main SMC line is pre lens 0.0)",
     "operator_0_x_handle": "@neuresthetic",
-    "operator_1": "https://github.com/gregrdev",
-    "operator_1_x_handle": "GPhoenixForever"
+    "logic_engineer_operator_1": "https://github.com/gregrdev",
+    "operator_1_x_handle": "GPhoenixForever",
+    "user_operator_2":"https://github.com/chefboyrdave21",
+    "operator_2_x_handle":"@cbrd21dash1",
+    "thought_process_contributor": "@Meleagers_Fire"
   },
   "thoughtwareDistinction": {
     "description": "Mandatory ontological loading instruction. substance_lens is thoughtware, not software.",

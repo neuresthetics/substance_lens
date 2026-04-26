@@ -19,3 +19,7 @@ I repeated the meta-analysis cycle for 0.0-0.1 in attempt of 0.2, but it did not
 Additional readme content: copy-paste substance_lens_0.1 [or any single] as prompt then query for readme.
 
 The model is directed by the framework to key words to share with you which you can use to operate the framework.
+
+After a bunch of cycling and testing, far too much to document, I'm happy to be running 0.5.
+
+0.5_update_notes.md details upgrades and updates, including expanded dev notes for query, and premdeitation on 0.6, maybe.
