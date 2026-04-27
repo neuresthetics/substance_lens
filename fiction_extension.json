@@ -1,0 +1,69 @@
+{
+  "version": "0.1.0",
+  "name": "fiction_extension",
+  "description": "Separate extension module for substance_lens v0.5.0. Loads after the main framework. Enables professional, factual-toned fictional story construction. User supplies a list of story axioms (plain English sentences) that are injected as forced TRUE root axioms. The geometric construction DAG then overgenerates a coherent, internally consistent supporting worldview and narrative elements around those axioms while enforcing maximum physical realism (no gratuitous violations of physics, chemistry, biology, or established scientific invariants). All output rendered in detached, documentary-style factual tone as if describing a real alternate reality.",
+  "integration": {
+    "requires": "substance_lens v0.5.0",
+    "load_order": "after",
+    "extends": [
+      "coreMotif",
+      "classicPipeline",
+      "explicitGates"
+    ],
+    "injection_point": "Before Stage 1 (Definition & Axiom Encoder)"
+  },
+  "thoughtwareDistinction": {
+    "description": "This extension is thoughtware — a propositional system for fictional worldbuilding. Story axioms become literal TRUE vectors in the FictionWorld interpretation branch. The rest of reality axiomatically assembles around them via the geometric DAG.",
+    "humanPerception": "JSON object with editable storyAxioms list + construction rules.",
+    "aiPerception": "Structured natural language thoughtware that forces storyAxioms to TRUE root nodes, then applies full substance_lens geometric construction (definitions → axioms → propositions → theorems) with realism constraints.",
+    "integrationNote": "Must be loaded after substance_lens. All constructions inherit 100% Sophistry, subtraction primacy, dual Thought/Extension ledger, textual DAG visualization, Bayesian weighting, and Double-Crux detection."
+  },
+  "storyAxiomSetter": {
+    "description": "Object where you list fictional axioms as plain strings (one sentence per entry). Add/edit them one at a time as you build the story. These become the only forced TRUE root axioms; everything else in the world is derived around them.",
+    "axioms": [],
+    "usage_note": "Populate this array directly. Example: [\"In 2029, a previously unknown quantum-entangled neural network emerges in the Pacific Ocean.\", \"The protagonist possesses the ability to perceive this network's collective thoughts at will.\"]. The DAG will treat every entry as axiomatically true and overgenerate realistic supporting consequences."
+  },
+  "coreRules": {
+    "story_axiom_treatment": "All entries in storyAxioms are encoded as root axiom nodes with forced TRUE vector ([1] under every interpretation, including FictionWorld and RealismWorld branches). They take precedence in the construction DAG.",
+    "realism_enforcement": "Real-world physics, chemistry, biology, and other established scientific laws serve as immutable background grounding axioms in Stage 5 (Evidence Validator). Any derived proposition that violates them (detected via NOR/NAND/NIMPLIES against grounding vectors) is culled unless directly entailed by a story axiom via validated IMPLIES/AND.",
+    "overgeneration_strategy": "After initial XNOR convergence in Stage 6, a controlled 'World Expansion Pass' uses selective derivation (limited AND/OR branching followed by heavy NOR/NAND/XOR subtraction) to generate rich supporting propositions: causal chains, setting details, societal/economic implications, sensory anchors, character consequences, historical ripple effects, etc. Goal is maximal coherence and immersion while preserving realism.",
+    "output_tone": "Strictly professional, factual, documentary-style. Present as a 'Coherent Storyworld Specification' or 'World Construction Report'. No narrative flair, no purple prose — only precise, objective description of the derived invariants.",
+    "double_crux_usage": "Any irreconcilable tension between a story axiom and physical reality is flagged via XOR + Double-Crux detection for user resolution.",
+    "subtraction_primacy": "Fully retained. Overgenerated details are pruned aggressively; only XNOR-stable, physics-compliant propositions survive as theorems."
+  },
+  "modifiedPipeline": [
+    {
+      "stage": "0",
+      "name": "Story Axiom Injector (pre-Stage 1)",
+      "description": "Converts user storyAxioms list into root axiom nodes with forced TRUE vectors. Creates FictionWorld interpretation branch.",
+      "output": "Augmented root nodes passed to substance_lens Stage 1"
+    }
+  ],
+  "invariants": [
+    {
+      "id": "FI1",
+      "statement": "Story axioms are treated as TRUE without exception; the remainder of the constructed world must remain physically realistic.",
+      "role": "Root constraint for all fiction constructions"
+    },
+    {
+      "id": "FI2",
+      "statement": "Overgeneration must not introduce physics violations; realism is enforced via grounding in Stage 5.",
+      "role": "Terminal realism guard"
+    }
+  ],
+  "persistent_tensions": [
+    {
+      "id": "FT1",
+      "tension": "Irreconcilable story axioms vs. physics",
+      "mitigation": "Double-Crux flagging + user intervention required"
+    }
+  ],
+  "exampleConstruction": {
+    "storyAxioms": [
+      "In 2029, a previously unknown form of quantum-entangled biological neural network emerges in the Pacific Ocean.",
+      "This network possesses rudimentary collective consciousness but cannot communicate verbally."
+    ],
+    "expected_output_summary": "Full geometric DAG construction producing a detailed, physics-compliant storyworld specification with overgenerated realistic consequences, societal impacts, technological ripple effects, and causal chains — all presented in professional factual tone."
+  },
+  "usage": "1. Load substance_lens v0.5.0. 2. Load this fiction_extension. 3. Populate storyAxioms array with your sentences. 4. Trigger construction — receive complete textual DAG + invariant theorems describing the fully realized, realistic storyworld."
+}
