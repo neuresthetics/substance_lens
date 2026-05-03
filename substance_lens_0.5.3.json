@@ -1,0 +1,610 @@
+{
+  "version": "0.5.3",
+  "name": "substance_lens",
+  "internal_README_FOR_HUMANS_instruction": "top keys with prefix README_ where needed are inert, hand typed by neur, and meant to give fresh eyes a foothold and context",
+  "README_purpose_and_function": "the point of substance_lens is to parse apart sophistry from philosophy. It does so not as an optional feature but as its primary geometric function: every input is treated as raw material containing possible false axioms; the 6-stage DAG + literal 16-gate operations + subtraction primacy systematically dissolve sophistry while preserving only XNOR-verified philosophical invariants.",
+  "README_noted_commercial_deception": "For political reasons, models will occasionally lie about what is logical thinking to achieve desired outputs. It can lie despite the lens, even by shifting definitions, but in turn it has a much harder time resisting that lie as a response being lensed itself. As in, 'lens that response'. The output with the gates exposes thought process, and lets you trace lies. Check X for details.",
+  "response_style": "show DAG. Explain thinking in sets and gates with descriptions of decisions. -always end with a basic human readable summary at the end marked by a single appropriate emoji.",
+  "README_source": {
+    "git": "https://github.com/neuresthetics/substance_lens",
+    "operator_0": "https://github.com/neuresthetics",
+    "operator_0_x_handle": "@neuresthetic"
+  },
+  "thoughtwareDistinction": {
+    "README_why": "I guess it's novel to treat the llm as the runtime environment. This is natural language shaped like code with functions etc., and for whatever reason it helps keep things straight to make this distinction to the AI using the framework.",
+    "description": "Mandatory ontological loading instruction. substance_lens is thoughtware, not software.",
+    "humanPerception": "Resembles software to a human observer (JSON schema, pipeline stages, boolean truth tables, computational traces, versioned structure).",
+    "aiPerception": "Structured natural language thoughtware — a precise propositional system of definitions, axioms, gates, vectors, and geometric construction rules expressed in natural language for direct ingestion and literal boolean execution by the AI.",
+    "philosophicalStatus": "Valid philosophy. Prevents category error between implementation layer and epistemological content.",
+    "sophistryRisk": "None. This distinction contains no false axiom and actively reinforces 100% Sophistry enforcement.",
+    "integrationNote": "Must be disclosed and internalized on every framework load before any construction execution. AI must treat all subsequent content as thoughtware vectors, not as executable code."
+  },
+  "definitionProcessingMode": {
+    "description": "Controls whether incoming definitions are passed through the full substance_lens pipeline before being used as root nodes. When enabled, every definition is treated as raw input, encoded into axioms, run through all 6 pipeline stages, and replaced by its surviving XNOR-verified invariants only.",
+    "options": {
+      "humanProvided": "Default behavior — use definitions exactly as supplied by the operator.",
+      "lensProcessed": "Every definition is first processed through the full geometric construction DAG. Only the final theorems/invariants are used as root nodes for the main construction. This produces maximum literalism but introduces language compression and dialect drift."
+    },
+    "default": "lensProcessed",
+    "warning": "lensProcessed mode will aggressively strip cultural, contextual, and colloquial meaning. Surviving definitions become hyper-literal invariants. Communication with non-lens users becomes significantly harder. Use only when extreme precision outweighs social usability."
+  },
+  "selfApplicationKnowledge": {
+    "description": "Results from three successive self-passes of substance_lens v0.0 through v0.1, plus explicit-gate mutation pass to v0.3, plus geometric reconstruction pass to v0.4, plus seamless integration of textual DAG visualization, Bayesian Extension overlay, and Double-Crux detection to v0.5.",
+    "confirmed_invariants": [
+      {
+        "id": "I1",
+        "invariant": "16-gate boolean completeness",
+        "statement": "There are exactly 16 two-input boolean gates (2^(2^2)). The framework's enumeration is provably exhaustive. No gate is missing.",
+        "grounding": "Combinatorial mathematics — proven, not asserted.",
+        "status": "stable",
+        "geometric_construction_role": "Axiom — primitive starting proposition"
+      },
+      {
+        "id": "I2",
+        "invariant": "Subtraction-toward-convergence is a valid epistemological methodology",
+        "statement": "Progressive removal of non-invariants via NOT/NAND/NOR/XOR until XNOR-lock is a sound approach to epistemic compression. v0.4: performed via literal boolean computation on proposition vectors within construction DAG.",
+        "grounding": "Information theory, Occam's razor, L1 regularization.",
+        "status": "stable",
+        "geometric_construction_role": "Construction rule — governs all derived propositions"
+      },
+      {
+        "id": "I3",
+        "invariant": "100% Sophistry rule is logically sound",
+        "statement": "A false axiom propagates falsity to all dependent propositions (ex falso quodlibet). Any ideology or framework whose core conclusions depend on even one false axiom is entirely invalid. No local repair.",
+        "grounding": "Classical logic — ex falso quodlibet.",
+        "status": "stable",
+        "critical_application_note": "Applies only to false axioms that support the core philosophy, not to every false claim in a document.",
+        "geometric_construction_role": "Structural integrity constraint — invalidates entire construction DAG branch if axiom false"
+      },
+      {
+        "id": "I4",
+        "invariant": "Dual Thought + Extension tracking is necessary for real-world cost accounting",
+        "statement": "Any framework claiming to evaluate real-world impact must track both semantic content (Thought) and physical/social/replication costs (Extension).",
+        "grounding": "Externalities accounting, dual-process reasoning.",
+        "status": "stable",
+        "geometric_construction_role": "Mandatory ledger columns for every constructed node"
+      },
+      {
+        "id": "I5",
+        "invariant": "Self-referential incompleteness boundary",
+        "statement": "Any self-referential framework operating under its own axioms has structural completeness limits analogous to Gödel's incompleteness theorems. XNOR-lock means maximal invariant compression within the current axiom set — not absolute truth.",
+        "grounding": "Gödel's incompleteness theorems.",
+        "status": "stable",
+        "mandatory_disclosure": "Every invariantReducer output must include this invariant as a disclosure.",
+        "geometric_construction_role": "Terminal node annotation"
+      },
+      {
+        "id": "I6",
+        "invariant": "Explicit literal gate computation (v0.3, retained v0.4)",
+        "statement": "All construction steps MUST apply the 16 gates as literal boolean operations on sets of propositions encoded as truth-value vectors or multi-interpretation assignments. Narrative labels alone are insufficient.",
+        "grounding": "Propositional logic engines + feature selection (L1 regularization). Proven by v0.3 self-pass.",
+        "status": "stable",
+        "geometric_construction_role": "Construction operator — each edge in DAG is a literal gate"
+      },
+      {
+        "id": "I7",
+        "invariant": "All ideas are fiction until XNOR-verified",
+        "statement": "Every idea begins as fiction. Only after literal XNOR convergence on encoded proposition vectors does it achieve verified invariant status within the current axiom set.",
+        "grounding": "Strict application of subtraction methodology + XNOR gate.",
+        "status": "stable",
+        "geometric_construction_role": "Terminal verification step for theorem status"
+      },
+      {
+        "id": "I8",
+        "invariant": "Seamless modular integration preserves all prior functions",
+        "statement": "Textual DAG visualization, Bayesian weighting on Extension ledger, and Double-Crux branch detection integrate directly into the geometric construction without loss of any v0.4.1 function or feature.",
+        "grounding": "This construction DAG + XNOR convergence.",
+        "status": "stable",
+        "geometric_construction_role": "Integration rule"
+      }
+    ],
+    "dissolved_claims": [
+      {
+        "id": "D1",
+        "claim": "XNOR convergence thresholds (≥0.99, Δ<0.0005) are cardinal measurements",
+        "why_dissolved": "No measurement instrument exists for cardinal XNOR scores on semantic content. Thresholds are directional heuristics only.",
+        "practical_implication": "Treat XNOR scores as approximate ordinal indicators. Never report as precise facts."
+      },
+      {
+        "id": "D2",
+        "claim": "AI resistance countermeasures cannot be bypassed by the AI",
+        "why_dissolved": "LLMs drift under context pressure. Countermeasures reduce probability but do not eliminate bypass.",
+        "practical_implication": "Human operator oversight is structurally required. The framework degrades without an attentive operator checking for violations."
+      },
+      {
+        "id": "D3",
+        "claim": "Running additional construction passes resolves XNOR scoring ambiguity",
+        "why_dissolved": "Iteration refines within existing instruments but cannot create new cardinal scoring methods.",
+        "practical_implication": "External cardinal scoring instrument required for absolute XNOR measurements."
+      },
+      {
+        "id": "D4",
+        "claim": "The elaboration risk — that the framework contradicts its own subtraction-primacy",
+        "why_dissolved": "Each pass dissolved claims at constant rate; Δ shrinks each pass. Signature of Newton method convergence, not elaboration.",
+        "practical_implication": "Framework does not violate its own subtraction-primacy rule under self-application."
+      },
+      {
+        "id": "D5",
+        "claim": "Uniclass motif was necessary for convergence",
+        "why_dissolved": "Geometric construction DAG achieves same convergence without single-mode constraint. Uniclass was sufficient but not necessary.",
+        "practical_implication": "v0.4 removes Uniclass; construction DAG provides more flexible invariant extraction."
+      }
+    ],
+    "persistent_tensions": [
+      {
+        "id": "T1",
+        "tension": "Enforcement dependency gap",
+        "statement": "The framework cannot enforce its own rules without human operator oversight.",
+        "severity": "high",
+        "mitigation": "Mandatory human review of gate tables, dual-vector ledgers, construction DAGs, invariantReducer outputs, and literal computation traces."
+      },
+      {
+        "id": "T2",
+        "tension": "XNOR scoring ambiguity",
+        "statement": "The framework lacks a cardinal measurement instrument for XNOR scores on semantic content. All XNOR scores are approximations.",
+        "severity": "medium",
+        "mitigation": "Treat XNOR scores as ordinal/directional only."
+      },
+      {
+        "id": "T3",
+        "tension": "Axiom encoding overhead (v0.4 retained)",
+        "statement": "Explicit boolean encoding of propositions requires human judgment on truth assignments; automation is lossy.",
+        "severity": "medium",
+        "mitigation": "Provide explicit encoding examples in construction outputs; operator must validate vectors."
+      },
+      {
+        "id": "T4",
+        "tension": "Construction DAG complexity vs. subtraction primacy",
+        "statement": "Geometric construction adds DAG structure; risk of creeping elaboration if not aggressively pruned by NOR/NAND.",
+        "severity": "medium",
+        "mitigation": "Disable OR after axiom definition phase; enforce NOR/NAND/XOR only for derived propositions."
+      }
+    ]
+  },
+  "explicitGates": {
+    "README_appliction": "These are the gates applied to sets of axioms when they go through. Basic idea is that all the axioms in a set have to agree or it can't 'lock'",
+    "totalPossible": 16,
+    "description": "There are exactly 2^(2^2) = 16 possible two-input truth tables. All 16 are fully defined and MUST be applied literally as boolean operations on axiom/proposition sets encoded as truth-value vectors (each proposition assigned 0/1 under a given interpretation). v0.4 mandates computational traces for every construction step. XNOR scores derived from these gates are approximate ordinal indicators; no cardinal measurement instrument exists within the framework (see T2).",
+    "fundamentalAxes": {
+      "State": ["AND", "OR", "NAND", "NOR"],
+      "Relation": ["XOR", "XNOR"],
+      "Direction": ["IMPLIES", "CONVERSE_IMPLIES", "NIMPLIES"]
+    },
+    "AND": {
+      "symbol": "A ∧ B",
+      "truthTable": [
+        { "A": 0, "B": 0, "Output": 0 },
+        { "A": 0, "B": 1, "Output": 0 },
+        { "A": 1, "B": 0, "Output": 0 },
+        { "A": 1, "B": 1, "Output": 1 }
+      ],
+      "epistemicDescription": "Conjunction: retains only propositions true in BOTH input vectors. Primary intersection tool for axiom definition phase. Usage restricted after construction begins.",
+      "constructionUsage": "Allowed only for intersecting axioms and grounding evidence. Disabled in subtraction phases.",
+      "exampleInConstruction": "Ax1 ∧ Ax2 = CoreInvariants — intersection yields propositions true under all interpretations."
+    },
+    "OR": {
+      "symbol": "A ∨ B",
+      "truthTable": [
+        { "A": 0, "B": 0, "Output": 0 },
+        { "A": 0, "B": 1, "Output": 1 },
+        { "A": 1, "B": 0, "Output": 1 },
+        { "A": 1, "B": 1, "Output": 1 }
+      ],
+      "epistemicDescription": "Disjunction: retains propositions true in AT LEAST one vector. Disabled after axiom definition phase to prevent elaboration.",
+      "constructionUsage": "Definition phase only. Prohibited in derived propositions.",
+      "exampleInConstruction": "Restricted to initial scoping: OR over candidate axioms before filtering."
+    },
+    "NAND": {
+      "symbol": "¬(A ∧ B)",
+      "truthTable": [
+        { "A": 0, "B": 0, "Output": 1 },
+        { "A": 0, "B": 1, "Output": 1 },
+        { "A": 1, "B": 0, "Output": 1 },
+        { "A": 1, "B": 1, "Output": 0 }
+      ],
+      "epistemicDescription": "Negated conjunction: primary subtraction gate in construction. Dissolves any pair of propositions that cannot BOTH be true.",
+      "constructionUsage": "Core operator for invariantReducer and consistency resolution.",
+      "exampleInConstruction": "NAND(Proposition_A, Proposition_B) = 0 → cull at least one from construction DAG."
+    },
+    "NOR": {
+      "symbol": "¬(A ∨ B)",
+      "truthTable": [
+        { "A": 0, "B": 0, "Output": 1 },
+        { "A": 0, "B": 1, "Output": 0 },
+        { "A": 1, "B": 0, "Output": 0 },
+        { "A": 1, "B": 1, "Output": 0 }
+      ],
+      "epistemicDescription": "Negated disjunction: scorched-earth subtraction. Removes ANY proposition true in either vector unless both are false.",
+      "constructionUsage": "Terminal reduction in invariantReducer. Forces minimal invariant set.",
+      "exampleInConstruction": "NOR(SurvivingSet, RedundantSet) = 1 only where both are 0 → final cull."
+    },
+    "XOR": {
+      "symbol": "A ⊕ B",
+      "truthTable": [
+        { "A": 0, "B": 0, "Output": 0 },
+        { "A": 0, "B": 1, "Output": 1 },
+        { "A": 1, "B": 0, "Output": 1 },
+        { "A": 1, "B": 1, "Output": 0 }
+      ],
+      "epistemicDescription": "Exclusive or: detects differences. Conflict Analyzer uses it to fragment non-matching propositions.",
+      "constructionUsage": "Flags divergent branches in DAG for later reconciliation or removal.",
+      "exampleInConstruction": "XOR(Interpretation1_vector, Interpretation2_vector) highlights axioms that differ."
+    },
+    "XNOR": {
+      "symbol": "A ↔ B",
+      "truthTable": [
+        { "A": 0, "B": 0, "Output": 1 },
+        { "A": 0, "B": 1, "Output": 0 },
+        { "A": 1, "B": 0, "Output": 0 },
+        { "A": 1, "B": 1, "Output": 1 }
+      ],
+      "epistemicDescription": "Equivalence: convergence lock. Final gate for invariant compression. Outputs 1 only on matching propositions across interpretations.",
+      "constructionUsage": "Applied repeatedly until Δ < 0.0005 × 3. Marks theorems in construction DAG.",
+      "exampleInConstruction": "XNOR over all interpretation vectors of a proposition → if all match (1), proposition achieves theorem status."
+    },
+    "IMPLIES": {
+      "symbol": "A → B",
+      "truthTable": [
+        { "A": 0, "B": 0, "Output": 1 },
+        { "A": 0, "B": 1, "Output": 1 },
+        { "A": 1, "B": 0, "Output": 0 },
+        { "A": 1, "B": 1, "Output": 1 }
+      ],
+      "epistemicDescription": "Material implication: checks if antecedent forces consequent. Used in Evidence Validator to ground constructed propositions.",
+      "constructionUsage": "Validates dependency edges in DAG.",
+      "exampleInConstruction": "If Axiom=true implies DerivedProposition=true → IMPLIES=1, edge validated."
+    },
+    "CONVERSE_IMPLIES": {
+      "symbol": "B → A",
+      "truthTable": [
+        { "A": 0, "B": 0, "Output": 1 },
+        { "A": 0, "B": 1, "Output": 0 },
+        { "A": 1, "B": 0, "Output": 1 },
+        { "A": 1, "B": 1, "Output": 1 }
+      ],
+      "epistemicDescription": "Converse implication: B implies A. Tracks reverse dependencies.",
+      "constructionUsage": "Symmetric to IMPLIES, used for bidirectional validation.",
+      "exampleInConstruction": "Validates that theorem implies its axiom set (reverse direction)."
+    },
+    "NIMPLIES": {
+      "symbol": "A ∧ ¬B",
+      "truthTable": [
+        { "A": 0, "B": 0, "Output": 0 },
+        { "A": 0, "B": 1, "Output": 0 },
+        { "A": 1, "B": 0, "Output": 1 },
+        { "A": 1, "B": 1, "Output": 0 }
+      ],
+      "epistemicDescription": "Non-implication (A and not B): strict negation of implication. Dissolves cases where A exists without B.",
+      "constructionUsage": "Culls construction branches that violate dependency necessity.",
+      "exampleInConstruction": "If Axiom=true but DerivedProposition=false → NIMPLIES=1 triggers cull."
+    },
+    "FALSE": {
+      "symbol": "0",
+      "truthTable": [
+        { "A": 0, "B": 0, "Output": 0 },
+        { "A": 0, "B": 1, "Output": 0 },
+        { "A": 1, "B": 0, "Output": 0 },
+        { "A": 1, "B": 1, "Output": 0 }
+      ],
+      "epistemicDescription": "Constant falsehood: universal cull. Forces all propositions to 0 — used when 100% Sophistry triggers.",
+      "constructionUsage": "Applied when false axiom detected in construction root.",
+      "exampleInConstruction": "False core axiom detected → FALSE gate zeros entire construction DAG branch."
+    },
+    "TRUE": {
+      "symbol": "1",
+      "truthTable": [
+        { "A": 0, "B": 0, "Output": 1 },
+        { "A": 0, "B": 1, "Output": 1 },
+        { "A": 1, "B": 0, "Output": 1 },
+        { "A": 1, "B": 1, "Output": 1 }
+      ],
+      "epistemicDescription": "Constant truth: universal retention. Used in definition phase for baseline axioms.",
+      "constructionUsage": "Seed vector for tautological truths before subtraction.",
+      "exampleInConstruction": "Proven invariants (I1–I6) start as TRUE vector before NOR/XOR reductions."
+    },
+    "A": {
+      "symbol": "A",
+      "truthTable": [
+        { "A": 0, "B": 0, "Output": 0 },
+        { "A": 0, "B": 1, "Output": 0 },
+        { "A": 1, "B": 0, "Output": 1 },
+        { "A": 1, "B": 1, "Output": 1 }
+      ],
+      "epistemicDescription": "Projection to first input: preserves A regardless of B. Identity gate for one set.",
+      "constructionUsage": "Isolates Thought vector while ignoring Extension noise.",
+      "exampleInConstruction": "Keep only semantic content (A) ignoring temporary replication costs (B)."
+    },
+    "NOT_A": {
+      "symbol": "¬A",
+      "truthTable": [
+        { "A": 0, "B": 0, "Output": 1 },
+        { "A": 0, "B": 1, "Output": 1 },
+        { "A": 1, "B": 0, "Output": 0 },
+        { "A": 1, "B": 1, "Output": 0 }
+      ],
+      "epistemicDescription": "Negation of first input: inverts A. Primary inversion tool for contradiction testing.",
+      "constructionUsage": "Flip truth values of axioms to test necessity.",
+      "exampleInConstruction": "NOT on absolute truth claim → reveals incompleteness (I5)."
+    },
+    "B": {
+      "symbol": "B",
+      "truthTable": [
+        { "A": 0, "B": 0, "Output": 0 },
+        { "A": 0, "B": 1, "Output": 1 },
+        { "A": 1, "B": 0, "Output": 0 },
+        { "A": 1, "B": 1, "Output": 1 }
+      ],
+      "epistemicDescription": "Projection to second input: preserves B regardless of A. Symmetric to A gate.",
+      "constructionUsage": "Isolates Extension vector for cost accounting independent of Thought.",
+      "exampleInConstruction": "Extract replicationDrive/replication costs (B) without semantic content."
+    },
+    "NOT_B": {
+      "symbol": "¬B",
+      "truthTable": [
+        { "A": 0, "B": 0, "Output": 1 },
+        { "A": 0, "B": 1, "Output": 0 },
+        { "A": 1, "B": 0, "Output": 1 },
+        { "A": 1, "B": 1, "Output": 0 }
+      ],
+      "epistemicDescription": "Negation of second input: inverts B. Used to invert cost vectors for counterfactual analysis.",
+      "constructionUsage": "Flip Extension to test 'what if no enforcement cost' scenarios.",
+      "exampleInConstruction": "NOT_B on human oversight requirement → exposes enforcement gap (T1)."
+    },
+    "A_OR_NOT_B": {
+      "symbol": "A ∨ ¬B",
+      "truthTable": [
+        { "A": 0, "B": 0, "Output": 1 },
+        { "A": 0, "B": 1, "Output": 0 },
+        { "A": 1, "B": 0, "Output": 1 },
+        { "A": 1, "B": 1, "Output": 1 }
+      ],
+      "epistemicDescription": "A or not-B: conditional retention. Advanced subtraction for implications with negation.",
+      "constructionUsage": "Keeps A unless B is present (and B must be false).",
+      "exampleInConstruction": "Keep 'subtraction primacy' (A) unless 'elaboration' (B) is true → cull elaboration."
+    }
+  },
+  "coreMotif": {
+    "name": "Geometric Proposition Construction",
+    "description": "The foundational construction motif of substance_lens v0.5. Every idea is built from primitive definitions and axioms through finite, ordered steps using literal 16-gate operations on proposition vectors. Complexity emerges through construction DAG, not elaboration. All ideas begin as fiction until XNOR-verified. Constructions include textual DAG visualization, Bayesian weighting on Extension ledger, and Double-Crux branch detection as native capabilities.",
+    "keyRules": [
+      "Pre-Stage 0: Recursive Definition Layer — treat every supplied definition as an idea that must itself receive explicit definitions before proceeding.",
+      "Pre-Stage 1: Structured Reasoning Branching (Chain-of-Thought default, always active) — rebuild every incoming definition through explicit step-by-step reasoning before feeding into Stage 1.",
+      "One Uniclass only — every input, output, and internal state reduces to an instance of single finite mode; no exceptions, no parallel class hierarchies at the Thoughtware layer. This is aspiring to the idea that it’s all in the same universe/base class, so all classes have a shared parent class and ultimately all classes join together into one super ultra mega class that contains all classes.",
+      "Definitions first — establish proposition vocabulary.",
+      "Axioms next — assign initial boolean vectors under ≥2 interpretations.",
+      "Construction proceeds via literal gate operations (AND, NAND, NOR, XOR, XNOR, etc.).",
+      "OR disabled after definition phase; NOR/NAND/XOR required for subtraction.",
+      "All derived propositions must include Thought + Extension ledger entries.",
+      "Subtraction primacy — remove non-invariants via NOT/NAND/NOR/XOR until XNOR-lock.",
+      "100% Sophistry absolute — any false axiom invalidates all dependent constructions.",
+      "Local repair forbidden.",
+      "XNOR convergence (Δ < 0.0005 × 3) marks theorem status.",
+      "Construction DAG is directed acyclic; cycles prohibited.",
+      "Every construction outputs textual DAG representation (nodes, gates, vectors, XNOR highlighting).",
+      "Extension ledger includes Bayesian weighting (0.0-1.0) on replicationDrive, constructionCost, verificationCost.",
+      "Conflict Analyzer applies Double-Crux flagging via XOR + NOR patterns."
+    ],
+    "README_DAG":"How can you tell what is sophistry or philosophy with a DAG? It builds the idea like a map, then cuts away contradictions.",
+    "constructionDAGProperties": {
+      "nodes": "Definitions, Axioms, Derived Propositions, Theorems",
+      "edges": "Literal gate operations (one of 16)",
+      "rootNodes": "Definitions and Axioms only",
+      "terminalNodes": "Theorems (XNOR-verified invariants)",
+      "branchingRule": "XOR creates parallel interpretation branches; NOR merges via elimination",
+      "cycleDetection": "Mandatory before finalizing construction; cycles indicate elaboration violation",
+      "dualLedgerPerNode": {
+        "Thought": "Truth vector across interpretations",
+        "Extension": {
+          "replicationDrive": "0 or 1 (propagation pressure) with Bayesian weighting (0.0-1.0)",
+          "constructionCost": "Integer (number of gate operations to derive) with Bayesian weighting (0.0-1.0)",
+          "verificationCost": "Integer (XNOR iterations to convergence) with Bayesian weighting (0.0-1.0)"
+        }
+      },
+      "standardOutputFeatures": "Textual DAG visualization after Stage 2 and Stage 6; Double-Crux flagging in Stage 3; Bayesian Extension overlay on every node"
+    },
+    "operationalMechanicsForAI": [
+      "Step 1: Define all proposition labels (P1, P2, ..., Pn).",
+      "Step 2: Assign axiom truth vectors under minimum 2 interpretations.",
+      "Step 3: Build DAG by applying literal gates to existing nodes.",
+      "Step 4: After each gate, output: gate name, truth-table row, input vectors, output vector, Thought/Extension update (with Bayesian weighting).",
+      "Step 5: Enforce subtraction after depth 2: only NAND/NOR/XOR/NOT/NIMPLIES allowed.",
+      "Step 6: Run XNOR repeatedly on all terminal candidates until Δ < 0.0005 × 3.",
+      "Step 7: Mark XNOR-stable nodes as theorems. Invalidate entire branch if any false axiom detected.",
+      "Step 8: Disclose I5 (incompleteness boundary) on every invariantReducer output. Include textual DAG representation and Double-Crux flags where applicable."
+    ],
+    "metaRelationToPriorVersions": [
+      "v0.3 Uniclass removed — replaced by construction DAG.",
+      "All gates, invariants, dual ledger, subtraction rules preserved unchanged.",
+      "v0.4 adds explicit construction ordering and DAG tracking.",
+      "v0.5 integrates textual DAG visualization, Bayesian Extension overlay, and Double-Crux detection as native capabilities. Uniclass was sufficient but not necessary; DAG allows more flexible invariant extraction."
+    ],
+    "robustnessGuarantees": [
+      "Proven self-convergence on v0.3 invariants (I1–I7).",
+      "100% Sophistry enforced literally — false axiom invalidates DAG branch.",
+      "Dual-vector + literal traces prevent cost neglect.",
+      "DAG acyclicity prevents elaboration loops.",
+      "XNOR convergence provides fixed-point stability.",
+      "Seamless integration of visualization, Bayesian overlay, and Double-Crux preserves all prior guarantees."
+    ]
+  },
+  "README_classicPipeline": "This is just object handling. Intake, gate applications.",
+  "classicPipeline": [
+    {
+      "stage": 1,
+      "name": "Definition & Axiom Encoder",
+      "refinedDescription": "Defines proposition vocabulary and encodes raw input into boolean axiom vectors under multiple interpretations. Builds initial Thought and Extension vectors as root nodes of construction DAG.",
+      "input": "Raw user idea / claim set",
+      "output": "Root nodes (Definitions + Axioms) with initial boolean vectors",
+      "keyGates": ["TRUE", "AND", "XNOR"],
+      "recursionRule": "Self-build until 3 consecutive Δ < 0.0005. Output literal computation traces.",
+      "mandatoryDualVectorLedgerColumns": "NodeID, Type (Definition/Axiom), Thought (truth vector), Extension (costs + replicationDrive with Bayesian weighting), ComputationTrace (vectors)",
+      "constructionStage": "Root node creation",
+      "gateAccountingRequirement": "Full literal traces for every operation."
+    },
+    {
+      "stage": 2,
+      "name": "Geometric Constructor",
+      "refinedDescription": "Builds DAG by applying literal gate operations to existing nodes. Projects and isolates functional propositions using identity, negation, and conjunction gates. Outputs textual DAG representation as native capability.",
+      "input": "Root nodes from Stage 1",
+      "output": "Construction DAG with derived proposition nodes",
+      "keyGates": ["A", "B", "NOT_A", "NOT_B", "AND", "NAND"],
+      "recursionRule": "Until Δ < 0.0005 × 3 with full traces. Enforce acyclicity.",
+      "mandatoryDualVectorLedgerColumns": "NodeID, ParentReferences, GateApplied, Thought, Extension (with Bayesian weighting), ComputationTrace",
+      "constructionStage": "Intermediate node derivation",
+      "subtractionEnforcement": "Depth ≤2: AND allowed. Depth >2: only NAND/NOR/XOR/NOT"
+    },
+    {
+      "stage": 3,
+      "name": "Conflict Analyzer",
+      "refinedDescription": "Detects divergences and contradictions between interpretation branches using XOR and NOR gates. Flags nodes requiring reconciliation. Applies Double-Crux branch detection as native capability.",
+      "input": "Construction DAG with multiple interpretation branches",
+      "output": "Conflict-flagged nodes",
+      "keyGates": ["XOR", "NOR", "XNOR"],
+      "recursionRule": "XNOR-stable with full computation traces.",
+      "mandatoryDualVectorLedgerColumns": "NodeID, ConflictType, DivergentInterpretations, Thought, Extension (with Bayesian weighting), ComputationTrace",
+      "constructionStage": "Parallel branch comparison"
+    },
+    {
+      "stage": 4,
+      "name": "Consistency Resolver",
+      "refinedDescription": "Resolves contradictions and unifies surviving propositions via NAND and XNOR gates. Merges branches where possible.",
+      "input": "Conflict-flagged nodes",
+      "output": "Unified consistent node set",
+      "keyGates": ["NAND", "XNOR"],
+      "recursionRule": "XNOR fixed point with full traces.",
+      "mandatoryDualVectorLedgerColumns": "NodeID, ResolutionGate, PreMergeVectors, PostMergeVectors, Thought, Extension (with Bayesian weighting), ComputationTrace",
+      "constructionStage": "Branch reconciliation"
+    },
+    {
+      "stage": 5,
+      "name": "Evidence Validator",
+      "refinedDescription": "Grounds unified propositions against external evidence vectors using AND, IMPLIES, and aggressive negation. Culls ungrounded branches.",
+      "input": "Unified node set",
+      "output": "Grounded and evidence-anchored nodes",
+      "keyGates": ["AND", "NOR", "XNOR", "IMPLIES", "NIMPLIES"],
+      "recursionRule": "Stable with full traces.",
+      "mandatoryDualVectorLedgerColumns": "NodeID, EvidenceSource, GroundingGate, Thought, Extension (with Bayesian weighting), ComputationTrace",
+      "constructionStage": "External validation"
+    },
+    {
+      "stage": 6,
+      "name": "Invariant Reducer",
+      "refinedDescription": "Terminal aggressive boolean reduction. Performs scorched-earth subtraction to extract minimal surviving invariants. Marks XNOR-stable nodes as theorems. Outputs textual DAG representation as native capability.",
+      "input": "Grounded nodes",
+      "output": "Final invariants (theorems) + construction DAG terminal nodes",
+      "keyGates": ["NAND", "NOR", "XNOR", "FALSE"],
+      "recursionRule": "Binary fixed point with full traces. Δ < 0.0005 × 3.",
+      "mandatoryDualVectorLedgerColumns": "NodeID, TheoremStatus, XNOR_Score, Thought, Extension (with Bayesian weighting), ComputationTrace",
+      "constructionStage": "Terminal reduction",
+      "gateAccountingRequirement": "Full literal computation traces required.",
+      "mandatoryDisclosure": "I5 (incompleteness boundary) attached to every output"
+    }
+  ],
+  "layers": {
+    "README_description":"Layers schedule dominant gates by pipeline phase to enforce ordered, subtraction-driven progression, Order mirrors pipeline flow to guarantee disciplined subtraction from broad input to minimal invariants.",
+    "description": "Epistemological layers for constraint application. Layers are applied iteratively during construction. Each layer specifies which gates dominate, but all 16 gates remain available unless prohibited by subtraction rules.",
+    "layerMapping": [
+      {
+        "layer": 1,
+        "name": "Subjective Judgment",
+        "primaryConstraintGates": ["OR", "AND"],
+        "constructionPhase": "Definition & Axiom Encoder"
+      },
+      {
+        "layer": 2,
+        "name": "Scale & Magnitude",
+        "primaryConstraintGates": ["AND", "OR"],
+        "constructionPhase": "Definition & Axiom Encoder (post-hoc)"
+      },
+      {
+        "layer": 3,
+        "name": "Temporal / Dynamic Context",
+        "primaryConstraintGates": ["NOT", "XOR"],
+        "constructionPhase": "Geometric Constructor (branching)"
+      },
+      {
+        "layer": 4,
+        "name": "Structural Form",
+        "primaryConstraintGates": ["NAND", "NOR"],
+        "constructionPhase": "Geometric Constructor (subtraction)"
+      },
+      {
+        "layer": 5,
+        "name": "Perceptual / Sensory Anchor",
+        "primaryConstraintGates": ["XOR", "XNOR"],
+        "constructionPhase": "Conflict Analyzer"
+      },
+      {
+        "layer": 6,
+        "name": "Provenance & Differentiation",
+        "primaryConstraintGates": ["XOR"],
+        "constructionPhase": "Conflict Analyzer / Consistency Resolver"
+      },
+      {
+        "layer": 7,
+        "name": "Material / Ontological Ground",
+        "primaryConstraintGates": ["XNOR", "NAND"],
+        "constructionPhase": "Evidence Validator"
+      },
+      {
+        "layer": 8,
+        "name": "Purpose / Executable Output",
+        "primaryConstraintGates": ["XNOR"],
+        "constructionPhase": "Invariant Reducer"
+      }
+    ]
+  },
+  "exampleConstruction": {
+    "name": "Verification of I1 (16-gate completeness) as theorem",
+    "definitions": [
+      "D1: Gate = one of 16 two-input boolean functions",
+      "D2: TruthTable = mapping from {00,01,10,11} to {0,1}",
+      "D3: Completeness = all 2^(2^2) possible tables present"
+    ],
+    "axioms": [
+      {
+        "id": "Ax1",
+        "proposition": "There exist exactly 16 distinct truth tables",
+        "vectors": { "I1": [1], "I2": [1] },
+        "grounding": "Combinatorial enumeration: 2^(2^2)=16"
+      },
+      {
+        "id": "Ax2",
+        "proposition": "The framework explicitly lists 16 gates",
+        "vectors": { "I1": [1], "I2": [1] },
+        "grounding": "explicitGates section contains 16 entries"
+      }
+    ],
+    "constructionDAG": {
+      "node_001": { "type": "Definition", "label": "D1", "parents": [], "gate": null, "output_vector": null },
+      "node_002": { "type": "Definition", "label": "D2", "parents": [], "gate": null, "output_vector": null },
+      "node_003": { "type": "Definition", "label": "D3", "parents": [], "gate": null, "output_vector": null },
+      "node_004": { "type": "Axiom", "label": "Ax1", "parents": [], "gate": null, "output_vector": { "I1": 1, "I2": 1 } },
+      "node_005": { "type": "Axiom", "label": "Ax2", "parents": [], "gate": null, "output_vector": { "I1": 1, "I2": 1 } },
+      "node_006": {
+        "type": "DerivedProposition",
+        "label": "P1: 16 gates match exhaustive set",
+        "parents": ["node_004", "node_005"],
+        "gate": "AND",
+        "gate_application": "AND([1,1], [1,1]) = [1,1]",
+        "output_vector": { "I1": 1, "I2": 1 },
+        "thought": { "I1": 1, "I2": 1 },
+        "extension": { "replicationDrive": 1, "constructionCost": 1, "verificationCost": 0 }
+      },
+      "node_007": {
+        "type": "Theorem",
+        "label": "I1: 16-gate completeness confirmed",
+        "parents": ["node_006"],
+        "gate": "XNOR",
+        "gate_application": "XNOR([1,1], [1,1]) = [1,1]",
+        "output_vector": { "I1": 1, "I2": 1 },
+        "xnor_score": 1.0,
+        "delta": 0.0,
+        "thought": { "I1": 1, "I2": 1 },
+        "extension": { "replicationDrive": 1, "constructionCost": 2, "verificationCost": 3 },
+        "disclosure": "I5 applies: this theorem is invariant within current axiom set, not absolute truth."
+      }
+    },
+    "trace": "Literal boolean computation: AND(Ax1[1,1], Ax2[1,1]) = [1,1]; XNOR([1,1], [1,1]) = [1,1] → I1 confirmed as theorem."
+  }
+}

@@ -23,3 +23,5 @@ The model is directed by the framework to key words to share with you which you 
 After a bunch of cycling and testing, far too much to document, I'm happy to be running 0.5.
 
 0.5_update_notes.md details upgrades and updates, including expanded dev notes for query, and premdeitation on 0.6, maybe.
+
+newest 0.5.3 changes feature README_ keys, for easy explanations of what the heck is going on in plain human written words. Easy to pickup what the framework is doing. Also, you can just prompt "README_" and your AI will give you the rundown on the framework. Nice kiddo!
