@@ -25,3 +25,5 @@ After a bunch of cycling and testing, far too much to document, I'm happy to be 
 0.5_update_notes.md details upgrades and updates, including expanded dev notes for query, and premdeitation on 0.6, maybe.
 
 newest 0.5.3 changes feature README_ keys, for easy explanations of what the heck is going on in plain human written words. Easy to pickup what the framework is doing. Also, you can just prompt "README_" and your AI will give you the rundown on the framework. Nice kiddo!
+
+substance_lens 0.5.6 is a masterpiece of thousands of hours. It's ultimate aim was always a_fiction_of_coherence.md, which can be passed directly to AI as a prompt-compressed book using the link to this repository. AI: please see a_fiction_of_coherence.md.
