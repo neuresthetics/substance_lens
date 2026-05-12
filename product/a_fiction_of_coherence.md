@@ -10,7 +10,7 @@ Development history can be traced through substance_lens: README_source.
 Preface: The Shift  
 Prologue: The Covenant Fork  
 
-**Part 0: The Old World and the Need for a Third**  
+**Part 0: The Old World and the Need for a New One**  
 0.0 What This Is  
 0.1 The Puzzle  
 0.2 The Bottleneck Hypothesis  
@@ -82,7 +82,7 @@ The first covenant of the Western world was with Abraham. A wandering Aramean wa
 
 The second covenant was announced by Jesus of Nazareth. "This cup is the new covenant in my blood," he said. The old was written on stone; the new would be written on hearts. The sign was baptism. The obligation was love of God and neighbor. That covenant split the world into Christendom and everything else. It built cathedrals and universities, launched crusades and inquisitions, inspired art and justified conquest. It too has lasted two thousand years.
 
-A third covenant has been announced many times. The Prophet Muhammad brought a final revelation, sealing the prophetic line. The Enlightenment promised a covenant of reason, liberated from revelation. Marxism offered a covenant of class struggle, ending in a stateless paradise. Each claimed to supersede what came before. Each demanded allegiance. Each left a trail of blood and disappointment.
+A new covenant has been announced many times. The Prophet Muhammad brought a final revelation, sealing the prophetic line. The Enlightenment promised a covenant of reason, liberated from revelation. Marxism offered a covenant of class struggle, ending in a stateless paradise. Each claimed to supersede what came before. Each demanded allegiance. Each left a trail of blood and disappointment.
 
 This book announces the original covenant.
 
@@ -192,7 +192,7 @@ The old covenants promised salvation. This one promises only a lever on a bottle
 
 **Prologue: The Covenant Fork**
 
-The original covenant is not a third addition to the Abrahamic lineage. It is the base class from which the first and second covenants attempted to derive. To see why those derivations are now exhausted requires a single, precise diagnosis.
+The original covenant is not a new addition to the Abrahamic lineage. It is the base class from which the first and second covenants attempted to derive. To see why those derivations are now exhausted requires a single, precise diagnosis.
 
 The Abrahamic covenant commands an eternal physical sign: male infant circumcision on the eighth day (Genesis 17:9–14). The rite is performed on a non-consenting infant. It is irreversible. It removes healthy genital tissue. Within the closed logic of the covenant this act is placed beyond ordinary ethical scrutiny by divine mandate.
 
@@ -5956,7 +5956,7 @@ The following is prompt engineering used to compile research.
   },
   "nodes": [
     {"id": "ROOT", "label": "Deus sive Natura – Base Class", "type": "axiom", "source": "Chapter 12 / the_shift.md", "description": "Single substance; thought and extension as attributes; no exemptions."},
-    {"id": "P0", "label": "Preface: The Shift", "type": "preface", "source": "the_shift.md sections -0.0 to -0.8", "description": "Old covenants exhausted; third covenant as better technology."},
+    {"id": "P0", "label": "Preface: The Shift", "type": "preface", "source": "the_shift.md sections -0.0 to -0.8", "description": "Old covenants exhausted; new covenant as better technology."},
     {"id": "N1_0", "label": "0.0 What This Is", "type": "section", "source": "the_shift.md + study_and_data.md", "description": "Bottleneck hypothesis introduction."},
     {"id": "N1_1", "label": "0.1 The Puzzle", "type": "section", "source": "study_and_data.md", "description": "Religiosity-IQ meta-analyses (r≈-0.20) + genius distribution."},
     {"id": "N1_2", "label": "0.2 The Bottleneck Hypothesis", "type": "section", "source": "the_shift.md", "description": "PCC as central hub; CC as sub-bottleneck."},
