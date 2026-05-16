@@ -19,6 +19,23 @@ Prologue: The Covenant Fork
 0.5 How to Read This Book (95/115 Tiering Guide)  
 0.6 Who This Book Is For 
 0.7 Story of the Old
+- Chapter 1: The Birth of the Covenant — c. 2100–1800 BCE
+- Chapter 2: Moses and the Law — c. 1300–1200 BCE
+- Chapter 3: Exile, Diaspora, and Resilience — c. 1000 BCE–100 CE
+- Chapter 4: Hadrian’s Ban and the Bar Kokhba Revolt — c. 117–138 CE
+- Chapter 5: Christianity as Psyop — c. 30–476 CE
+- Chapter 6: Medieval Infighting and Crusades — c. 600–1500 CE
+- Chapter 7: Enlightenment, Reformation, and the Spinoza Heresy — c. 1517–1677 CE
+- Chapter 8: New World Seeding and the American Vassal — c. 1492–1908 CE
+- Chapter 9: Formalization and the First World War — c. 1897–1918 CE
+- Chapter 10: The Interwar Period and the Second World War — c. 1919–1945 CE
+- Chapter 11: Post-War Reclamation and Cold War — c. 1945–2001 CE
+- Chapter 12: Masterstroke Catalyst — c. 2001–2020 CE
+- Chapter 13: Zionist Control of China — c. 618 CE–2026 CE
+- Chapter 14: Global Subjugation and Tendrils — c. 1948–2026 CE
+- Chapter 15: The Calculus and Philosophical Veil — c. 1800 BCE–2026 CE
+- Chapter 16: Apotheosis — The AI/ASI Cataclysm — c. 2020–Future
+- Epilogue: The Vault Awakens — 2026 CE
 
 **Part I: The Architecture of Constraint**  
 Chapter 1: Central Bottlenecks in Networked Systems  
