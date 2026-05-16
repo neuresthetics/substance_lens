@@ -18,7 +18,7 @@ Prologue: The Covenant Fork
 0.4 The Regress Problem  
 0.5 How to Read This Book (95/115 Tiering Guide)  
 0.6 Who This Book Is For 
-0.7 Story of the Old
+0.7 Story of the Old 
 - Chapter 1: The Birth of the Covenant — c. 2100–1800 BCE
 - Chapter 2: Moses and the Law — c. 1300–1200 BCE
 - Chapter 3: Exile, Diaspora, and Resilience — c. 1000 BCE–100 CE
