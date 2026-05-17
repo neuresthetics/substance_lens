@@ -79,10 +79,10 @@ Appendix E: Glossary
 Appendix F: The Covenant Fork – Technical Addendum  
 Appendix G: Illustrative Diagnostic History  
 Appendix H: 95/115 Tier Quick-Reference Summaries  
-Appendix I: Isolated Study and Data
-Appendix J: substance_lens
-Appendix K: substance_lens of THIS
-Appendix L: AI Feedbacks
+Appendix I: Isolated Study and Data  
+Appendix J: substance_lens  
+Appendix K: substance_lens of THIS  
+Appendix L: AI Feedbacks  
 
 **Neuresthetic: A Covenant of Coherence**
 
