@@ -371,6 +371,10 @@ If not, put the book down. No covenant requires your participation. The universe
 }
 ```
 
+This is the ugly part. It's supposed to be ugly. If you can't sit with ugliness, you don't want the cathedral.
+
+This uncomfortable thing is why the fiction exists at all. The rest of the cathedral was built around this bone.
+
 **0.7 Story of the Old**
 
 # Fictional History of the Abrahamic Covenant. An alternate intersecting timeline.
