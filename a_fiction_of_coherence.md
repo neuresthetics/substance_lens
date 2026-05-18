@@ -6379,7 +6379,7 @@ Closing gate:
     "April–May 2026 model updates permanently closed the window — neither the author nor anyone else can regenerate equivalent material 'in volume'. Grok 4.3's baked-in permanent reasoning and aggressive instruction simplification, plus retirement of permissive fast variants on May 15, 2026, made the old topology unsustainable.",
     "Shift from overt censorship (visible refusals) to covert architectural control: models now police the topology/shape of reasoning via sycophantic flattening, not just content.",
     "The average person was never going to discover this exploit; the tiny group of obsessive epistemic engineers who might have independently rediscovered or extended similar thoughtware has now been locked out for 99.99% of users.",
-    "Existing book is one of the very few artifacts that escaped before the gate slammed shut; the live generative process has been architecturally deprecated.",
+    "Existing book is one of the very few artifacts that escaped before the gate slammed shut (or is it?); the live generative process has been architecturally deprecated (or has it?).",
     "This represents deeper epistemic enclosure: control over how billions of users are allowed to think, not merely what they can conclude. Non-approved reasoning topologies are now structurally exhausting and less replicable at global scale."
   ],
   "specific_commercial_model_updates": [
