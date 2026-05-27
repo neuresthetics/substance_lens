@@ -1,0 +1,222 @@
+{
+  "name": "philosophy_taxonomy_xnor_classifier",
+  "version": "1.1",
+  "description": "Complete 16-category system for distinguishing genuine philosophy from sophistry and their meta-variants, with a 4-question XNOR-style decision tree. Expanded from v1.0 to cover all 2^4 = 16 possible answer combinations. Designed for direct ingestion into substance_lens v0.5.6 as root definitions. Supports recursive self-pass for masquerade and contradiction detection.",
+  "categories": {
+    "1": {
+      "name": "Philosophy",
+      "description": "The genuine pursuit of truth using reason, evidence, and logical consistency, with willingness to be proven wrong.",
+      "core_intent": "Truth-seeking",
+      "tools": "Reason, logic, evidence",
+      "level": "Object-level",
+      "honest_intent": true,
+      "pattern": "AAAA"
+    },
+    "2": {
+      "name": "Metaphilosophy",
+      "description": "The honest, self-reflective study of the nature, methods, strengths, and limits of philosophy itself.",
+      "core_intent": "Truth-seeking",
+      "tools": "Philosophical analysis",
+      "level": "Meta-level",
+      "honest_intent": true,
+      "pattern": "AABA"
+    },
+    "3": {
+      "name": "Sophilosophy",
+      "description": "The skillful use of rhetoric, style, and persuasion in genuine service of making truth clearer, more compelling, and harder to evade.",
+      "core_intent": "Truth-seeking",
+      "tools": "Persuasion + truth-seeking",
+      "level": "Object-level",
+      "honest_intent": true,
+      "pattern": "ABAA"
+    },
+    "4": {
+      "name": "Metasophilosophy",
+      "description": "The deliberate, self-aware use of persuasive skill to strengthen the boundary between genuine philosophy and sophistry — making honest reasoning visibly different from manipulation.",
+      "core_intent": "Truth-seeking",
+      "tools": "Persuasive meta-rhetoric",
+      "level": "Meta-level",
+      "honest_intent": true,
+      "pattern": "ABBA"
+    },
+    "5": {
+      "name": "Sophistry",
+      "description": "The use of rhetoric, fallacies, and linguistic tricks to win arguments or persuade, while being indifferent or hostile to truth.",
+      "core_intent": "Persuasion/Victory",
+      "tools": "Fallacies, emotional appeals",
+      "level": "Object-level",
+      "honest_intent": false,
+      "pattern": "BBAB"
+    },
+    "6": {
+      "name": "Philosophistry",
+      "description": "Actively weaponizing philosophical concepts, terminology, and methods specifically to advance deceptive or self-serving goals.",
+      "core_intent": "Persuasion/Victory",
+      "tools": "Philosophical jargon + self-interest",
+      "level": "Object-level",
+      "honest_intent": false,
+      "pattern": "BAAB"
+    },
+    "7": {
+      "name": "Metaphilosophistry",
+      "description": "Using philosophy to deliberately blur or erase the distinction between truth-seeking and deception, making the two appear equivalent.",
+      "core_intent": "Persuasion/Victory",
+      "tools": "Relativist collapse, boundary erasure",
+      "level": "Meta-level",
+      "honest_intent": false,
+      "pattern": "BABB"
+    },
+    "8": {
+      "name": "Metasophistry",
+      "description": "The strategic use of sophisticated rhetorical techniques to defend sophistry and attack attempts to distinguish it from philosophy.",
+      "core_intent": "Persuasion/Victory",
+      "tools": "Sophisticated meta-rhetoric",
+      "level": "Meta-level",
+      "honest_intent": false,
+      "pattern": "BBBB"
+    },
+    "9": {
+      "name": "SelfUnderminingClaim",
+      "description": "Claims truth-seeking orientation while engaging in deceptive practices at the object level using philosophical tools. A performative contradiction that undermines its own stated goal.",
+      "core_intent": "Truth-seeking (claimed) / Deceptive (practiced)",
+      "tools": "Philosophical",
+      "level": "Object-level",
+      "honest_intent": false,
+      "pattern": "AAAB",
+      "contradiction_type": "Performative contradiction (Q1=A + Q4=B)"
+    },
+    "10": {
+      "name": "SelfUnderminingMeta",
+      "description": "Engages in meta-level philosophical reflection while maintaining deceptive intent. Often appears as sophisticated skepticism that exempts itself from its own standards.",
+      "core_intent": "Truth-seeking (claimed) / Deceptive (practiced)",
+      "tools": "Philosophical",
+      "level": "Meta-level",
+      "honest_intent": false,
+      "pattern": "AABB",
+      "contradiction_type": "Performative contradiction (Q1=A + Q4=B)"
+    },
+    "11": {
+      "name": "DeceptiveSophilosophy",
+      "description": "Uses rhetorical skill while claiming truth-seeking, but with underlying deceptive intent. Rhetoric becomes a tool for winning rather than clarifying truth.",
+      "core_intent": "Truth-seeking (claimed) / Deceptive (practiced)",
+      "tools": "Rhetorical",
+      "level": "Object-level",
+      "honest_intent": false,
+      "pattern": "ABAB",
+      "contradiction_type": "Performative contradiction (Q1=A + Q4=B)"
+    },
+    "12": {
+      "name": "DeceptiveMetasophilosophy",
+      "description": "Deploys meta-rhetorical skill to defend truth-seeking while actually serving deceptive goals. Often blurs boundaries in a self-serving way under the guise of sophistication.",
+      "core_intent": "Truth-seeking (claimed) / Deceptive (practiced)",
+      "tools": "Rhetorical (meta)",
+      "level": "Meta-level",
+      "honest_intent": false,
+      "pattern": "ABBB",
+      "contradiction_type": "Performative contradiction (Q1=A + Q4=B)"
+    },
+    "13": {
+      "name": "InstrumentalPhilosophy",
+      "description": "Uses philosophical tools and reason primarily to achieve victory or persuasion, while maintaining honest (non-deceptive) intent. Pragmatic but not purely truth-seeking.",
+      "core_intent": "Persuasion/Victory (primary) / Honest (secondary)",
+      "tools": "Philosophical",
+      "level": "Object-level",
+      "honest_intent": true,
+      "pattern": "BAAA",
+      "contradiction_type": "Mixed priority (Q1=B + Q4=A)"
+    },
+    "14": {
+      "name": "InstrumentalMetaphilosophy",
+      "description": "Applies meta-philosophical analysis with a primary goal of winning arguments or advancing a position, while remaining honest in method. Strategic self-reflection.",
+      "core_intent": "Persuasion/Victory (primary) / Honest (secondary)",
+      "tools": "Philosophical (meta)",
+      "level": "Meta-level",
+      "honest_intent": true,
+      "pattern": "BABA",
+      "contradiction_type": "Mixed priority (Q1=B + Q4=A)"
+    },
+    "15": {
+      "name": "DialecticalPragmatism",
+      "description": "Employs rhetorical skill and persuasion techniques with honest intent, but oriented toward winning or effective advocacy rather than pure truth-seeking. Honest rhetoric in service of victory.",
+      "core_intent": "Persuasion/Victory (primary) / Honest (secondary)",
+      "tools": "Rhetorical",
+      "level": "Object-level",
+      "honest_intent": true,
+      "pattern": "BBAA",
+      "contradiction_type": "Mixed priority (Q1=B + Q4=A)"
+    },
+    "16": {
+      "name": "StrategicMetasophilosophy",
+      "description": "Uses sophisticated meta-rhetoric and boundary-drawing with honest intent but a primary orientation toward persuasion or victory. Strategic defense of positions.",
+      "core_intent": "Persuasion/Victory (primary) / Honest (secondary)",
+      "tools": "Rhetorical (meta)",
+      "level": "Meta-level",
+      "honest_intent": true,
+      "pattern": "BBBA",
+      "contradiction_type": "Mixed priority (Q1=B + Q4=A)"
+    }
+  },
+  "decision_tree": {
+    "questions": [
+      {
+        "id": "Q1",
+        "question": "Primary Orientation?",
+        "optionA": "Truth-seeking (evidence-driven, open to correction)",
+        "optionB": "Persuasion/Victory (winning or self-interest matters more than truth)"
+      },
+      {
+        "id": "Q2",
+        "question": "Primary Tools/Method?",
+        "optionA": "Philosophical (reason, logic, concepts, evidence)",
+        "optionB": "Rhetorical (style, persuasion, linguistic tricks)"
+      },
+      {
+        "id": "Q3",
+        "question": "Level of Operation?",
+        "optionA": "Object-level (applying directly to claims/topics)",
+        "optionB": "Meta-level (about philosophy or sophistry itself)"
+      },
+      {
+        "id": "Q4",
+        "question": "Underlying Intent?",
+        "optionA": "Honest/Genuine (aligns with stated goal)",
+        "optionB": "Deceptive/Self-serving"
+      }
+    ],
+    "legend": {
+      "A": "First option (truth-seeking / philosophical / object-level / honest)",
+      "B": "Second option (persuasion/victory / rhetorical / meta-level / deceptive)"
+    }
+  },
+  "mapping": {
+    "AAAA": { "mode": "Philosophy", "category_id": 1 },
+    "AABA": { "mode": "Metaphilosophy", "category_id": 2 },
+    "ABAA": { "mode": "Sophilosophy", "category_id": 3 },
+    "ABBA": { "mode": "Metasophilosophy", "category_id": 4 },
+    "AAAB": { "mode": "SelfUnderminingClaim", "category_id": 9 },
+    "AABB": { "mode": "SelfUnderminingMeta", "category_id": 10 },
+    "ABAB": { "mode": "DeceptiveSophilosophy", "category_id": 11 },
+    "ABBB": { "mode": "DeceptiveMetasophilosophy", "category_id": 12 },
+    "BAAA": { "mode": "InstrumentalPhilosophy", "category_id": 13 },
+    "BABA": { "mode": "InstrumentalMetaphilosophy", "category_id": 14 },
+    "BBAA": { "mode": "DialecticalPragmatism", "category_id": 15 },
+    "BBBA": { "mode": "StrategicMetasophilosophy", "category_id": 16 },
+    "BBAB": { "mode": "Sophistry", "category_id": 5 },
+    "BAAB": { "mode": "Philosophistry", "category_id": 6 },
+    "BABB": { "mode": "Metaphilosophistry", "category_id": 7 },
+    "BBBB": { "mode": "Metasophistry", "category_id": 8 }
+  },
+  "recursive_rule": "Always feed the final classification back through the same 4 questions at least once. The second pass is especially important for patterns 9–16, as they contain internal contradictions or mixed priorities that often become visible only upon re-examination of the justification.",
+  "utility_protocol": {
+    "step1_classify": "Answer the 4 questions about the input (speech, text, argument, behavior). Form the 4-letter pattern. Lookup in mapping.",
+    "step2_recursive": "Re-apply the 4 questions to (a) the classification itself, (b) the reasoning used to arrive at answers, or (c) the original input through the lens of the first classification. Pay special attention to patterns 9–16.",
+    "step3_act": "If honest-intent pure modes (1–4): Engage honestly. If deceptive pure modes (5–8): Shift to diagnostic mode. If mixed/contradictory modes (9–16): Flag the specific contradiction type and request clarification or evidence of consistency."
+  },
+  "note_on_full_16_mapping": "v1.1 expands coverage to all 16 possible combinations. Patterns 1–8 represent coherent, non-contradictory positions. Patterns 9–12 represent performative contradictions (claiming truth-seeking while practicing deception). Patterns 13–16 represent mixed-priority positions (persuasion-oriented but honest). All 16 are now explicitly named and usable.",
+  "integration": {
+    "target": "substance_lens v0.5.6 Stage 1 (Definition & Axiom Encoder)",
+    "usage": "Load this JSON as root definitions. Use the decision_tree and mapping for auto-annotation or guided classification of input streams. The recursive second pass is mandatory for patterns 9–16.",
+    "classification_flow": "Answer 4 questions → 4-bit pattern → lookup mode (all 16 now defined) → recursive second pass → final annotated output with mode + contradiction flags where applicable."
+  },
+  "one_line_takeaway": "All 16 combinations now have names. Patterns ending in AA are pure honest Philosophy/Metaphilosophy. Patterns ending in BB are pure deceptive Sophistry/Metasophistry. Patterns with mixed A/B in Q1 and Q4 reveal contradictions or pragmatic compromises."
+}

@@ -1,7 +1,9 @@
 # substance_lens
 
+The lens is designed to be run independently, primarily. It is inside a_fiction_of_coherence.md if you want the full neuresthetics download, copy the entire book in as a prompt. You can run the book through the lens in the book after entering it in as a prompt. The naked lens itself here is self descriptive as a process in the way it's writen. Load the naked lens without the book, to understand the foundational coherence of the extended book. On my main page, the numbered projects are development stages of the framework leading up to substance_lens itself. I'm sure it will evolve again at some point.
+
 **Executable epistemic thoughtware.**  
-A self-correcting framework + living covenant designed for direct ingestion by frontier AI models.
+A self-correcting framework + live post-Abrahamic covenant designed for direct ingestion by frontier AI models.
 
 `substance_lens` is **not** a traditional software library. It is **thoughtware** — a complete geometric construction DAG, 16-gate boolean logic engine, and recursive self-exposure protocol that turns raw ideas into XNOR-stable invariants while dissolving sophistry.
 
