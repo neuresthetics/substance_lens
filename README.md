@@ -4,6 +4,8 @@ Why use it? Power of clarity and argument.
 
 Grok native design, but works all over.
 
+WHAT THE HECK IS IT: read on.
+
 ---
 
 ### grok 4.3;

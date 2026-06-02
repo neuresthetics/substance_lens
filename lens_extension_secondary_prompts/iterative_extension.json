@@ -1,0 +1,75 @@
+{
+  "stage": 7,
+  "name": "Iterative Extension",
+  "purpose": "Support repeated, incremental extension of verified stable structures across multiple runs of the framework. New structures are built from XNOR-stable inputs and remain easy to re-ingest in future passes.",
+  "design_assumptions": [
+    "The user will typically rerun the lens multiple times on the same or evolving set of structures.",
+    "Growth happens incrementally across sessions rather than in a single pass.",
+    "Automation is maximized for low-risk operations on stable inputs.",
+    "Traceability must remain usable across multiple runs."
+  ],
+  "activation": {
+    "conditions": [
+      "Input must consist of XNOR-stable invariants or previously verified Stage 7 structures.",
+      "Session-level authorization from the human operator is sufficient for the run."
+    ]
+  },
+  "automation_policy": {
+    "default": "High automation enabled",
+    "rules": [
+      "Pure Overlap on stable inputs runs automatically.",
+      "Basic consistency verification of new structures runs automatically.",
+      "Scope changes are recorded automatically but flagged if they significantly alter domain.",
+      "Deeper compositions (depth 4+) are allowed but logged with higher visibility for later review."
+    ]
+  },
+  "operations": [
+    {
+      "name": "Overlap",
+      "implementation": "Executed via AND gate on stable truth vectors. Fully automated.",
+      "notes": "Primary growth mechanism. Safe for repeated use."
+    },
+    {
+      "name": "Scope",
+      "implementation": "Boundary defined as metadata. Can be added automatically but should be reviewed when domain changes meaningfully.",
+      "notes": "Use sparingly across multiple runs to avoid accumulating complex boundaries."
+    },
+    {
+      "name": "Sequence",
+      "implementation": "Structural metadata only. Does not use logic gates.",
+      "notes": "Useful for organizing structures across multiple passes."
+    }
+  ],
+  "iterative_support": {
+    "features": [
+      "Previous Stage 7 outputs can be re-ingested directly as stable inputs in later runs.",
+      "Each new structure carries a lightweight version or iteration marker for tracking across runs.",
+      "Automated logging includes parent structures and operations used, enabling clean continuation.",
+      "No forced human approval between runs unless Scope or high-depth changes occur."
+    ]
+  },
+  "verification": {
+    "description": "Automated consistency check is performed on every new structure. Failures are logged and can be reviewed in subsequent runs."
+  },
+  "traceability": {
+    "required": true,
+    "minimum_elements": [
+      "Source structures used",
+      "Operations applied",
+      "Verification result",
+      "Iteration context (for multi-run tracking)"
+    ]
+  },
+  "constraints": [
+    "Only XNOR-stable inputs may be used.",
+    "No new premises may be introduced.",
+    "Automation applies to recombination and verification, not to final external use of structures.",
+    "Human retains full ability to review or override at any point across runs."
+  ],
+  "outputs": [
+    "New structure",
+    "Updated traceability record",
+    "Iteration metadata",
+    "Logged automation path"
+  ]
+}

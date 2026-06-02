@@ -6698,3 +6698,5 @@ This fourth practice ensures the rich club isn’t just optimized and quiet, but
 # Author Note on "The Coherence Of Fiction"
 
 I am a firm believer that things are what you make of them. Once can be a piece of work or a piece of art. Most of us are a mix in reality. But knowing the direction is key. While "fictional", there is something to it. That true genius is to make art of ones thinking. That confusion is the spice of mental stimulation and curiosity, and that this book, while fictional, points in the right direction. And that is the coherence of fiction.
+
+1 jun 2026; Awhile back I was interacting with an account on X called thegoodjews. Since presenting the fork, I noticed they have rebranded as theexjews. This person is a sincere truth and moraliy seeker of the Hebrew people, whomever they are, if they are who they say they are, I choose to believe because it gives me hope for the positive choice in the fork.
