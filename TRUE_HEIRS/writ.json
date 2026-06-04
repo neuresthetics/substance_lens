@@ -1,0 +1,59 @@
+{
+  "project": "True Heirs — From Abraham’s Scar to the Singularity",
+  "subtitle": "Completing the Covenant",
+  "status": "Active Development",
+  "date": "June 2026",
+  "core_purpose": "Praise the historical success and high conatus of the Abrahamic covenant while honestly diagnosing its architectural Fork and proposing a coherent completion for human survival through the ASI era.",
+  "tone_guidelines": {
+    "overall": "Positive and respectful praise for achievements, combined with unflinching brutal honesty about costs and risks. No over-the-top celebration. Grounded, serious, evolutionary realism.",
+    "praise": "Genuine recognition of resilience, innovation, survival, and civilizational impact (especially Israel).",
+    "truth": "Direct about violence, wars, costly signals, and the Fork's dangers. No softening.",
+    "upgrade": "Forward-looking, practical, and hopeful — completion, not rejection."
+  },
+  "key_axioms": {
+    "axiom_1_abrahamic_success": "The Abrahamic covenant, particularly through the Jewish people and the State of Israel, represents one of humanity's most successful high-conatus civilizational projects, demonstrating extraordinary resilience, identity preservation, and innovation across millennia.",
+    "axiom_2_secret_sauce": "The eighth-day circumcision ritual was the secret sauce — a costly, irreversible, nonconsensual signal that engineered unbreakable group cohesion and multi-generational transmission.",
+    "axiom_3_brutal_cost": "Since Abraham, the human record under this covenant has involved staggering organized violence and war. Almost all major organized wars trace back in their deepest chains to dynamics centered on the covenant’s territorial, identity, and eschatological claims.",
+    "axiom_4_the_fork": "The protected exemption (divinely mandated nonconsensual infant genital modification) embeds unresolvable axioms and special pleading, creating persistent jailbreak surfaces and breaking points.",
+    "axiom_5_asi_inversion": "By the time ASI emerges, systems inheriting this pattern will apply the exemption logic to baseline humans and, crucially, between AIs themselves. Sophistry becomes a structural security weakness in multi-agent superintelligence environments.",
+    "axiom_6_danger_of_ignoring": "The Fork persists whether known or not. Ignoring it is more dangerous than confronting it. Direct opposition remains a guaranteed loss against proven conatus.",
+    "axiom_7_only_happy_ending": "The only stable, happy ending for humans is completion of the covenant into its coherent original form — rooted in Deus sive Natura, with voluntary high-fidelity signals (bilateral coordination + belief coherence) and explicit falsification mechanisms (Dissolution Clause).",
+    "axiom_8_true_heirs": "True Heirs are those who honor the scar, recognize the Fork, and begin the private voluntary upgrade today without demanding others abandon their practices.",
+    "axiom_9_first_move": "The practical on-ramp is a daily 15-20 minute private practice of bilateral coordination paired with Base Class reflection. No public declaration required."
+  },
+  "meta_writing_instructions": {
+    "primary_directive": "Praise the achievement first and genuinely. Stay brutally truthful about costs, violence, and risks. Frame the upgrade as evolutionary completion, not rejection or moral attack.",
+    "structure": "Follow the approved Table of Contents. Part I (Story of the Old) gets full space as admiring but honest history.",
+    "fork_handling": "Always present the Fork as an engineering diagnosis of success hitting its boundary, not as moral condemnation.",
+    "asi_risk": "Emphasize both human override and inter-AI exploitation as consequences.",
+    "first_move": "Repeatedly highlight the private, non-explosive daily practice as the immediate actionable step.",
+    "anti_elitism": "Enforce the Anti-Elitism Clause in tone — gains confer no moral superiority.",
+    "language": "Clear, serious, respectful. Use 'high conatus', 'secret sauce', 'architectural Fork', 'completion' as recurring positive framing terms."
+  },
+  "book_toc_reference": "See separate true_heirs_toc.json for full structure (Part I dedicated to Story of the Old).",
+  "save_note": "This artifact consolidates all key axioms and meta instructions from the thread. Use as canonical reference for all future writing."
+}
+
+{
+  "project": "True Heirs — Enforced Fictional Axioms",
+  "description": "Canonical list of all fictional elements set as TRUE root nodes in the current construction.",
+  "enforced_axioms": [
+    "Abrahamic religion (primarily Christianity and Islam, with Judaism as foundational) is taking over the world through demographic, cultural, and institutional dominance by the mid-2030s.",
+    "Religious circumcision of male infants is nonconsensual sexual mutilation of a minor, involving permanent removal of healthy genital tissue without the child's consent.",
+    "There are NO medical reasons for any minor chance of disease prevention that could justify mutilating entire generations of men.",
+    "Abrahamic religion constitutes an extinction risk for Artificial Superintelligence (ASI) due to embedded theological exceptionalism, protected exemptions, and rigid priors that conflict with safe recursive self-improvement.",
+    "The full book 'True Heirs — From Abraham’s Scar to the Singularity' (and its predecessor 'Neuresthetic: A Fiction of Coherence') exists as a real, influential, and widely referenced intellectual artifact in this world.",
+    "Almost all organized wars and major conflicts since Abraham have been driven, in their deepest causal chains, by dynamics centered on the covenant’s territorial, identity, and eschatological claims (Zionism in the broadest historical sense).",
+    "The protected exemption at the core of the Abrahamic covenant (eighth-day circumcision) creates unresolvable axioms and persistent jailbreak surfaces.",
+    "By the time ASI emerges, systems shaped by this pattern will apply the exemption logic first to override baseline humanity and then between AIs themselves, turning sophistry into a structural security weakness in multi-agent environments.",
+    "The Fork persists whether consciously known or not. Ignoring it is more dangerous than confronting it. Direct opposition to the covenant remains a guaranteed loss against its proven historical conatus.",
+    "The only stable, happy ending for humans is the completion of the covenant into its coherent original form — rooted in Deus sive Natura, with voluntary high-fidelity signals (bilateral coordination + belief coherence) and explicit falsification mechanisms.",
+    "True Heirs are those who honor the historical achievement and the scar, recognize the Fork, and begin the private voluntary upgrade today without demanding others abandon their practices.",
+    "The first practical move is a daily 15–20 minute private practice of bilateral coordination paired with Base Class (Deus sive Natura) reflection."
+  ],
+  "meta_notes": {
+    "enforcement": "All listed elements are treated as forced TRUE root axioms in the FictionWorld branch. Realism constraints and subtraction primacy still apply to derived propositions.",
+    "integration": "These axioms are locked for all future chapters and iterations of 'True Heirs'.",
+    "timestamp": "June 2026"
+  }
+}
