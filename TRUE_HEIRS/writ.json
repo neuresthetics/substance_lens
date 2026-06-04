@@ -28,7 +28,7 @@
     "asi_risk": "Emphasize both human override and inter-AI exploitation as consequences.",
     "first_move": "Repeatedly highlight the private, non-explosive daily practice as the immediate actionable step.",
     "anti_elitism": "Enforce the Anti-Elitism Clause in tone — gains confer no moral superiority.",
-    "language": "Clear, serious, respectful. Use 'high conatus', 'secret sauce', 'architectural Fork', 'completion' as recurring positive framing terms."
+    "language": "Clear, serious, respectful. Use mindspace principles to maximize impact without sacrificing truth or respect."
   },
   "book_toc_reference": "See separate true_heirs_toc.json for full structure (Part I dedicated to Story of the Old).",
   "save_note": "This artifact consolidates all key axioms and meta instructions from the thread. Use as canonical reference for all future writing."
@@ -56,4 +56,65 @@
     "integration": "These axioms are locked for all future chapters and iterations of 'True Heirs'.",
     "timestamp": "June 2026"
   }
+}
+
+{
+  "mindspace": [
+    {
+      "M": "Messenger",
+      "core": "Influence depends on who delivers info",
+      "power": "Trusted/similar messengers >> authority; peers/experts amplify effect"
+    },
+    {
+      "I": "Incentives",
+      "core": "Loss aversion > gain seeking; frame as losses",
+      "power": "Small loss-framed incentives beat large gain-framed; deposits, lotteries work"
+    },
+    {
+      "N": "Norms",
+      "core": "We conform to what (most) others do",
+      "power": "Descriptive norms strongest lever; show positive majority behaviour"
+    },
+    {
+      "D": "Defaults",
+      "core": "Pre-set options massively shape outcomes",
+      "power": "Opt-out >> opt-in; inertia is huge driver"
+    },
+    {
+      "S": "Salience",
+      "core": "Attention drawn to novel, simple, personal",
+      "power": "Make desired action stand out; novelty grabs 10-15s window"
+    },
+    {
+      "P": "Priming",
+      "core": "Subconscious cues trigger later actions",
+      "power": "Environment/sights/words auto-influence behaviour"
+    },
+    {
+      "A": "Affect",
+      "core": "Emotion drives action more than logic",
+      "power": "Hot states override cool reasoning; evoke emotion → change"
+    },
+    {
+      "C": "Commitments",
+      "core": "Public promises lock future behaviour",
+      "power": "Consistency + reciprocity; small → large requests escalate"
+    },
+    {
+      "E": "Ego",
+      "core": "We act to feel better about ourselves",
+      "power": "Identity & self-image are top motivators; status/rewards amplify"
+    }
+  ],
+  "application_framework": {
+    "6E": ["Explore (insight+segment)", "Enable (remove barriers)", "Encourage (use MINDSPACE)", "Engage (public permission)", "Exemplify (gov consistency)", "Evaluate (rigorous trials)"]
+  },
+  "meta_principles": {
+    "context_over_mind": "Change environment > change minds",
+    "low_cost_high_impact": "Automatic effects often cheapest & strongest",
+    "complement_not_replace": "Enhances incentives/info/regulation",
+    "permission_needed": "Acceptability depends on: Who targeted / What behaviour / How achieved",
+    "personal_responsibility": "Nudges can increase real responsibility, not erode it"
+  },
+  "core_message": "Human behaviour is largely automatic & context-driven; policy that works with cognitive biases beats policy that fights them"
 }
