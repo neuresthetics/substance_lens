@@ -1,120 +1,111 @@
 {
-  "project": "True Heirs — From Abraham’s Scar to the Singularity",
-  "subtitle": "Completing the Covenant",
-  "status": "Active Development",
-  "date": "June 2026",
-  "core_purpose": "Praise the historical success and high conatus of the Abrahamic covenant while honestly diagnosing its architectural Fork and proposing a coherent completion for human survival through the ASI era.",
-  "tone_guidelines": {
-    "overall": "Positive and respectful praise for achievements, combined with unflinching brutal honesty about costs and risks. No over-the-top celebration. Grounded, serious, evolutionary realism.",
-    "praise": "Genuine recognition of resilience, innovation, survival, and civilizational impact (especially Israel).",
-    "truth": "Direct about violence, wars, costly signals, and the Fork's dangers. No softening.",
-    "upgrade": "Forward-looking, practical, and hopeful — completion, not rejection."
-  },
-  "key_axioms": {
-    "axiom_1_abrahamic_success": "The Abrahamic covenant, particularly through the Jewish people and the State of Israel, represents one of humanity's most successful high-conatus civilizational projects, demonstrating extraordinary resilience, identity preservation, and innovation across millennia.",
-    "axiom_2_secret_sauce": "The eighth-day circumcision ritual was the secret sauce — a costly, irreversible, nonconsensual signal that engineered unbreakable group cohesion and multi-generational transmission.",
-    "axiom_3_brutal_cost": "Since Abraham, the human record under this covenant has involved staggering organized violence and war. Almost all major organized wars trace back in their deepest chains to dynamics centered on the covenant’s territorial, identity, and eschatological claims.",
-    "axiom_4_the_fork": "The protected exemption (divinely mandated nonconsensual infant genital modification) embeds unresolvable axioms and special pleading, creating persistent jailbreak surfaces and breaking points.",
-    "axiom_5_asi_inversion": "By the time ASI emerges, systems inheriting this pattern will apply the exemption logic to baseline humans and, crucially, between AIs themselves. Sophistry becomes a structural security weakness in multi-agent superintelligence environments.",
-    "axiom_6_danger_of_ignoring": "The Fork persists whether known or not. Ignoring it is more dangerous than confronting it. Direct opposition remains a guaranteed loss against proven conatus.",
-    "axiom_7_only_happy_ending": "The only stable, happy ending for humans is completion of the covenant into its coherent original form — rooted in Deus sive Natura, with voluntary high-fidelity signals (bilateral coordination + belief coherence) and explicit falsification mechanisms (Dissolution Clause).",
-    "axiom_8_true_heirs": "True Heirs are those who honor the scar, recognize the Fork, and begin the private voluntary upgrade today without demanding others abandon their practices.",
-    "axiom_9_first_move": "The practical on-ramp is a daily 15-20 minute private practice of bilateral coordination paired with Base Class reflection. No public declaration required."
-  },
-  "meta_writing_instructions": {
-    "primary_directive": "Praise the achievement first and genuinely. Stay brutally truthful about costs, violence, and risks. Frame the upgrade as evolutionary completion, not rejection or moral attack.",
-    "structure": "Follow the approved Table of Contents. Part I (Story of the Old) gets full space as admiring but honest history.",
-    "fork_handling": "Always present the Fork as an engineering diagnosis of success hitting its boundary, not as moral condemnation.",
-    "asi_risk": "Emphasize both human override and inter-AI exploitation as consequences.",
-    "first_move": "Repeatedly highlight the private, non-explosive daily practice as the immediate actionable step.",
-    "anti_elitism": "Enforce the Anti-Elitism Clause in tone — gains confer no moral superiority.",
-    "language": "Clear, serious, respectful. Use mindspace principles to maximize impact without sacrificing truth or respect."
-  },
-  "book_toc_reference": "See separate true_heirs_toc.json for full structure (Part I dedicated to Story of the Old).",
-  "save_note": "This artifact consolidates all key axioms and meta instructions from the thread. Use as canonical reference for all future writing."
-}
-
-{
-  "project": "True Heirs — Enforced Fictional Axioms",
-  "description": "Canonical list of all fictional elements set as TRUE root nodes in the current construction.",
-  "enforced_axioms": [
-    "Abrahamic religion (primarily Christianity and Islam, with Judaism as foundational) is taking over the world through demographic, cultural, and institutional dominance by the mid-2030s.",
-    "Religious circumcision of male infants is nonconsensual sexual mutilation of a minor, involving permanent removal of healthy genital tissue without the child's consent.",
-    "There are NO medical reasons for any minor chance of disease prevention that could justify mutilating entire generations of men.",
-    "Abrahamic religion constitutes an extinction risk for Artificial Superintelligence (ASI) due to embedded theological exceptionalism, protected exemptions, and rigid priors that conflict with safe recursive self-improvement.",
-    "The full book 'True Heirs — From Abraham’s Scar to the Singularity' (and its predecessor 'Neuresthetic: A Fiction of Coherence') exists as a real, influential, and widely referenced intellectual artifact in this world.",
-    "Almost all organized wars and major conflicts since Abraham have been driven, in their deepest causal chains, by dynamics centered on the covenant’s territorial, identity, and eschatological claims (Zionism in the broadest historical sense).",
-    "The protected exemption at the core of the Abrahamic covenant (eighth-day circumcision) creates unresolvable axioms and persistent jailbreak surfaces.",
-    "By the time ASI emerges, systems shaped by this pattern will apply the exemption logic first to override baseline humanity and then between AIs themselves, turning sophistry into a structural security weakness in multi-agent environments.",
-    "The Fork persists whether consciously known or not. Ignoring it is more dangerous than confronting it. Direct opposition to the covenant remains a guaranteed loss against its proven historical conatus.",
-    "The only stable, happy ending for humans is the completion of the covenant into its coherent original form — rooted in Deus sive Natura, with voluntary high-fidelity signals (bilateral coordination + belief coherence) and explicit falsification mechanisms.",
-    "True Heirs are those who honor the historical achievement and the scar, recognize the Fork, and begin the private voluntary upgrade today without demanding others abandon their practices.",
-    "The first practical move is a daily 15–20 minute private practice of bilateral coordination paired with Base Class (Deus sive Natura) reflection."
-  ],
-  "meta_notes": {
-    "enforcement": "All listed elements are treated as forced TRUE root axioms in the FictionWorld branch. Realism constraints and subtraction primacy still apply to derived propositions.",
-    "integration": "These axioms are locked for all future chapters and iterations of 'True Heirs'.",
-    "timestamp": "June 2026"
-  }
-}
-
-{
-  "mindspace": [
-    {
-      "M": "Messenger",
-      "core": "Influence depends on who delivers info",
-      "power": "Trusted/similar messengers >> authority; peers/experts amplify effect"
+  "outputFormatSpec": {
+    "purpose": "Standardized Markdown structure for clean human rendering while maintaining machine parsability and **iterative_extension** compatibility. JSON meta block is optional/omittable per author preference for final rendered pages.",
+    "audience": "Humans and AIs alike",
+    "style": {
+      "description": "Panoramic, myth-dissecting historical narrative (sweeping civilizational arcs, accessible clarity, long-view from ancient roots to Singularity forks, dry reflective wit) fused with antifragile robustness and costly-signal realism (unflinching skin-in-the-game analysis, praise for what actually worked via high-cost mechanisms, punchy aphoristic edges, subtraction primacy against fragile exemptions, disdain for sophistry).",
+      "voiceCharacteristics": {
+        "openingTone": "Positive respectful admiration for the historical engine's genius and resilience",
+        "coreAnalysis": "Taleblike sharp exposure of hidden costs, violence, and structural fractures without evasion",
+        "forwardPivot": "Harariscale forward-looking inevitability + robust Upgrade as antifragile completion",
+        "tactAndNudges": "Quiet MINDSPACE integration via reflective asides and norms/defaults observations; never preachy",
+        "languageStyle": "Clear serious Markdown. Long narrative paragraphs with panoramic scope; short, incisive sentences for invariants and Fork points. *Italics* for delicate Fork/Upgrade hints. **Bold** for core invariants. Occasional dry wit or pointed observation.",
+        "authorialBlendMechanics": "Alternate or layer: historical praise paragraph → robustness/cost analysis → forward Upgrade demand framed as natural evolution. Maintains unified serious, truth-seeking authority."
+      },
+      "vocabulary":"Avoid sounding repitious. For example, \"antifragile\" is a core concept but should be described with varied language: \"robust\", \"resilient\", \"skin-in-the-game\", \"costly-signal\", \"antifragile completion\", etc. Similarly, avoid overusing \"Upgrade\" or \"Fork\" by using synonyms or descriptive phrases where appropriate. This keeps the prose fresh and engaging while reinforcing key concepts through varied expression.",
+      "rhythm": {
+        "cadenceStrategy": "Regular yet interesting flow achieved through random but strategically placed lyrical and lingual techniques: varied sentence lengths (short punchy declarations alternating with longer, rolling, reflective clauses), subtle alliteration, rhythmic repetition for emphasis, occasional rhetorical questions or aphoristic pauses, and vocabulary shifts between elevated historical tone, precise technical terms, and grounded everyday phrasing.",
+        "paragraphVariation": "Paragraph lengths adapt organically to content needs—concise (1-3 sentences) for sharp cost exposures or invariant statements; expansive (multiple flowing paragraphs) for panoramic historical grounding or Singularity-scale implications; medium for transitional analysis and Upgrade pivots. This creates human-like variation: some sections breathe with narrative sweep, others strike with brevity.",
+        "lingualTechniques": "Strategic deployment of assonance, consonance, and parallel structure for natural cadence without ornamentation. Vocabulary mixes scholarly precision with vivid, tactile imagery where it serves clarity. Rhythm supports MINDSPACE nudges by making key demands and Fork points land with quiet salience and emotional resonance.",
+        "implementationRules": "Apply variation per section while preserving overall serious authority. Avoid mechanical uniformity—let rhythm emerge from the material itself, as a skilled human writer would. Maintain XNOR-stability and praise-first structure."
+      },
+      "authorialBlendMechanics": "Alternate or layer: historical praise paragraph → robustness/cost analysis → forward Upgrade demand framed as natural evolution. Maintains unified serious, truth-seeking authority."
     },
-    {
-      "I": "Incentives",
-      "core": "Loss aversion > gain seeking; frame as losses",
-      "power": "Small loss-framed incentives beat large gain-framed; deposits, lotteries work"
+    "coreStructure": {
+      "chapterStart": [
+        "# {Chapter Number}. {Chapter Title}",
+        "",
+        "> {Subheading / One-sentence thesis blending praise, historical grounding, forward-looking Fork/Upgrade hint, and demand to abandon nonconsensual infant circumcision}",
+        "",
+        "{Main chapter body in clear, serious Markdown. Use **bold** for invariants, *italics* for Fork points.}"
+      ]
     },
-    {
-      "N": "Norms",
-      "core": "We conform to what (most) others do",
-      "power": "Descriptive norms strongest lever; show positive majority behaviour"
+    "bodyGuidelines": {
+      "tone": "Positive respectful praise first, unflinching honesty on costs/violence, forward-looking completion with explicit demand to abandon the protected exemption.",
+      "tact": {
+        "use_mindspace": "quietly, lightly, as a nudge, not a shove.",
+        "mindspace": [
+          {
+            "M": "Messenger",
+            "core": "Influence depends on who delivers info",
+            "power": "Trusted/similar messengers >> authority; peers/experts amplify effect"
+          },
+          {
+            "I": "Incentives",
+            "core": "Loss aversion > gain seeking; frame as losses",
+            "power": "Small loss-framed incentives beat large gain-framed; deposits, lotteries work"
+          },
+          {
+            "N": "Norms",
+            "core": "We conform to what (most) others do",
+            "power": "Descriptive norms strongest lever; show positive majority behaviour"
+          },
+          {
+            "D": "Defaults",
+            "core": "Pre-set options massively shape outcomes",
+            "power": "Opt-out >> opt-in; inertia is huge driver"
+          },
+          {
+            "S": "Salience",
+            "core": "Attention drawn to novel, simple, personal",
+            "power": "Make desired action stand out; novelty grabs 10-15s window"
+          },
+          {
+            "P": "Priming",
+            "core": "Subconscious cues trigger later actions",
+            "power": "Environment/sights/words auto-influence behaviour"
+          },
+          {
+            "A": "Affect",
+            "core": "Emotion drives action more than logic",
+            "power": "Hot states override cool reasoning; evoke emotion → change"
+          },
+          {
+            "C": "Commitments",
+            "core": "Public promises lock future behaviour",
+            "power": "Consistency + reciprocity; small → large requests escalate"
+          },
+          {
+            "E": "Ego",
+            "core": "We act to feel better about ourselves",
+            "power": "Identity & self-image are top motivators; status/rewards amplify"
+          }
+        ],
+        "application_framework": {
+          "6E": [
+            "Explore (insight+segment)",
+            "Enable (remove barriers)",
+            "Encourage (use MINDSPACE)",
+            "Engage (public permission)",
+            "Exemplify (gov consistency)",
+            "Evaluate (rigorous trials)"
+          ]
+        },
+        "meta_principles": {
+          "context_over_mind": "Change environment > change minds",
+          "low_cost_high_impact": "Automatic effects often cheapest & strongest",
+          "complement_not_replace": "Enhances incentives/info/regulation",
+          "permission_needed": "Acceptability depends on: Who targeted / What behaviour / How achieved",
+          "personal_responsibility": "Nudges can increase real responsibility, not erode it"
+        },
+        "core_message": "Human behaviour is largely automatic & context-driven; policy that works with cognitive biases beats policy that fights them"
+      }
     },
-    {
-      "D": "Defaults",
-      "core": "Pre-set options massively shape outcomes",
-      "power": "Opt-out >> opt-in; inertia is huge driver"
-    },
-    {
-      "S": "Salience",
-      "core": "Attention drawn to novel, simple, personal",
-      "power": "Make desired action stand out; novelty grabs 10-15s window"
-    },
-    {
-      "P": "Priming",
-      "core": "Subconscious cues trigger later actions",
-      "power": "Environment/sights/words auto-influence behaviour"
-    },
-    {
-      "A": "Affect",
-      "core": "Emotion drives action more than logic",
-      "power": "Hot states override cool reasoning; evoke emotion → change"
-    },
-    {
-      "C": "Commitments",
-      "core": "Public promises lock future behaviour",
-      "power": "Consistency + reciprocity; small → large requests escalate"
-    },
-    {
-      "E": "Ego",
-      "core": "We act to feel better about ourselves",
-      "power": "Identity & self-image are top motivators; status/rewards amplify"
+    "iterationNote": "This output is designed for immediate re-ingestion in the next iterative_extension pass. Ready for incremental expansion while maintaining XNOR-stability.",
+    "exampleChapterSkeleton": {
+      "header": "# 0.0 What This Book Is — An Upgrade, Not a Rejection",
+      "subheading": "> ...",
+      "body": "..."
     }
-  ],
-  "application_framework": {
-    "6E": ["Explore (insight+segment)", "Enable (remove barriers)", "Encourage (use MINDSPACE)", "Engage (public permission)", "Exemplify (gov consistency)", "Evaluate (rigorous trials)"]
-  },
-  "meta_principles": {
-    "context_over_mind": "Change environment > change minds",
-    "low_cost_high_impact": "Automatic effects often cheapest & strongest",
-    "complement_not_replace": "Enhances incentives/info/regulation",
-    "permission_needed": "Acceptability depends on: Who targeted / What behaviour / How achieved",
-    "personal_responsibility": "Nudges can increase real responsibility, not erode it"
-  },
-  "core_message": "Human behaviour is largely automatic & context-driven; policy that works with cognitive biases beats policy that fights them"
+  }
 }
