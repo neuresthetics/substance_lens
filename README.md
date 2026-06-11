@@ -123,3 +123,5 @@ Observed usage patterns from profile history (Dec 2025–May 2026 activity):
 - Positioning as superior epistemic tool that eclipses prior theories through geometric construction and invariant extraction
 
 🧩
+
+Product: TRUE_HEIRS.md
