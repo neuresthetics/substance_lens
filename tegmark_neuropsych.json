@@ -1,0 +1,706 @@
+{
+  "name": "self_design_intervention_capacity",
+  "version": "0.1.3",
+  "created": "2026-09-18",
+  "status": "lens_processed_chain_coherent",
+  "README_purpose": "Compiled object: principle P_SDI — capacity to intervene on own design (Tegmark Life 1.0/2.0/3.0), measured on dual axes against type_by_function tiers (cellular/individual/social) without conflating scales; includes neuropsychology grounding chain, species climb hypothesis (P-status), and within-individual metacognition variance.",
+  "lens_mode": "do not force-fit; prefer XOR/NAND disclosure over fake join",
+  "principle": {
+    "raw": "An organism's ability to intervene on its own design, scaling with complexity — along the lines of Max Tegmark Life 3.0 (Life 1.0 / 2.0 / 3.0).",
+    "normalized_statement": "Principle P_SDI: capacity of a system to intervene on its own design (hardware / software / both), graded by how much of its makeup it can knowingly rewrite rather than only inherit or undergo.",
+    "domain_claimed": "philosophy of life / AI futures / complexity — measured across biological–social tiers",
+    "inserted_at": "2026-09-18T09:53:23-07:00",
+    "seeming_unrelated_note": "Arrives via neuropsychology preamble; core is self-redesign capacity, not Gage itself.",
+    "tegmark_life_scale": {
+      "source": "Max Tegmark, Life 3.0 (popular framing)",
+      "levels": {
+        "Life_1_0": {
+          "label": "Biological evolution only",
+          "design_intervention": "Cannot redesign hardware or software during its lifetime; both set mostly by evolution",
+          "examples_typical": [
+            "bacteria",
+            "most simple organisms as caricature"
+          ]
+        },
+        "Life_2_0": {
+          "label": "Cultural",
+          "design_intervention": "Can redesign software (learning, culture, skills) but not hardware",
+          "examples_typical": [
+            "humans as Tegmark's Life 2.0"
+          ]
+        },
+        "Life_3_0": {
+          "label": "Technological",
+          "design_intervention": "Can redesign both software and hardware",
+          "examples_typical": [
+            "hypothetical future AI / engineered life; partial human approaches via medicine/tech"
+          ]
+        }
+      },
+      "do_not_conflate_with": "Measurement tiers cellular / individual / social from type_by_function_isomorphism. Life 1/2/3 ≠ those three tiers."
+    },
+    "relationship_hypothesis_operator": {
+      "statement": "Species-level tendency: as a lineage such as humans evolves (biologically, culturally, technologically), it tends to move upward on the Tegmark Life scale — Life 1.0 → 2.0 → 3.0 — increasing capacity to intervene on its own design.",
+      "status": "P-status hypothesis — directionally standard in Tegmark framing for humans (1→2 done; 2→3 contested/ongoing)",
+      "not_the_claim": "Not primarily: Life 3.0 appears first as a social superorganism then falls down onto individual humans (that was a misread of an earlier aside; kept only as a separate optional conjecture if revisited).",
+      "aside_misread_archived": {
+        "old_read": "Life 3 may arrive socially first then cascade down to individuals",
+        "status": "deprioritized — operator clarified species-upward climb is the intended claim"
+      },
+      "lens_note": "Upward climb is historical/tendency claim about a species trajectory, not identity of Life grades with cellular/individual/social tiers."
+    },
+    "preamble_kept_as_grounding_not_principle": [
+      "Gage lesion dependency",
+      "Hebbian use plasticity",
+      "subjective–objective two-way loop",
+      "incompleteness; faith/will in the gap; enlightenment as variance reduction"
+    ],
+    "within_tier_variance": {
+      "statement": "P_SDI is not only a species-level Life 1→2→3 climb. Inside a tier — especially individual humans as Life 2.0 — organisms differ in capacity to intervene on their own design, notably metacognition and ability to change their mind (rewrite software: beliefs, models, policies).",
+      "folk_observation": "Humans routinely remark that some people update and some do not — everyday evidence of within-species variance.",
+      "maps_to": {
+        "Life_scale": "Usually still Life 2.0 (software rewrite); rare individuals push harder toward hardware self-design via tools/medicine — still not full species Life 3.0",
+        "measurement_tier": "individual (primary); social analogs = institutions that can/can't reverse doctrine",
+        "grounding_chain": "Use-dependent plasticity + mind–brain loop + enlightenment-as-variance-reduction = mechanisms/aims of high metacognitive self-intervention"
+      },
+      "score_hint": {
+        "individual_tier_refinement": "Keep tier capacity 'strong' as species-typical ceiling; add a within-tier spread from weak→constitutive for metacognitive self-redesign among persons",
+        "spread_enum": [
+          "rigid",
+          "slow_update",
+          "flexible",
+          "high_metacognition"
+        ],
+        "status": "qualitative — no psychometric instrument claimed"
+      },
+      "do_not_conflate": [
+        "Individual mind-change ability ≠ Tegmark Life number of the species",
+        "Stubbornness ≠ Life 1.0 biologically",
+        "High metacognition ≠ already Life 3.0"
+      ]
+    }
+  },
+  "seeming_unrelated_to": [
+    "covenant_fork_fiber CF1",
+    "type_by_function_isomorphism v0.2",
+    "basal cognition / animate-alive blur",
+    "substance_lens v0.5.8"
+  ],
+  "tests_pending": [
+    "Score cellular / individual / social × Life 1/2/3 matrix",
+    "Map F-ids that are self-design levers (F29 regen, F35 stem, F59 niche, F70 horizontal info, F85 regime change, F94 tools, F04/F95 control)",
+    "Test operator hypothesis: Life 3 emerges socially first then descends",
+    "M3: social 'hardware' vs biological hardware — resemble until mechanism shown",
+    "Keep enlightenment/gap material as grounding, not as P_SDI itself"
+  ],
+  "derived": {
+    "forks": [],
+    "functions_touched": [],
+    "records": [
+      {
+        "id": "R_np_gage",
+        "type": "grounding_case",
+        "summary": "Neuropsychology via focal lesion (Gage): region loss ↔ behavior change association at individual tier.",
+        "observed": {
+          "status": "historical_canonical_with_caveats",
+          "evidence": "Standard history of Gage + lesion method; details corrected (tamping iron; frontal path; myth inflation warned)"
+        }
+      },
+      {
+        "id": "R_hebb_use_plasticity",
+        "type": "grounding_extension",
+        "summary": "Use-dependent / Hebbian plasticity: exercise function → circuit and support-tissue change; mechanism bundle not single GH dial.",
+        "observed": {
+          "status": "established_neuroscience_compressed",
+          "evidence": "Hebb rule + use-dependent map plasticity + neurotrophic/neurovascular coupling literature (general)"
+        }
+      },
+      {
+        "id": "R_mind_brain_two_way",
+        "type": "grounding_extension",
+        "summary": "Subjective world as brain-constructed model of objective world; brain in objective world; two-way mind–brain coupling; model incomplete.",
+        "observed": {
+          "status": "standard_cognitive_framing_with_lens_tightening",
+          "evidence": "Constructive perception + plasticity; completeness claim rejected"
+        }
+      },
+      {
+        "id": "R_gap_enlightenment",
+        "type": "grounding_extension",
+        "summary": "Hard incompleteness of subjective map; free will & faith as gap occupants (P-status); enlightenment = variance reduction internal↔external.",
+        "observed": {
+          "status": "operator_framing_encoded",
+          "evidence": "thread t52"
+        }
+      },
+      {
+        "id": "R_principle_SDI",
+        "type": "principle_lock",
+        "summary": "P_SDI locked: self-design intervention capacity (Tegmark Life 1/2/3); measure across cellular/individual/social without conflating scales.",
+        "observed": {
+          "status": "operator_specified",
+          "evidence": "thread t53"
+        }
+      },
+      {
+        "id": "R_within_individual_metacognition",
+        "type": "principle_extension",
+        "summary": "Within individual tier: between-person variance in metacognition/mind-change as P_SDI software self-intervention spread under Life 2.0.",
+        "observed": {
+          "status": "operator_folk_observation",
+          "evidence": "thread t56"
+        }
+      }
+    ],
+    "capacity_summary": "P_SDI: self-design intervention (Life 1/2/3) scored across cellular/individual/social without conflating axes. Operator hypothesis (corrected): species such as humans tend to climb Life numbers over evolution — not social-first Life 3 descent."
+  },
+  "non_goals": [
+    "Not a dump into the isomorphism object until a real join survives",
+    "Not forced unity with CF1"
+  ],
+  "measurement_frame": {
+    "source_object": "type_by_function_isomorphism",
+    "source_version": "0.2.0",
+    "tiers": [
+      "cellular",
+      "individual",
+      "social"
+    ],
+    "what_is_measured": "Capacity of the principle = how strongly / widely it can operate, bind, or be expressed at each tier, and across which function-ids — without collapsing tiers.",
+    "score_enum": [
+      "none",
+      "latent",
+      "weak",
+      "moderate",
+      "strong",
+      "constitutive"
+    ],
+    "score_meaning": {
+      "none": "No honest expression at this tier",
+      "latent": "Could apply only by stretched analogy",
+      "weak": "Present but thin or easily fake",
+      "moderate": "Clear expression; limited scope",
+      "strong": "Major organizer at this tier",
+      "constitutive": "Tier barely makes sense without it"
+    },
+    "per_tier_slot": {
+      "capacity": null,
+      "expression": null,
+      "function_ids": [],
+      "edge_type": "resemble",
+      "notes": null
+    },
+    "capacity_map": {
+      "cellular": {
+        "capacity": "weak",
+        "life_scale_fit": "Life_1_0",
+        "life_scale_notes": "Dominant: design set by evolution; cell does not knowingly rewrite its hardware. Limited adaptive 'software' (gene regulation, habituation) is not full Life 2.0 culture. Rare edge: HGT, CRISPR-like systems — still not Tegmark-style agentic redesign.",
+        "expression": "Homeostatic and plastic adjustments; almost no intentional self-reengineering of body-plan mid-life.",
+        "function_ids": [
+          "F11",
+          "F46",
+          "F49",
+          "F67",
+          "F69",
+          "F70"
+        ],
+        "edge_type": "resemble",
+        "notes": "Basal cognition ≠ Life 3.0. Do not promote cells to 2.0/3.0 on rhyme alone."
+      },
+      "individual": {
+        "capacity": "strong",
+        "life_scale_fit": "Life_2_0",
+        "life_scale_notes": "Classic Tegmark human: redesign skills, beliefs, culture (software). Hardware intervention partial via medicine, prosthetics, lifestyle — approaching but not full Life 3.0.",
+        "expression": "Learning + culture rewrite policy; surgery/pharma/tools rewrite substrate incompletely; mind–brain loop + plasticity are the mechanisms.",
+        "function_ids": [
+          "F04",
+          "F05",
+          "F06",
+          "F12",
+          "F48",
+          "F59",
+          "F85",
+          "F94",
+          "F35",
+          "F29"
+        ],
+        "edge_type": "resemble",
+        "partial_Life_3_0": "moderate latent — gene editing, BCIs, radical prosthetics as emerging hardware self-design",
+        "notes": "Grounding chain (Gage/Hebb/loop/gap) lives here.",
+        "within_tier_spread": {
+          "dimension": "metacognition / mind-change / software self-intervention",
+          "observed_folk": "large between-person differences",
+          "low_end": "rigid — low update under evidence; weak software self-design in practice",
+          "high_end": "high metacognition — monitors own model, revises; strong software self-design within Life 2.0",
+          "function_ids": [
+            "F05",
+            "F06",
+            "F12",
+            "F48",
+            "F80",
+            "F61",
+            "F27",
+            "F99"
+          ]
+        }
+      },
+      "social": {
+        "capacity": "strong",
+        "life_scale_fit": "Life_2_0_to_3_0_mixed",
+        "life_scale_notes": "Collectives rewrite law, tech stacks, cities, supply chains — 'hardware' of the social body — plus norms/media as software. Often more Life-3-shaped than a single human, while still not a biological organism.",
+        "expression": "Institutions and markets redesign their own infrastructure and protocols; science/tech as self-modification engines.",
+        "function_ids": [
+          "F59",
+          "F60",
+          "F70",
+          "F74",
+          "F85",
+          "F86",
+          "F93",
+          "F94",
+          "F95",
+          "F04",
+          "F62"
+        ],
+        "edge_type": "resemble",
+        "notes": "Social 'hardware' is metaphor-heavy — mark resemble until a do-operator is specified. Supports operator hypothesis as P-status."
+      }
+    },
+    "cross_tier_profile": {
+      "uniform": false,
+      "peaks_at": [
+        "individual",
+        "social"
+      ],
+      "absent_at": [],
+      "weakest_at": "cellular",
+      "scale_free_claim": false,
+      "scale_free_claim_status": "rejected_for_now — capacity is tier-peaked",
+      "operator_hypothesis_Life3_social_first": {
+        "status": "deprioritized_misread",
+        "replaced_by": "species_upward_Life_1_2_3_climb"
+      },
+      "operator_hypothesis_species_climb": {
+        "status": "P-status_compatible",
+        "read": "Humans already moved 1→2 (culture/learning); 2→3 is the live frontier (hardware self-design).",
+        "not_proven_as_law_of_all_species": true
+      },
+      "within_individual_variance": {
+        "status": "encoded",
+        "read": "Species may sit at Life 2.0 while persons vary widely in actual software self-intervention capacity."
+      }
+    },
+    "function_coverage": {
+      "scored": [
+        {
+          "function_id": "F59",
+          "cellular": "weak",
+          "individual": "moderate",
+          "social": "strong",
+          "note": "niche construction as proto self-design of environment"
+        },
+        {
+          "function_id": "F70",
+          "cellular": "weak",
+          "individual": "strong",
+          "social": "strong",
+          "note": "horizontal info = software rewrite channel"
+        },
+        {
+          "function_id": "F85",
+          "cellular": "latent",
+          "individual": "moderate",
+          "social": "strong",
+          "note": "regime change / metamorphosis as redesign event"
+        },
+        {
+          "function_id": "F94",
+          "cellular": "latent",
+          "individual": "strong",
+          "social": "strong",
+          "note": "tools extend design intervention beyond body"
+        },
+        {
+          "function_id": "F04",
+          "cellular": "moderate",
+          "individual": "strong",
+          "social": "strong",
+          "note": "hub that can author redesign — or block it"
+        },
+        {
+          "function_id": "F95",
+          "cellular": "moderate",
+          "individual": "moderate",
+          "social": "strong",
+          "note": "distributed integrator as alternate redesign path"
+        }
+      ],
+      "description": "Optional rows: {function_id, cellular, individual, social, note} using score_enum"
+    },
+    "dual_axes": {
+      "description": "Always score on TWO axes — never smash them into one.",
+      "axis_A_tegmark": "Life 1.0 / 2.0 / 3.0 (how much self-design)",
+      "axis_B_tier": "cellular / individual / social (where the system sits in the isomorphism object)",
+      "matrix_question": "For each tier, what Life-grade of self-design intervention is available?"
+    }
+  },
+  "grounding": {
+    "neuropsychology_general": {
+      "statement": "Neuropsychology studies how mental functions and behavior depend on the structure and activity of the nervous system, especially by linking specific deficits or changes in behavior to damage, disease, or disruption in particular brain systems.",
+      "core_method": "Lesion / dissociation logic: if region R is compromised and capacity C reliably changes, R is implicated in C (with caveats about networks, diaschisis, and compensation).",
+      "what_it_is_not": [
+        "Not proof that only the brain ever adapts (basal competence still real elsewhere)",
+        "Not one-area-one-behavior phrenology",
+        "Not full identity of mind with tissue — it is mapping dependencies"
+      ],
+      "tie_to_measurement_frame": "At the individual tier, neuropsychology is a primary instrument for scoring which functions (F-ids) depend on neural hubs vs distributed body systems — relevant when a principle's capacity is later measured across cellular / individual / social."
+    },
+    "case_phineas_gage": {
+      "who": "Phineas Gage",
+      "when": "1848-09-13",
+      "agent": "Railroad tamping iron (often miscited as rebar)",
+      "trajectory": "Iron entered the left side of the face (cheek / under the eye region), passed behind the eye, through frontal lobe tissue, and exited the top of the skull.",
+      "historical_claim": "He survived; reports described marked changes in personality, judgment, and social conduct — early evidence associating frontal / prefrontal systems with behavior regulation and social self.",
+      "scientific_role": "Canonical early case for brain–behavior association via focal injury: a specific region disabled → measurable behavioral change.",
+      "caveats": [
+        "Contemporary retellings often exaggerate or simplify the personality story",
+        "Exact lesion reconstruction has been revised with modern imaging of his skull",
+        "Single case ≠ complete map; networks and recovery matter",
+        "Localization evidence ≠ cerebrocentric exclusivity over all adaptive function"
+      ],
+      "functions_touched_preliminary": [
+        "F04",
+        "F61",
+        "F09",
+        "F72",
+        "F83",
+        "F02"
+      ],
+      "tier_emphasis": "individual"
+    },
+    "use_dependent_plasticity": {
+      "extends_from": "neuropsychology_general + case_phineas_gage",
+      "statement": "Beyond loss-of-function mapping: nervous tissue is use-sensitive. Patterns of activity change connection strength and, over time, can enlarge or refine the tissue resources devoted to a practiced function (representational expansion / remodeling).",
+      "hebbian_core": {
+        "rule_of_thumb": "Cells that fire together wire together (Hebb, 1949) — correlated activity strengthens synapses between them.",
+        "scope": "Synaptic learning rule / dialect for how local circuits store use; not the entire story of every plastic change.",
+        "not_identical_to": "Macroscopic 'the whole lobe grew because of growth hormone' as a single cause"
+      },
+      "mechanisms_bundle_accurate": [
+        "Synaptic LTP/LTD and spine remodeling",
+        "Neurovascular coupling: active regions draw more blood flow / metabolic support",
+        "Neurotrophic signaling (e.g. BDNF and related factors) — often mislabeled casually as 'growth hormones'",
+        "In some systems: gliovascular support, myelination changes, limited adult neurogenesis in specific niches",
+        "Map expansion / cortical territory shifts with skilled practice (classic sensorimotor examples)"
+      ],
+      "pop_compression_user_voiced": "Exercise a region-by-function → more coordination + perfusion + growth-factor milieu → tissue resources for that function increase. Directionally right; mechanism is a bundle, not one hormone dial.",
+      "link_to_gage_logic": "Lesion: remove tissue → lose function (dependency map). Plasticity: work a function → change tissue (use map). Together they bookend brain–behavior coupling at the individual tier — still not cerebrocentric exclusivity over all life.",
+      "tier_hints_for_later_principle_scoring": {
+        "cellular": "latent–moderate analogs: activity-dependent gene expression, receptor trafficking, cytoskeletal remodeling under use",
+        "individual": "strong home of Hebbian + map plasticity evidence",
+        "social": "resemble only unless warranted: 'practice institutions grow capacity' is analogy until a do-operator is shown"
+      },
+      "functions_touched_preliminary": [
+        "F04",
+        "F05",
+        "F46",
+        "F47",
+        "F48",
+        "F49",
+        "F29",
+        "F35",
+        "F80"
+      ],
+      "caveats": [
+        "Not all practice produces beneficial growth; maladaptive plasticity exists",
+        "Adult cortical 'growth' is often representational/microstructural more than gross organ enlargement",
+        "Gage showed loss mapping; plasticity literature is a later, broader program — do not anachronistically fuse them into one discovery"
+      ]
+    },
+    "subjective_objective_mind_brain": {
+      "extends_from": "neuropsychology_general + use_dependent_plasticity",
+      "statement": "For human psychology: the brain sits in objective reality and receives sensory drive from it; it reprojects / constructs a subjective inner world — a working model of that outside. Subjective experience is carried in the operation of the brain; the brain itself is an object among objects. That yields a two-way causal coupling between mind and brain.",
+      "direction_A_world_to_mind": {
+        "label": "Object → senses → neural construction → subject",
+        "content": "Exteroception and interoception supply constraints; cortex and allied systems build a scene, self, and meanings — not a raw dump of the world."
+      },
+      "direction_B_mind_to_brain": {
+        "label": "Subject → use / attention / intention → tissue change + action",
+        "content": "Mental activity is neural activity; practiced, attended, or chosen patterns change synapses and maps (plasticity) and drive behavior back into the objective world."
+      },
+      "two_way_link": {
+        "claim": "Mind and brain are coupled both ways: no subject without brain process in normal human psychology; brain process is reshaped by what the subject does and undergoes.",
+        "philosophical_status": "Operational coupling claim for measurement — not a settled metaphysics (identity vs dual-aspect vs property dualism left open)."
+      },
+      "tightening": {
+        "not_a_complete_picture": "The brain does not deliver a complete, veridical copy of objective reality; it delivers an adaptive, partial, theory-laden model. Illusions, neglect, confabulation, and Gage-class personality change show the model can shear from the world and from prior self.",
+        "not_disembodied_mind_steering_meat": "Mind-to-brain is not magic remote control; it is brain dynamics affecting brain dynamics (and body), described at the psychological grain.",
+        "not_cerebrocentric_about_all_life": "This loop is strongest as an individual-tier human account; it does not erase basal competence elsewhere."
+      },
+      "tier_hints_for_later_principle_scoring": {
+        "cellular": "moderate for local sensorimotor loops / molecular representation; weak for 'subjective world' language",
+        "individual": "constitutive home of this framing",
+        "social": "resemble: shared worlds, institutions as externalized models — earn transmit separately"
+      },
+      "functions_touched_preliminary": [
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F12",
+        "F48",
+        "F61",
+        "F80",
+        "F93",
+        "F95"
+      ],
+      "chain_so_far": [
+        "1. Lesion map: tissue ↔ function dependency (Gage)",
+        "2. Use map: exercise ↔ plastic change (Hebb / neurotrophic–vascular support)",
+        "3. Loop map: objective world ↔ brain construction ↔ subjective world, coupled both ways"
+      ]
+    },
+    "model_gap_faith_will_enlightenment": {
+      "extends_from": "subjective_objective_mind_brain",
+      "incompleteness": {
+        "statement": "There is no way for the subjective mind to absolutely, completely, and accurately map objective reality. The inner model is always partial, lagging, theory-laden, and error-prone.",
+        "status": "stable_with_prior_tightening",
+        "lens_note": "Matches earlier rejection of 'complete picture'; now stated as hard limit, not a temporary bug."
+      },
+      "gap_occupants": {
+        "free_will": {
+          "role_in_operator_framing": "Where the map cannot dictate a unique necessary next move from a full world-model, choice / will operates in underdetermination.",
+          "status": "P-status framing — live philosophical dispute; kept as operator placement of will in the gap, not proven libertarianism"
+        },
+        "faith": {
+          "role_in_operator_framing": "Where the map cannot close, commitment beyond current evidence or proof holds a stance (trust, vow, axiom held without full derivation).",
+          "status": "P-status framing — not identical to Gen 17 covenant; may later XOR or resemble CF1 — do not auto-merge",
+          "caveat": "Faith-as-gap-commitment ≠ automatic warrant for any practice (see CF1 hygiene if crossed later)"
+        }
+      },
+      "enlightenment_process": {
+        "statement": "Enlightenment, in this framing, is the process of reducing variance between the internal model and the external world (operator phrasing: 'external model' — treated as outer reality / its structure, not a second ghost map unless specified).",
+        "operational_read": "Shrink systematic error, blind spots, and slogan-covers between what is modeled inside and what constrains from outside.",
+        "not_identical_to": [
+          "Omniscience (forbidden by incompleteness)",
+          "Mere certainty increase without contact with the outer",
+          "Automatic moral perfection"
+        ],
+        "links_back": [
+          "Lesion maps show which tissue supports which model functions when they fail",
+          "Use-dependent plasticity is how practice rewrites the model-substrate",
+          "Two-way loop is the arena where variance is noticed and reduced (or increased)"
+        ]
+      },
+      "tier_hints_for_later_principle_scoring": {
+        "cellular": "weak–moderate: error-correction / feedback (homeostasis) as proto variance-reduction; 'faith/will' language usually latent",
+        "individual": "strong–constitutive home of incompleteness, will/faith-in-the-gap, enlightenment-as-variance-reduction",
+        "social": "moderate resemble: science, law, audit as collective variance-reduction; ideology as variance-increase — earn per case"
+      },
+      "functions_touched_preliminary": [
+        "F11",
+        "F12",
+        "F27",
+        "F48",
+        "F80",
+        "F99",
+        "F61",
+        "F06",
+        "F93"
+      ],
+      "chain_so_far": [
+        "1. Lesion map: tissue ↔ function dependency (Gage)",
+        "2. Use map: exercise ↔ plastic change (Hebb / support milieu)",
+        "3. Loop map: objective world ↔ brain construction ↔ subjective world",
+        "4. Gap map: no complete map; will & faith occupy underdetermination; enlightenment = reduce internal↔external variance"
+      ]
+    }
+  },
+  "compiled": true,
+  "lens_pass": {
+    "lens_version": "substance_lens_0.5.8",
+    "pass_at": "2026-09-18T10:05:52-07:00",
+    "mode": "human_summary_plus_residue — not full I10 vector dump",
+    "coherent_chain": [
+      {
+        "step": 1,
+        "id": "P_SDI",
+        "claim": "Systems differ in capacity to intervene on their own design (knowingly rewrite makeup vs only inherit/undergo)."
+      },
+      {
+        "step": 2,
+        "id": "Life_grades",
+        "claim": "Tegmark Life 1.0/2.0/3.0 grades that capacity: evolve-only → rewrite software → rewrite software and hardware."
+      },
+      {
+        "step": 3,
+        "id": "dual_axes",
+        "claim": "Where a system sits (cellular/individual/social) is a separate axis from how much self-design it has (Life grade). Do not conflate."
+      },
+      {
+        "step": 4,
+        "id": "tier_scores",
+        "claim": "First scores: cellular weak≈1.0; individual strong≈2.0 (+partial 3.0 latent); social strong mixed 2.0–3.0 (social 'hardware' still resemble-heavy)."
+      },
+      {
+        "step": 5,
+        "id": "species_climb",
+        "claim": "Lineages such as humans tend to climb Life numbers over evolutionary/cultural/technological time (1→2 clear; 2→3 frontier).",
+        "status": "P-status"
+      },
+      {
+        "step": 6,
+        "id": "within_tier_variance",
+        "claim": "Inside individual Life 2.0, persons differ in metacognition / mind-change — software self-intervention spread, not a different Life number."
+      },
+      {
+        "step": 7,
+        "id": "grounding_individual",
+        "claim": "How humans do much of that software rewrite: lesion dependency (Gage), use-dependent plasticity (Hebb/support milieu), subjective model loop in an objective brain."
+      },
+      {
+        "step": 8,
+        "id": "gap_and_enlightenment",
+        "claim": "The inner model never completely maps the outer world; will and faith operate in underdetermination; enlightenment-as-variance-reduction is one directed form of software self-intervention — subset of P_SDI, not identical to it."
+      }
+    ],
+    "mutual_coherence_checks": [
+      {
+        "id": "C1",
+        "pair": "grounding_chain vs P_SDI",
+        "result": "compatible_with_scope_limit",
+        "note": "Gage/Hebb/loop explain mechanisms at individual tier; they do not entail Tegmark taxonomy or species climb. Preamble supports, does not prove, P_SDI."
+      },
+      {
+        "id": "C2",
+        "pair": "Life_grades vs measurement_tiers",
+        "result": "coherent",
+        "note": "Dual-axis rule holds; object already forbids smash."
+      },
+      {
+        "id": "C3",
+        "pair": "species_climb vs within_person_metacognition",
+        "result": "coherent",
+        "note": "Climb = species trajectory/ceiling band; metacognition = variance inside the band."
+      },
+      {
+        "id": "C4",
+        "pair": "humans_Life_2 vs social_mixed_2_3",
+        "result": "coherent_if_resemble_on_social_hardware",
+        "note": "Collective tech/law rewrite can look Life-3-shaped while persons remain Life 2.0; only if social 'hardware' is not silently equated to biological body."
+      },
+      {
+        "id": "C5",
+        "pair": "incompleteness vs Life_3",
+        "result": "coherent",
+        "note": "Hardware self-design does not require a complete world map; redesign under uncertainty is allowed."
+      },
+      {
+        "id": "C6",
+        "pair": "enlightenment_variance_reduction vs P_SDI",
+        "result": "subset_not_identity",
+        "note": "Enlightenment framing is a purpose-directed software self-intervention. P_SDI also covers hardware and non-enlightenment redesign (including maladaptive)."
+      },
+      {
+        "id": "C7",
+        "pair": "faith_will_in_gap vs mind_change",
+        "result": "tension_encoded",
+        "note": "Faith/will can enable commitment to update OR lock the model against update. Gap occupants are ambivalent for P_SDI — not automatic allies of metacognition."
+      },
+      {
+        "id": "C8",
+        "pair": "Gage_localization vs basal_non_exclusivity",
+        "result": "coherent_with_existing_caveats",
+        "note": "Dependency maps for human neural functions ≠ all adaptive competence is neural."
+      }
+    ],
+    "dissolved": [
+      {
+        "id": "D_obj1",
+        "claim": "The neuropsychology preamble proves P_SDI / Tegmark scale",
+        "why": "Category jump from mechanism examples to general principle without entailment"
+      },
+      {
+        "id": "D_obj2",
+        "claim": "Cellular/individual/social = Life 1/2/3",
+        "why": "Conflation explicitly rejected; scores show non-alignment"
+      },
+      {
+        "id": "D_obj3",
+        "claim": "High metacognition = Life 3.0",
+        "why": "Still software-band; hardware redesign not implied"
+      },
+      {
+        "id": "D_obj4",
+        "claim": "Enlightenment reaches zero internal↔external variance",
+        "why": "Forbidden by incompleteness hard limit"
+      },
+      {
+        "id": "D_obj5",
+        "claim": "Social infrastructure rewrite transmits as biological hardware self-design",
+        "why": "Resemble unless a do-operator/mechanism is shown"
+      },
+      {
+        "id": "D_obj6",
+        "claim": "Species Life-climb is a universal law for all lineages",
+        "why": "Only P-status tendency claim for lineages like humans warranted here"
+      }
+    ],
+    "surviving_invariants": [
+      {
+        "id": "S1",
+        "name": "P_SDI core",
+        "status": "stable_in_object",
+        "P_status_note": "Principle as stated; still operator-owned"
+      },
+      {
+        "id": "S2",
+        "name": "Life 1/2/3 grading",
+        "status": "stable_as_taxonomy"
+      },
+      {
+        "id": "S3",
+        "name": "Dual axes (Life grade ≠ tier)",
+        "status": "stable"
+      },
+      {
+        "id": "S4",
+        "name": "Tier-peaked capacity scores (first pass)",
+        "status": "P-status_scores"
+      },
+      {
+        "id": "S5",
+        "name": "Species climb 1→2→3 tendency",
+        "status": "P-status"
+      },
+      {
+        "id": "S6",
+        "name": "Within-tier metacognitive variance",
+        "status": "stable_as_observation"
+      },
+      {
+        "id": "S7",
+        "name": "Individual grounding chain (lesion/use/loop)",
+        "status": "stable_support"
+      },
+      {
+        "id": "S8",
+        "name": "Hard incompleteness of subjective map",
+        "status": "stable"
+      },
+      {
+        "id": "S9",
+        "name": "Enlightenment = variance reduction ⊂ software P_SDI",
+        "status": "stable_subset"
+      },
+      {
+        "id": "S10",
+        "name": "Faith/will ambivalent for update",
+        "status": "stable_tension"
+      }
+    ],
+    "I5_disclosure": "Residue is maximal compression inside this object's axiom set, not absolute truth.",
+    "I10_disclosure": "No claim of full literal gate truth-table traces on every edge; structural coherence pass."
+  }
+}
