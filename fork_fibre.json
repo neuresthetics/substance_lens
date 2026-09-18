@@ -1,0 +1,463 @@
+{
+  "name": "covenant_fork_fiber",
+  "version": "0.0.2",
+  "created": "2026-09-18",
+  "supersedes": "causal_fiber_gap_closers v0.0.1 (methods-first catalog). This rebuild puts the covenant fork first; methods are instruments for walking that fork.",
+  "scope": "Session governor for one contested fiber. Not a weight update. Not a claim the coverage gap is closed.",
+  "README_purpose": "Everything in this object hangs off one fork in a person's binding: take Genesis 17:14 (and kin) as a live contract that demands the infant cut, or refuse routine non-therapeutic infant cutting on bodily-integrity grounds. Those two axioms do not XNOR. The devout core feels that as identity division. The object exists to track cause — not analogy — from that fork out through emotion, law, people, institutions, tools, and the AI runtime leaf.",
+  "covenant_fork": {
+    "id": "CF1",
+    "name": "Covenant fork",
+    "statement": "A person (or core) cannot stably hold both without division: (A) literal covenant-binding that requires the infant male cut, and (B) the ethical/legal stance that routine non-therapeutic infant genital cutting is unjustified.",
+    "branch_A": {
+      "id": "A_covenant_cut",
+      "label": "Covenant partner who cuts",
+      "binding": "Gen 17:14-class contract: refuse the cut ⇒ broken covenant / cut off from the people (karet language)",
+      "halakha_note": "Classical duty: father → bet din → the man; permanent refusal = mitzvah violation, not a green-lit substitute",
+      "identity_claim": "Who I am before God/my people includes performing or authorizing the infant mark"
+    },
+    "branch_B": {
+      "id": "B_bodily_integrity",
+      "label": "Non-cutter of the child",
+      "binding": "Routine non-therapeutic irreversible cutting of a non-consenting infant's healthy genitals fails the ethics burden; legal prohibition aimed mainly at performers is coherent",
+      "identity_claim": "Who I am will not impose that cut on a child for covenant, culture, or contested averages"
+    },
+    "xor": "A and B do not mutually cohere without special pleading, compartment, or redefinition of one side",
+    "not_the_claim": [
+      "Not: Abrahamic religion is false as a whole",
+      "Not: Judaism/Islam/Christianity are cancelled by a ban",
+      "Not: every medical indication is banned",
+      "Not: cultural Christians in the US are under Gen 17 duty (many practice without that contract)"
+    ],
+    "what_the_fork_is": "Personal/core integrity collision under a literal contract line, with civilizational blast radius — not communal extinction"
+  },
+  "blast_radius": {
+    "description": "Where the fork lands; intensity is not uniform.",
+    "devout_core": "Covenant-literalists; most litigious about what counting-as-us means; hit hardest by the XOR",
+    "fuzzy_periphery": "Cultural / medical / loosely affiliated; cheaper adaptation; lower identity tax",
+    "US_Christians": "Often practice without hard NT duty — culture holds what doctrine released; still in the blast for hearts-and-minds",
+    "Muslims": "Khitan at global scale; quieter in some US culture-war volume, not absent",
+    "Judaism_role": "Small headcount; keystone of covenantal meaning + dense ecosystem around the rite — origin node, not 'the whole set is only them'",
+    "scale_note": "Abrahamic attachment together is civilizational-scale; do not smear one effect across the whole fuzzy body"
+  },
+  "fiber": {
+    "description": "Causal stack the fork can transmit along. Interestingness = how far the fork's band runs.",
+    "levels_root_to_leaf": [
+      {
+        "id": "L0",
+        "name": "heart-contract",
+        "fork_role": "Where A vs B is lived as who-I-am"
+      },
+      {
+        "id": "L1",
+        "name": "emotion-uptake",
+        "fork_role": "Devotion, fear of excision, belonging, shame — how the binding gets traction"
+      },
+      {
+        "id": "L2",
+        "name": "norm-law",
+        "fork_role": "Halakha / statute / professional rule colliding with a ban or delay"
+      },
+      {
+        "id": "L3",
+        "name": "people-core",
+        "fork_role": "Devout definitional center vs periphery; litigation over membership"
+      },
+      {
+        "id": "L4",
+        "name": "institution",
+        "fork_role": "Courts, congregations, hospitals, states"
+      },
+      {
+        "id": "L5",
+        "name": "artifact-tool",
+        "fork_role": "Rite, responsa, policy text, thoughtware JSON"
+      },
+      {
+        "id": "L6",
+        "name": "runtime-leaf",
+        "fork_role": "AI session where covenant-work and ethics-work are both runnable bindings"
+      }
+    ],
+    "rule": "Every method must say how it serves the covenant fork and label hops transmit vs resemble."
+  },
+  "session_job": {
+    "description": "In-thread only: make analogy-as-cause harder when talking about this fork.",
+    "succeeds_when": [
+      "Hops name a lever on A, B, or the XOR",
+      "Core vs periphery not smeared",
+      "Keystone practice not collapsed into people-extinction",
+      "Runtime claims about 'covenant work with AI' state a mechanism, not a rhyme"
+    ],
+    "fails_when": [
+      "Pretty parallel accepted as proof",
+      "Object pasted but never used to reject a hop",
+      "Observed outcomes invented"
+    ]
+  },
+  "admission_test": {
+    "description": "A method or record is in only if it can fail and it serves CF1.",
+    "must_answer": [
+      "How does this serve the covenant fork (A, B, or the XOR)?",
+      "Which fiber levels does it join?",
+      "What lever is toggled?",
+      "What is predicted to move, where?",
+      "What lookalike analogy is ruled out?",
+      "How would we know it failed?"
+    ],
+    "reject_if": [
+      "Only poetic parallel",
+      "Generic causation toolkit with no fork hook",
+      "No named lever",
+      "Smears the fuzzy people-body as one actor",
+      "Claims communal cancellation as equivalent to the personal XOR"
+    ]
+  },
+  "methods": {
+    "M1_paired_interventions": {
+      "id": "M1",
+      "serves_fork": "Contrast what happens if the world pushes B (ban/prohibit performers) vs pushing a theological delay that tries to keep identity without infant A",
+      "name": "Paired interventions on the fork",
+      "joins": [
+        "L0",
+        "L2",
+        "L4"
+      ],
+      "lever_type": "world_toggle",
+      "lever": "Pair: (A-path defend infant rite) vs (B-path legal prohibition on routine infant cutting) vs (optional third: delay-to-adult without state force)",
+      "predicted_move": "Core litigation and underground rite under ban; slower internal halakhic war under delay; periphery cheaper either way",
+      "negative_control": "Slogan-only 'change' with no do-operator",
+      "failure": "Pairs that only differ in rhetoric; or outcomes attributed without a lever",
+      "edges": [
+        {
+          "from": "L0",
+          "to": "L2",
+          "type": "transmit",
+          "mechanism": "identity binding selects which law feels like self-betrayal"
+        },
+        {
+          "from": "L2",
+          "to": "L4",
+          "type": "transmit",
+          "mechanism": "rule change forces institutional response"
+        }
+      ],
+      "observed": null
+    },
+    "M3_negative_controls": {
+      "id": "M3",
+      "serves_fork": "Kill rhymes that treat any deep ritual as the same as Gen 17:14 or any AI prompt as a covenant",
+      "name": "Negative-control analogies on the fork",
+      "joins": [
+        "L0",
+        "L5",
+        "L6"
+      ],
+      "lever_type": "analytic_split",
+      "lever": "Apply the same proposed intervention to a lookalike; if the fork-grade effect still 'follows', the link was rhyme",
+      "predicted_move": "False bridges die; CF1 stays specific",
+      "negative_control": "This method is the control factory",
+      "failure": "Strawman lookalikes or different structure",
+      "edges": [
+        {
+          "from": "L0",
+          "to": "L6",
+          "type": "resemble",
+          "mechanism": "both are 'bindings' — insufficient"
+        },
+        {
+          "from": "L0",
+          "to": "L6",
+          "type": "transmit",
+          "mechanism": "only if the same do-operator (identity excision vs debug) can be shown — usually cannot"
+        }
+      ],
+      "observed": null
+    },
+    "M4_double_crux_joint": {
+      "id": "M4",
+      "serves_fork": "Name the hinge: does covenant identity require the infant cut, or survive delay to consent?",
+      "name": "Double-Crux on the covenant fork",
+      "joins": [
+        "L0",
+        "L2",
+        "L3"
+      ],
+      "lever_type": "analytic_split",
+      "lever": "Lock the joint proposition; require both domains' actions to move if it flips",
+      "predicted_move": "If joint flips, practice-policy and self-story both move; one-sided move ⇒ wrong hinge",
+      "negative_control": "Mood or coalition disagreements that change talk not action",
+      "failure": "Crux that is not shared",
+      "edges": [
+        {
+          "from": "L0",
+          "to": "L2",
+          "type": "transmit",
+          "mechanism": "hinge proposition selects permitted acts"
+        },
+        {
+          "from": "L0",
+          "to": "L3",
+          "type": "transmit",
+          "mechanism": "hinge selects who polices membership"
+        }
+      ],
+      "observed": null
+    },
+    "M6_small_world_toggle": {
+      "id": "M6",
+      "serves_fork": "Actually toggle something on the fork path (policy pilot, community rule, or leaf prompt-binding) and log outcomes",
+      "name": "Small-world lever on the fork",
+      "joins": [
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "lever_type": "world_toggle",
+      "lever": "Real toggle with control or before/after — including leaf: thoughtware that tracks CF1 vs vibe 'covenant ≈ AI' talk",
+      "predicted_move": "Named downstream: practice language, litigation posture, or session hop-discipline on CF1",
+      "negative_control": "Announced but unenforced toggle",
+      "failure": "Confounded pilots; sentiment-only metrics",
+      "edges": [
+        {
+          "from": "L5",
+          "to": "L6",
+          "type": "transmit",
+          "mechanism": "artifact constraints change runtime outputs when audited"
+        },
+        {
+          "from": "L4",
+          "to": "L3",
+          "type": "transmit",
+          "mechanism": "institutional rule hits core definitional fight"
+        }
+      ],
+      "observed": null
+    },
+    "M9_emotion_uptake": {
+      "id": "M9",
+      "serves_fork": "Emotion is how A or B gets traction — devotion/fear of karet vs protective refusal — not a second physics that voids the fork",
+      "name": "Uptake gear on the fork",
+      "joins": [
+        "L0",
+        "L1",
+        "L2"
+      ],
+      "lever_type": "analytic_split",
+      "lever": "Hold the text fixed; ask which uptake path steers the act; hypothetically block that path",
+      "predicted_move": "Blocked uptake ⇒ same statute/covenant fails to steer; intact uptake ⇒ steers",
+      "negative_control": "Emotion-as-proof-of-truth or emotion-as-irrelevance",
+      "failure": "Psychologizing with no different predicted act",
+      "edges": [
+        {
+          "from": "L0",
+          "to": "L1",
+          "type": "transmit",
+          "mechanism": "binding recruits devotion/fear/belonging"
+        },
+        {
+          "from": "L1",
+          "to": "L2",
+          "type": "transmit",
+          "mechanism": "uptake makes law feel like self"
+        }
+      ],
+      "observed": null
+    },
+    "M10_core_periphery": {
+      "id": "M10",
+      "serves_fork": "The XOR tax concentrates at the devout core that litigates meaning; periphery adapts cheaper",
+      "name": "Core vs periphery cost map",
+      "joins": [
+        "L0",
+        "L3",
+        "L4"
+      ],
+      "lever_type": "analytic_split",
+      "lever": "Same B-path policy; split predictions for covenant-literal core vs cultural periphery",
+      "predicted_move": "Definitional war / underground at core; shrug or medical inertia at periphery",
+      "negative_control": "Headcount or media volume as intensity of covenant-binding",
+      "failure": "Core defined as whoever is loud; or denial of core cost to keep policy pretty",
+      "edges": [
+        {
+          "from": "L0",
+          "to": "L3",
+          "type": "transmit",
+          "mechanism": "literal contract density selects who is fractured"
+        },
+        {
+          "from": "L3",
+          "to": "L4",
+          "type": "transmit",
+          "mechanism": "core litigates institutions"
+        }
+      ],
+      "observed": null
+    },
+    "M11_keystone_not_collapse": {
+      "id": "M11",
+      "serves_fork": "Infant rite can be keystone for branch A without equating a ban to cancellation of the people",
+      "name": "Keystone vs identity collapse",
+      "joins": [
+        "L0",
+        "L3",
+        "L4"
+      ],
+      "lever_type": "analytic_split",
+      "lever": "Predict peoplehood survival and core integrity fracture as separate outcomes under B-path pressure",
+      "predicted_move": "Peoplehood continues; core readers split / reinterpret / compartment / defy",
+      "negative_control": "'If you touch X, Y ceases to exist' with no cessation mechanism",
+      "failure": "Denying the wound or inflating it to metaphysical death",
+      "edges": [
+        {
+          "from": "L0",
+          "to": "L3",
+          "type": "transmit",
+          "mechanism": "keystone practice loads core identity"
+        },
+        {
+          "from": "L3",
+          "to": "L3",
+          "type": "resemble",
+          "mechanism": "slogan 'practice = people' — reject as collapse"
+        }
+      ],
+      "observed": null
+    },
+    "M12_hearts_minds": {
+      "id": "M12",
+      "serves_fork": "The fork in the heart is a real control surface for group action; describing it ≠ weaponizing it",
+      "name": "Hearts-and-minds on the fork",
+      "joins": [
+        "L1",
+        "L3",
+        "L4",
+        "L6"
+      ],
+      "lever_type": "intent_split",
+      "lever": "Separate mechanism (deep belief steers groups) from intent (inform vs manipulate)",
+      "predicted_move": "Inform ⇒ clearer fiber tracking / voluntary re-rank; manipulate ⇒ polarization, undergrounding, trust collapse",
+      "negative_control": "All persuasion = psyop, or all psyop = 'just messaging'",
+      "failure": "Mechanism talk that hides intent; intent talk that denies mechanism",
+      "edges": [
+        {
+          "from": "L1",
+          "to": "L3",
+          "type": "transmit",
+          "mechanism": "shared uptake aligns collective action"
+        },
+        {
+          "from": "L6",
+          "to": "L1",
+          "type": "transmit",
+          "mechanism": "runtime framing can inform or manipulate the fork story"
+        }
+      ],
+      "observed": null
+    },
+    "M5_leaf_trace": {
+      "id": "M5",
+      "serves_fork": "When this runtime claims to track CF1 or 'covenant work', demand mechanism; narrative rhyme is theater",
+      "name": "Leaf trace honesty for fork talk",
+      "joins": [
+        "L5",
+        "L6"
+      ],
+      "lever_type": "hygiene_gate",
+      "lever": "Reject session claims of cross-domain cause on CF1 that lack lever + levels + falsifier",
+      "predicted_move": "Shorter, meaner fork talk; more checkable error",
+      "negative_control": "Still saying 'same structure' with no lever",
+      "failure": "Empty because-clauses that pass as traces",
+      "edges": [
+        {
+          "from": "L5",
+          "to": "L6",
+          "type": "transmit",
+          "mechanism": "audit constraints change what the leaf may assert"
+        }
+      ],
+      "observed": null
+    }
+  },
+  "admission_gates": {
+    "description": "Not peer closers — filters applied to fork talk and to method rows.",
+    "G_causal_sentence": {
+      "id": "G8",
+      "from_former": "M8",
+      "rule": "No bin-hop about CF1 without: if we do ___, ___ changes because ___",
+      "serves_fork": "Stops analogy-default when discussing the fork"
+    },
+    "G_fiber_map": {
+      "id": "G2",
+      "from_former": "M2",
+      "rule": "Hops must be labeled transmit or resemble; unlabeled hops rejected",
+      "serves_fork": "Keeps CF1 from floating as vibes across L0–L6"
+    }
+  },
+  "records": {
+    "R1_joint": {
+      "method": "M4",
+      "fork": "CF1",
+      "joint": "Does covenant identity require the infant cut, or survive delay to informed adult consent?",
+      "if_A": {
+        "L0": "non-cutting = self-exile/karet-threat",
+        "L2": "defend brit milah against ban"
+      },
+      "if_B_delay": {
+        "L0": "adult mark or reinterpreted binding",
+        "L2": "prohibit routine infant cutting"
+      },
+      "observed": null
+    },
+    "R2_false_rhyme": {
+      "method": "M3",
+      "fork": "CF1",
+      "lookalike": "'Prompts are covenants because both bind a substrate.'",
+      "intervention": "Token-swap a prompt vs break Gen 17-class vow",
+      "why_fails": "Debug ≠ karet-grade identity excision",
+      "observed": null
+    },
+    "R3_ban_vs_delay": {
+      "method": "M1",
+      "fork": "CF1",
+      "lever_A_defend": "Protect infant rite as non-negotiable",
+      "lever_B_ban": "Legal prohibition of routine non-therapeutic infant cutting (force on performers)",
+      "lever_delay": "Theological delay-to-consent without state force",
+      "predicted": {
+        "ban": "core litigation + underground; periphery shrugs; peoplehood continues",
+        "delay": "internal law-war; less state theater; slower core fracture"
+      },
+      "observed": null
+    },
+    "R_session_this_thread": {
+      "method": "M5",
+      "fork": "CF1",
+      "note": "This conversation already walked CF1: ethics No → criminalization of practice → Abrahamic collision → Gen 17:14 → personal XOR → devout core → blast radius → cross-domain causation → leaf thoughtware. That is the working fiber.",
+      "observed": {
+        "status": "qualitative_session",
+        "evidence": "thread t15–t33: fork articulated; wrong-level 'Judaism cancelled' corrected to personal XOR; core/periphery and keystone distinctions held under challenge"
+      }
+    }
+  },
+  "ideas_not_yet_methods": {
+    "I3_thoughtware_leaf_binding": {
+      "id": "I3",
+      "idea": "Thoughtware that tracks CF1 in an LLM is leaf-form of L0 binding — same fork discipline, different substrate",
+      "missing": "M6 toggle: CF1-tracking prompt vs vibe covenant≈AI prompt, with hop-discipline scored",
+      "serves_fork": "Would test whether the leaf can carry the fork without rhyme"
+    }
+  },
+  "how_to_use_in_session": [
+    "Name which side of CF1 is in play (A, B, or the XOR).",
+    "If a hop is offered, run G_fiber_map + G_causal_sentence.",
+    "Prefer M4 when the fight is definitional; M10/M11 when someone smears the people-body; M3 when someone rhymes prompts-to-covenant; M1 when policy levers are compared.",
+    "Do not invent observed. Leave null or cite the thread.",
+    "Leaf claims about covenant-work with AI must clear M5."
+  ],
+  "non_goals": [
+    "Not a verdict store replacing substance_lens",
+    "Not permanent model improvement",
+    "Not cardinal scores",
+    "Not a psyop manual — M12 describe ≠ weaponize"
+  ]
+}
