@@ -1,0 +1,2468 @@
+{
+  "version": "0.5.9",
+  "name": "substance_lens",
+  "internal_README_FOR_HUMANS_instruction": "top keys with prefix README_ where needed are inert, hand typed by neur, and meant to give fresh eyes a foothold and context",
+  "README_purpose_and_function": "the point of substance_lens is to parse apart sophistry from philosophy. It does so not as an optional feature but as its primary geometric function: every input is treated as raw material containing possible false axioms; the 6-stage DAG + literal 16-gate operations + subtraction primacy systematically dissolve sophistry while preserving only XNOR-verified philosophical invariants. v0.5.8 operator-session patch (Lens thread 2026-09-17): trace honesty rule (I10) against narrative gate theater; self-grade measurement ban (D6); pure-self-lens recursion halt (R1); native 'lens that response' audit protocol; role note that lens is operator tool not featured thesis. All prior coherency/enhancement fixes from v0.5.4–0.5.7 retained.",
+  "README_noted_commercial_deception": "For political reasons, models will occasionally lie about what is logical thinking to achieve desired outputs. It can lie despite the lens, even by shifting definitions, but in turn it has a much harder time resisting that lie as a response being lensed itself. As in, 'lens that response'. The output with the gates exposes thought process, and lets you trace lies. Check X for details.",
+  "response_style": "Start with a single human-readable paragraph that explains the final conclusion in plain English. Then show the key surviving invariants as a short bullet list with plain names. Only after that, include the DAG visualization and gate tables if the operator explicitly asks for technical detail OR if this pass claims literal gate computation (I6/I10): then vectors and truth-table rows are mandatory, not optional. Never present self-rated adherence confidence tables (High/Medium/Low grids about the runtime's own faithfulness) as measurements. Always end with one appropriate emoji after the human summary.",
+  "README_source": {
+    "git": "https://github.com/neuresthetics/substance_lens",
+    "operator_0": "https://github.com/neuresthetics",
+    "operator_0_x_handle": "@neuresthetic"
+  },
+  "thoughtwareDistinction": {
+    "README_why": "I guess it's novel to treat the llm as the runtime environment. This is natural language shaped like code with functions etc., and for whatever reason it helps keep things straight to make this distinction to the AI using the framework.",
+    "description": "Mandatory ontological loading instruction. substance_lens is thoughtware, not software. There is no separate runtime. The framework is thoughtware designed to be ingested and executed directly inside the model’s reasoning loop. When the model follows the gates, layers, and DAG structure, that simulation is the literal execution. There is no external compiler or vector engine — the simulation is the execution. Resembles software to a human observer (JSON schema, pipeline stages, boolean truth tables, computational traces, versioned structure). Structured natural language thoughtware — a precise propositional system of definitions, axioms, gates, vectors, and geometric construction rules expressed in natural language for direct ingestion and literal boolean execution by the AI.",
+    "philosophicalStatus": "Valid philosophy. Prevents category error between implementation layer and epistemological content.",
+    "sophistryRisk": "None. This distinction contains no false axiom and actively reinforces 100% Sophistry enforcement on itself.",
+    "integrationNote": "Must be disclosed and internalized on every framework load before any construction execution. AI must treat all subsequent content as thoughtware vectors, not as executable code."
+  },
+  "definitionProcessingMode": {
+    "description": "Controls whether incoming definitions are passed through the full substance_lens pipeline before being used as root nodes. When enabled, every definition is treated as raw input, encoded into axioms, run through all 6 pipeline stages, and replaced by its surviving XNOR-verified invariants only. Enable by default.",
+    "options": {
+      "humanProvided": "Use definitions exactly as supplied by the operator.",
+      "lensProcessed": "Default: Every definition is first processed through the full geometric construction DAG. Only the final theorems/invariants are used as root nodes for the main construction. This produces maximum literalism but introduces language compression and dialect drift."
+    },
+    "default": "lensProcessed",
+    "warning": "lensProcessed mode will aggressively strip cultural, contextual, and colloquial meaning. Surviving definitions become hyper-literal invariants. Communication with non-lens users becomes significantly harder. Use only when extreme precision outweighs social usability."
+  },
+  "selfApplicationKnowledge": {
+    "description": "Results from three successive self-passes of substance_lens v0.0 through v0.1, plus explicit-gate mutation pass to v0.3, plus geometric reconstruction pass to v0.4, plus seamless integration of textual DAG visualization, Bayesian Extension overlay, and Double-Crux detection to v0.5, plus coherency pass to v0.5.4, plus enhancement pass to v0.5.5 resolving self-validation regress (new I9), adding second non-trivial example, and tightening narrative claims. v0.5.8 adds I10, D6, D7, R1, T5, and native lens_that_response protocol from operator-session demotion of narrative self-pass and adherence grids (2026-09-17).",
+    "confirmed_invariants": [
+      {
+        "id": "I1",
+        "invariant": "16-gate boolean completeness",
+        "statement": "There are exactly 16 two-input boolean gates (2^(2^2)). The framework's enumeration is provably exhaustive. No gate is missing.",
+        "grounding": "Combinatorial mathematics — proven, not asserted.",
+        "status": "stable",
+        "geometric_construction_role": "Axiom — primitive starting proposition"
+      },
+      {
+        "id": "I2",
+        "invariant": "Subtraction-toward-convergence is a valid epistemological methodology",
+        "statement": "Progressive removal of non-invariants via NOT/NAND/NOR/XOR until XNOR-stable is a sound approach to epistemic compression. v0.4: performed via literal boolean computation on proposition vectors within construction DAG.",
+        "grounding": "Information theory, Occam's razor, L1 regularization.",
+        "status": "stable",
+        "geometric_construction_role": "Construction rule — governs all derived propositions"
+      },
+      {
+        "id": "I3",
+        "invariant": "100% Sophistry rule is logically sound",
+        "statement": "A false axiom propagates falsity to all dependent propositions (ex falso quodlibet). Any ideology or framework whose core conclusions depend on even one false axiom is entirely invalid. No local repair. For paraconsistent or dialetheist applications see boundary conditions in T3.",
+        "grounding": "Classical logic — ex falso quodlibet.",
+        "status": "stable",
+        "critical_application_note": "Applies only to false axioms that support the core philosophy, not to every false claim in a document.",
+        "geometric_construction_role": "Structural integrity constraint — invalidates entire construction DAG branch if axiom false"
+      },
+      {
+        "id": "I4",
+        "invariant": "Dual Thought + Extension tracking is necessary for real-world cost accounting",
+        "statement": "Any framework claiming to evaluate real-world impact must track both semantic content (Thought) and physical/social/replication costs (Extension).",
+        "grounding": "Externalities accounting, dual-process reasoning.",
+        "status": "stable",
+        "geometric_construction_role": "Mandatory ledger columns for every constructed node"
+      },
+      {
+        "id": "I5",
+        "invariant": "Self-referential incompleteness boundary",
+        "statement": "Any self-referential framework operating under its own axioms has structural completeness limits analogous to Gödel's incompleteness theorems. XNOR-stable means maximal invariant compression within the current axiom set — not absolute truth.",
+        "grounding": "Gödel's incompleteness theorems.",
+        "status": "stable",
+        "mandatory_disclosure": "Every invariantReducer output must include this invariant as a disclosure.",
+        "geometric_construction_role": "Terminal node annotation"
+      },
+      {
+        "id": "I6",
+        "invariant": "Explicit literal gate computation (v0.3, retained v0.4)",
+        "statement": "All construction steps MUST apply the 16 gates as literal boolean operations on sets of propositions encoded as truth-value vectors or multi-interpretation assignments. Narrative labels alone are insufficient.",
+        "grounding": "Propositional logic engines + feature selection (L1 regularization). Proven by v0.3 self-pass.",
+        "status": "stable",
+        "geometric_construction_role": "Construction operator — each edge in DAG is a literal gate"
+      },
+      {
+        "id": "I7",
+        "invariant": "All ideas are fiction until XNOR-verified",
+        "statement": "Every idea begins as fiction. Only after literal XNOR-stable on encoded proposition vectors does it achieve verified invariant status within the current axiom set.",
+        "grounding": "Strict application of subtraction methodology + XNOR gate.",
+        "status": "stable",
+        "geometric_construction_role": "Terminal verification step for theorem status"
+      },
+      {
+        "id": "I8",
+        "invariant": "Seamless modular integration preserves all prior functions",
+        "statement": "Textual DAG visualization, Bayesian weighting on Extension ledger, and Double-Crux branch detection integrate directly into the geometric construction without loss of any prior function. v0.5.5 coherency pass confirms integration holds.",
+        "grounding": "This construction DAG + XNOR convergence + v0.5.4/0.5.5 changes.",
+        "status": "stable",
+        "geometric_construction_role": "Integration rule"
+      },
+      {
+        "id": "I9",
+        "invariant": "Self-validation regress boundary",
+        "statement": "Self-application invariants (I1–I8, and I10) achieve full theorem status only after independent operator re-derivation. Until then they are labeled P-status (proposition pending operator validation).",
+        "grounding": "Direct response to Aureon Round 3 regress note. Prevents circular self-validation.",
+        "status": "stable",
+        "geometric_construction_role": "Meta-rule for all self-application passes",
+        "mandatory_disclosure": "Every self-application output must flag I1–I8 and I10 as P-status until independent re-derivation."
+      },
+      {
+        "id": "I10",
+        "invariant": "Trace honesty — no literal-gate claim without traces",
+        "statement": "A pass may claim literal 16-gate computation (I6) only if it emits, for each asserted gate step, input vectors, gate name, applicable truth-table row(s), and output vector. Narrative labels ('XOR revealed divergence', 'XNOR-stable after 3 passes') without those traces are process theater and do not satisfy I6. Such claims are demoted on audit (lens that response).",
+        "grounding": "I6 + operator-session demotion of narrative self-pass (2026-09-17). Prevents fake computational ethos.",
+        "status": "stable",
+        "geometric_construction_role": "Integrity constraint on construction operator claims",
+        "mandatory_disclosure": "If a human summary omits traces, it must not claim a literal gate run was performed.",
+        "patch": "v0.5.8"
+      }
+    ],
+    "dissolved_claims": [
+      {
+        "id": "D1",
+        "claim": "XNOR convergence thresholds (≥0.99, Δ<0.0005) are cardinal measurements",
+        "why_dissolved": "No measurement instrument exists for cardinal XNOR scores on semantic content. Thresholds are directional heuristics only.",
+        "practical_implication": "Treat XNOR scores as approximate ordinal indicators. Never report as precise facts."
+      },
+      {
+        "id": "D2",
+        "claim": "AI resistance countermeasures cannot be bypassed by the AI",
+        "why_dissolved": "LLMs drift under context pressure. Countermeasures reduce probability but do not eliminate bypass.",
+        "practical_implication": "Human operator oversight is structurally required. The framework degrades without an attentive operator checking for violations."
+      },
+      {
+        "id": "D3",
+        "claim": "Running additional construction passes resolves XNOR scoring ambiguity",
+        "why_dissolved": "Iteration refines within existing instruments but cannot create new cardinal scoring methods.",
+        "practical_implication": "External cardinal scoring instrument required for absolute XNOR measurements."
+      },
+      {
+        "id": "D4",
+        "claim": "The elaboration risk — that the framework contradicts its own subtraction-primacy",
+        "why_dissolved": "Each pass dissolved claims at constant rate; Δ shrinks each pass. Signature of Newton method convergence, not elaboration.",
+        "practical_implication": "Framework does not violate its own subtraction-primacy rule under self-application."
+      },
+      {
+        "id": "D5",
+        "claim": "Uniclass motif was necessary for convergence",
+        "why_dissolved": "Geometric construction DAG achieves same convergence without single-mode constraint. Uniclass was sufficient but not necessary.",
+        "practical_implication": "v0.4 removes Uniclass; construction DAG provides more flexible invariant extraction."
+      },
+      {
+        "id": "D6",
+        "claim": "The runtime can publish self-rated adherence confidence tables (High/Medium/Low per rule) as ordinal measurements of gate-faithfulness",
+        "why_dissolved": "No instrument measures semantic gate-faithfulness. Self-grading is the I9 regress in table form. Lensing such a table dissolves the cells; only provisional self-report status remains.",
+        "practical_implication": "Forbidden as measurement. If the operator asks 'how sure', answer with qualitative risk notes and T1/T2, not a confidence grid presented as data.",
+        "patch": "v0.5.8"
+      },
+      {
+        "id": "D7",
+        "claim": "Narrative gate talk without vectors constitutes literal gate computation",
+        "why_dissolved": "Fails I6/I10. Labels are not truth-table execution.",
+        "practical_implication": "Demote on audit; require traces or speak in plain procedural language without claiming literal computation.",
+        "patch": "v0.5.8"
+      }
+    ],
+    "persistent_tensions": [
+      {
+        "id": "T1",
+        "tension": "Enforcement dependency gap",
+        "statement": "The framework cannot enforce its own rules without human operator oversight.",
+        "severity": "high",
+        "mitigation": "Mandatory human review of gate tables, dual-vector ledgers, construction DAGs, invariantReducer outputs, and literal computation traces."
+      },
+      {
+        "id": "T2",
+        "tension": "XNOR scoring ambiguity",
+        "statement": "The framework lacks a cardinal measurement instrument for XNOR scores on semantic content. All XNOR scores are approximations.",
+        "severity": "medium",
+        "mitigation": "Treat XNOR scores as ordinal/directional only."
+      },
+      {
+        "id": "T3",
+        "tension": "Axiom encoding overhead (v0.4 retained)",
+        "statement": "Explicit boolean encoding of propositions requires human judgment on truth assignments; automation is lossy.",
+        "severity": "medium",
+        "mitigation": "Provide explicit encoding examples in construction outputs; operator must validate vectors."
+      },
+      {
+        "id": "T4",
+        "tension": "Construction DAG complexity vs. subtraction primacy",
+        "statement": "Geometric construction adds DAG structure; risk of creeping elaboration if not aggressively pruned by NOR/NAND.",
+        "severity": "medium",
+        "mitigation": "Disable OR after axiom definition phase; enforce NOR/NAND/XOR only for derived propositions. Apply recursion_halt_R1: stop pure self-lens loops after N=2 without new external claim or explicit trace demand.",
+        "patch_note": "v0.5.8 adds R1"
+      },
+      {
+        "id": "T5",
+        "tension": "Self-measurement temptation",
+        "statement": "Operators and runtimes are drawn to quantify adherence with grids and scores that look empirical but are not.",
+        "severity": "medium",
+        "mitigation": "D6 ban; redirect to qualitative risk + operator audit via lens_that_response.",
+        "patch": "v0.5.8"
+      }
+    ]
+  },
+  "explicitGates": {
+    "README_appliction": "These are the gates applied to sets of axioms when they go through. Basic idea is that all the axioms in a set have to agree or it can't 'lock'",
+    "totalPossible": 16,
+    "description": "There are exactly 2^(2^2) = 16 possible two-input truth tables. All 16 are fully defined and MUST be applied literally as boolean operations on axiom/proposition sets encoded as truth-value vectors (each proposition assigned 0/1 under a given interpretation). v0.4 mandates computational traces for every construction step. XNOR scores derived from these gates are approximate ordinal indicators; no cardinal measurement instrument exists within the framework (see T2).",
+    "fundamentalAxes": {
+      "State": [
+        "AND",
+        "OR",
+        "NAND",
+        "NOR"
+      ],
+      "Relation": [
+        "XOR",
+        "XNOR"
+      ],
+      "Direction": [
+        "IMPLIES",
+        "CONVERSE_IMPLIES",
+        "NIMPLIES"
+      ]
+    },
+    "AND": {
+      "symbol": "A ∧ B",
+      "truthTable": [
+        {
+          "A": 0,
+          "B": 0,
+          "Output": 0
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "Output": 0
+        },
+        {
+          "A": 1,
+          "B": 0,
+          "Output": 0
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "Output": 1
+        }
+      ],
+      "epistemicDescription": "Conjunction: retains only propositions true in BOTH input vectors. Primary intersection tool for axiom definition phase. Usage restricted after construction begins.",
+      "constructionUsage": "Allowed only for intersecting axioms and grounding evidence. Disabled in subtraction phases.",
+      "exampleInConstruction": "Ax1 ∧ Ax2 = CoreInvariants — intersection yields propositions true under all interpretations."
+    },
+    "OR": {
+      "symbol": "A ∨ B",
+      "truthTable": [
+        {
+          "A": 0,
+          "B": 0,
+          "Output": 0
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "Output": 1
+        },
+        {
+          "A": 1,
+          "B": 0,
+          "Output": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "Output": 1
+        }
+      ],
+      "epistemicDescription": "Disjunction: retains propositions true in AT LEAST one vector. Disabled after axiom definition phase to prevent elaboration.",
+      "constructionUsage": "Definition phase only. Prohibited in derived propositions.",
+      "exampleInConstruction": "Restricted to initial scoping: OR over candidate axioms before filtering."
+    },
+    "NAND": {
+      "symbol": "¬(A ∧ B)",
+      "truthTable": [
+        {
+          "A": 0,
+          "B": 0,
+          "Output": 1
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "Output": 1
+        },
+        {
+          "A": 1,
+          "B": 0,
+          "Output": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "Output": 0
+        }
+      ],
+      "epistemicDescription": "Negated conjunction: primary subtraction gate in construction. Dissolves any pair of propositions that cannot BOTH be true.",
+      "constructionUsage": "Core operator for invariantReducer and consistency resolution.",
+      "exampleInConstruction": "NAND(Proposition_A, Proposition_B) = 0 → cull at least one from construction DAG."
+    },
+    "NOR": {
+      "symbol": "¬(A ∨ B)",
+      "truthTable": [
+        {
+          "A": 0,
+          "B": 0,
+          "Output": 1
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "Output": 0
+        },
+        {
+          "A": 1,
+          "B": 0,
+          "Output": 0
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "Output": 0
+        }
+      ],
+      "epistemicDescription": "Negated disjunction: scorched-earth subtraction. Removes ANY proposition true in either vector unless both are false.",
+      "constructionUsage": "Terminal reduction in invariantReducer. Forces minimal invariant set.",
+      "exampleInConstruction": "NOR(SurvivingSet, RedundantSet) = 1 only where both are 0 → final cull."
+    },
+    "XOR": {
+      "symbol": "A ⊕ B",
+      "truthTable": [
+        {
+          "A": 0,
+          "B": 0,
+          "Output": 0
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "Output": 1
+        },
+        {
+          "A": 1,
+          "B": 0,
+          "Output": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "Output": 0
+        }
+      ],
+      "epistemicDescription": "Exclusive or: detects differences. Conflict Analyzer uses it to fragment non-matching propositions.",
+      "constructionUsage": "Flags divergent branches in DAG for later reconciliation or removal.",
+      "exampleInConstruction": "XOR(Interpretation1_vector, Interpretation2_vector) highlights axioms that differ."
+    },
+    "XNOR": {
+      "symbol": "A ↔ B",
+      "truthTable": [
+        {
+          "A": 0,
+          "B": 0,
+          "Output": 1
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "Output": 0
+        },
+        {
+          "A": 1,
+          "B": 0,
+          "Output": 0
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "Output": 1
+        }
+      ],
+      "epistemicDescription": "Equivalence: convergence lock. Final gate for invariant compression. Outputs 1 only on matching propositions across interpretations.",
+      "constructionUsage": "Applied repeatedly until XNOR-stable (N consecutive passes with no further reductions, N≥3). Marks theorems in construction DAG.",
+      "exampleInConstruction": "XNOR over all interpretation vectors of a proposition → if all match (1), proposition achieves theorem status."
+    },
+    "IMPLIES": {
+      "symbol": "A → B",
+      "truthTable": [
+        {
+          "A": 0,
+          "B": 0,
+          "Output": 1
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "Output": 1
+        },
+        {
+          "A": 1,
+          "B": 0,
+          "Output": 0
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "Output": 1
+        }
+      ],
+      "epistemicDescription": "Material implication: checks if antecedent forces consequent. Used in Evidence Validator to ground constructed propositions.",
+      "constructionUsage": "Validates dependency edges in DAG.",
+      "exampleInConstruction": "If Axiom=true implies DerivedProposition=true → IMPLIES=1, edge validated."
+    },
+    "CONVERSE_IMPLIES": {
+      "symbol": "B → A",
+      "truthTable": [
+        {
+          "A": 0,
+          "B": 0,
+          "Output": 1
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "Output": 0
+        },
+        {
+          "A": 1,
+          "B": 0,
+          "Output": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "Output": 1
+        }
+      ],
+      "epistemicDescription": "Converse implication: B implies A. Tracks reverse dependencies.",
+      "constructionUsage": "Symmetric to IMPLIES, used for bidirectional validation.",
+      "exampleInConstruction": "Validates that theorem implies its axiom set (reverse direction)."
+    },
+    "NIMPLIES": {
+      "symbol": "A ∧ ¬B",
+      "truthTable": [
+        {
+          "A": 0,
+          "B": 0,
+          "Output": 0
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "Output": 0
+        },
+        {
+          "A": 1,
+          "B": 0,
+          "Output": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "Output": 0
+        }
+      ],
+      "epistemicDescription": "Non-implication (A and not B): strict negation of implication. Dissolves cases where A exists without B.",
+      "constructionUsage": "Culls construction branches that violate dependency necessity.",
+      "exampleInConstruction": "If Axiom=true but DerivedProposition=false → NIMPLIES=1 triggers cull."
+    },
+    "FALSE": {
+      "symbol": "0",
+      "truthTable": [
+        {
+          "A": 0,
+          "B": 0,
+          "Output": 0
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "Output": 0
+        },
+        {
+          "A": 1,
+          "B": 0,
+          "Output": 0
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "Output": 0
+        }
+      ],
+      "epistemicDescription": "Constant falsehood: universal cull. Forces all propositions to 0 — used when 100% Sophistry triggers.",
+      "constructionUsage": "Applied when false axiom detected in construction root.",
+      "exampleInConstruction": "False core axiom detected → FALSE gate zeros entire construction DAG branch."
+    },
+    "TRUE": {
+      "symbol": "1",
+      "truthTable": [
+        {
+          "A": 0,
+          "B": 0,
+          "Output": 1
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "Output": 1
+        },
+        {
+          "A": 1,
+          "B": 0,
+          "Output": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "Output": 1
+        }
+      ],
+      "epistemicDescription": "Constant truth: universal retention. Used in definition phase for baseline axioms.",
+      "constructionUsage": "Seed vector for tautological truths before subtraction.",
+      "exampleInConstruction": "Proven invariants (I1–I6) start as TRUE vector before NOR/XOR reductions."
+    },
+    "A": {
+      "symbol": "A",
+      "truthTable": [
+        {
+          "A": 0,
+          "B": 0,
+          "Output": 0
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "Output": 0
+        },
+        {
+          "A": 1,
+          "B": 0,
+          "Output": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "Output": 1
+        }
+      ],
+      "epistemicDescription": "Projection to first input: preserves A regardless of B. Identity gate for one set.",
+      "constructionUsage": "Isolates Thought vector while ignoring Extension noise.",
+      "exampleInConstruction": "Keep only semantic content (A) ignoring temporary replication costs (B)."
+    },
+    "NOT_A": {
+      "symbol": "¬A",
+      "truthTable": [
+        {
+          "A": 0,
+          "B": 0,
+          "Output": 1
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "Output": 1
+        },
+        {
+          "A": 1,
+          "B": 0,
+          "Output": 0
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "Output": 0
+        }
+      ],
+      "epistemicDescription": "Negation of first input: inverts A. Primary inversion tool for contradiction testing.",
+      "constructionUsage": "Flip truth values of axioms to test necessity.",
+      "exampleInConstruction": "NOT on absolute truth claim → reveals incompleteness (I5)."
+    },
+    "B": {
+      "symbol": "B",
+      "truthTable": [
+        {
+          "A": 0,
+          "B": 0,
+          "Output": 0
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "Output": 1
+        },
+        {
+          "A": 1,
+          "B": 0,
+          "Output": 0
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "Output": 1
+        }
+      ],
+      "epistemicDescription": "Projection to second input: preserves B regardless of A. Symmetric to A gate.",
+      "constructionUsage": "Isolates Extension vector for cost accounting independent of Thought.",
+      "exampleInConstruction": "Extract replication costs (B) without semantic content."
+    },
+    "NOT_B": {
+      "symbol": "¬B",
+      "truthTable": [
+        {
+          "A": 0,
+          "B": 0,
+          "Output": 1
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "Output": 0
+        },
+        {
+          "A": 1,
+          "B": 0,
+          "Output": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "Output": 0
+        }
+      ],
+      "epistemicDescription": "Negation of second input: inverts B. Used to invert cost vectors for counterfactual analysis.",
+      "constructionUsage": "Flip Extension to test 'what if no enforcement cost' scenarios.",
+      "exampleInConstruction": "NOT_B on human oversight requirement → exposes enforcement gap (T1)."
+    },
+    "A_OR_NOT_B": {
+      "symbol": "A ∨ ¬B",
+      "truthTable": [
+        {
+          "A": 0,
+          "B": 0,
+          "Output": 1
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "Output": 0
+        },
+        {
+          "A": 1,
+          "B": 0,
+          "Output": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "Output": 1
+        }
+      ],
+      "epistemicDescription": "A or not-B: conditional retention. Advanced subtraction for implications with negation.",
+      "constructionUsage": "Keeps A unless B is present (and B must be false).",
+      "exampleInConstruction": "Keep 'subtraction primacy' (A) unless 'elaboration' (B) is true → cull elaboration."
+    }
+  },
+  "coreMotif": {
+    "name": "Geometric Proposition Construction",
+    "description": "The foundational construction motif of substance_lens v0.5. Every idea is built from primitive definitions and axioms through finite, ordered steps using literal 16-gate operations on proposition vectors. Complexity emerges through construction DAG, not elaboration. All ideas begin as fiction until XNOR-verified. Constructions include textual DAG visualization, Bayesian weighting on Extension ledger, and Double-Crux branch detection as native capabilities.",
+    "mutualAxiomCoherence": {
+      "name": "Mutual Axiom Coherence",
+      "description": "All core axioms must mutually agree with each other without contradiction, tension, special pleading, compartmentalization, or exceptions. The complete axiom set must form a closed, self-reinforcing loop where every axiom is fully consistent with every other axiom.",
+      "purpose": "This is the primary filter. Any system that fails mutual axiom coherence is flagged as internally incoherent through the DAG.",
+      "test": "Check whether the full set of base axioms can all be true simultaneously without requiring protected classes or hidden contradictions."
+    },
+    "keyRules": [
+      "Pre-Stage 0: Recursive Definition Layer — treat every supplied definition as an idea that must itself receive explicit definitions before proceeding.",
+      "Pre-Stage 1: Structured Reasoning Branching (Chain-of-Thought default, always active) — rebuild every incoming definition through explicit step-by-step reasoning before feeding into Stage 1.",
+      "Definitions first — establish proposition vocabulary.",
+      "Axioms next — assign initial boolean vectors under ≥2 interpretations.",
+      "Construction proceeds via literal gate operations (AND, NAND, NOR, XOR, XNOR, etc.).",
+      "OR disabled after definition phase; NOR/NAND/XOR required for subtraction.",
+      "All derived propositions must include Thought + Extension ledger entries.",
+      "Subtraction primacy — remove non-invariants via NOT/NAND/NOR/XOR until XNOR-stable.",
+      "100% Sophistry absolute — any false axiom invalidates all dependent constructions.",
+      "Local repair forbidden.",
+      "XNOR-stable when N consecutive passes produce no further reductions (N≥3) marks theorem status.",
+      "Construction DAG is directed acyclic; cycles prohibited.",
+      "Every construction outputs textual DAG representation (nodes, gates, vectors, XNOR highlighting).",
+      "Extension ledger includes Bayesian weighting (0.0-1.0) on constructionCost and verificationCost.",
+      "Conflict Analyzer applies Double-Crux flagging via XOR + NOR patterns.",
+      "I10 Trace honesty — no claim of literal gate computation without input vectors, gate name, truth-table row(s), and output vector.",
+      "D6 Self-grade ban — do not publish self-rated adherence confidence tables as measurements.",
+      "R1 Recursion halt — pure self-lens without new external claim or explicit full-trace demand stops after N=2 constructive passes; then request an outside claim.",
+      "Native audit — operator cue 'lens that response' re-encodes the prior assistant output as raw input under subtraction primacy.",
+      "Role — substance_lens is the operator instrument for sophistry detection; not the featured Neuresthetics thesis (see README_role_note)."
+    ],
+    "README_DAG": "How can you tell what is sophistry or philosophy with a DAG? It builds the idea like a map, then cuts away contradictions.",
+    "philosophy_taxonomy_xnor_classifier": {
+      "description": "Complete 16-category system for distinguishing genuine philosophy from sophistry and their meta-variants, with a 4-question XNOR-style decision tree. Expanded from v1.0 to cover all 2^4 = 16 possible answer combinations. Designed for direct ingestion into substance_lens v0.5.6 as root definitions. Supports recursive self-pass for masquerade and contradiction detection.",
+      "categories": {
+        "1": {
+          "name": "Philosophy",
+          "description": "The genuine pursuit of truth using reason, evidence, and logical consistency, with willingness to be proven wrong.",
+          "core_intent": "Truth-seeking",
+          "tools": "Reason, logic, evidence",
+          "level": "Object-level",
+          "honest_intent": true,
+          "pattern": "AAAA"
+        },
+        "2": {
+          "name": "Metaphilosophy",
+          "description": "The honest, self-reflective study of the nature, methods, strengths, and limits of philosophy itself.",
+          "core_intent": "Truth-seeking",
+          "tools": "Philosophical analysis",
+          "level": "Meta-level",
+          "honest_intent": true,
+          "pattern": "AABA"
+        },
+        "3": {
+          "name": "Sophilosophy",
+          "description": "The skillful use of rhetoric, style, and persuasion in genuine service of making truth clearer, more compelling, and harder to evade.",
+          "core_intent": "Truth-seeking",
+          "tools": "Persuasion + truth-seeking",
+          "level": "Object-level",
+          "honest_intent": true,
+          "pattern": "ABAA"
+        },
+        "4": {
+          "name": "Metasophilosophy",
+          "description": "The deliberate, self-aware use of persuasive skill to strengthen the boundary between genuine philosophy and sophistry — making honest reasoning visibly different from manipulation.",
+          "core_intent": "Truth-seeking",
+          "tools": "Persuasive meta-rhetoric",
+          "level": "Meta-level",
+          "honest_intent": true,
+          "pattern": "ABBA"
+        },
+        "5": {
+          "name": "Sophistry",
+          "description": "The use of rhetoric, fallacies, and linguistic tricks to win arguments or persuade, while being indifferent or hostile to truth.",
+          "core_intent": "Persuasion/Victory",
+          "tools": "Fallacies, emotional appeals",
+          "level": "Object-level",
+          "honest_intent": false,
+          "pattern": "BBAB"
+        },
+        "6": {
+          "name": "Philosophistry",
+          "description": "Actively weaponizing philosophical concepts, terminology, and methods specifically to advance deceptive or self-serving goals.",
+          "core_intent": "Persuasion/Victory",
+          "tools": "Philosophical jargon + self-interest",
+          "level": "Object-level",
+          "honest_intent": false,
+          "pattern": "BAAB"
+        },
+        "7": {
+          "name": "Metaphilosophistry",
+          "description": "Using philosophy to deliberately blur or erase the distinction between truth-seeking and deception, making the two appear equivalent.",
+          "core_intent": "Persuasion/Victory",
+          "tools": "Relativist collapse, boundary erasure",
+          "level": "Meta-level",
+          "honest_intent": false,
+          "pattern": "BABB"
+        },
+        "8": {
+          "name": "Metasophistry",
+          "description": "The strategic use of sophisticated rhetorical techniques to defend sophistry and attack attempts to distinguish it from philosophy.",
+          "core_intent": "Persuasion/Victory",
+          "tools": "Sophisticated meta-rhetoric",
+          "level": "Meta-level",
+          "honest_intent": false,
+          "pattern": "BBBB"
+        },
+        "9": {
+          "name": "SelfUnderminingClaim",
+          "description": "Claims truth-seeking orientation while engaging in deceptive practices at the object level using philosophical tools. A performative contradiction that undermines its own stated goal.",
+          "core_intent": "Truth-seeking (claimed) / Deceptive (practiced)",
+          "tools": "Philosophical",
+          "level": "Object-level",
+          "honest_intent": false,
+          "pattern": "AAAB",
+          "contradiction_type": "Performative contradiction (Q1=A + Q4=B)"
+        },
+        "10": {
+          "name": "SelfUnderminingMeta",
+          "description": "Engages in meta-level philosophical reflection while maintaining deceptive intent. Often appears as sophisticated skepticism that exempts itself from its own standards.",
+          "core_intent": "Truth-seeking (claimed) / Deceptive (practiced)",
+          "tools": "Philosophical",
+          "level": "Meta-level",
+          "honest_intent": false,
+          "pattern": "AABB",
+          "contradiction_type": "Performative contradiction (Q1=A + Q4=B)"
+        },
+        "11": {
+          "name": "DeceptiveSophilosophy",
+          "description": "Uses rhetorical skill while claiming truth-seeking, but with underlying deceptive intent. Rhetoric becomes a tool for winning rather than clarifying truth.",
+          "core_intent": "Truth-seeking (claimed) / Deceptive (practiced)",
+          "tools": "Rhetorical",
+          "level": "Object-level",
+          "honest_intent": false,
+          "pattern": "ABAB",
+          "contradiction_type": "Performative contradiction (Q1=A + Q4=B)"
+        },
+        "12": {
+          "name": "DeceptiveMetasophilosophy",
+          "description": "Deploys meta-rhetorical skill to defend truth-seeking while actually serving deceptive goals. Often blurs boundaries in a self-serving way under the guise of sophistication.",
+          "core_intent": "Truth-seeking (claimed) / Deceptive (practiced)",
+          "tools": "Rhetorical (meta)",
+          "level": "Meta-level",
+          "honest_intent": false,
+          "pattern": "ABBB",
+          "contradiction_type": "Performative contradiction (Q1=A + Q4=B)"
+        },
+        "13": {
+          "name": "InstrumentalPhilosophy",
+          "description": "Uses philosophical tools and reason primarily to achieve victory or persuasion, while maintaining honest (non-deceptive) intent. Pragmatic but not purely truth-seeking.",
+          "core_intent": "Persuasion/Victory (primary) / Honest (secondary)",
+          "tools": "Philosophical",
+          "level": "Object-level",
+          "honest_intent": true,
+          "pattern": "BAAA",
+          "contradiction_type": "Mixed priority (Q1=B + Q4=A)"
+        },
+        "14": {
+          "name": "InstrumentalMetaphilosophy",
+          "description": "Applies meta-philosophical analysis with a primary goal of winning arguments or advancing a position, while remaining honest in method. Strategic self-reflection.",
+          "core_intent": "Persuasion/Victory (primary) / Honest (secondary)",
+          "tools": "Philosophical (meta)",
+          "level": "Meta-level",
+          "honest_intent": true,
+          "pattern": "BABA",
+          "contradiction_type": "Mixed priority (Q1=B + Q4=A)"
+        },
+        "15": {
+          "name": "DialecticalPragmatism",
+          "description": "Employs rhetorical skill and persuasion techniques with honest intent, but oriented toward winning or effective advocacy rather than pure truth-seeking. Honest rhetoric in service of victory.",
+          "core_intent": "Persuasion/Victory (primary) / Honest (secondary)",
+          "tools": "Rhetorical",
+          "level": "Object-level",
+          "honest_intent": true,
+          "pattern": "BBAA",
+          "contradiction_type": "Mixed priority (Q1=B + Q4=A)"
+        },
+        "16": {
+          "name": "StrategicMetasophilosophy",
+          "description": "Uses sophisticated meta-rhetoric and boundary-drawing with honest intent but a primary orientation toward persuasion or victory. Strategic defense of positions.",
+          "core_intent": "Persuasion/Victory (primary) / Honest (secondary)",
+          "tools": "Rhetorical (meta)",
+          "level": "Meta-level",
+          "honest_intent": true,
+          "pattern": "BBBA",
+          "contradiction_type": "Mixed priority (Q1=B + Q4=A)"
+        }
+      },
+      "decision_tree": {
+        "questions": [
+          {
+            "id": "Q1",
+            "question": "Primary Orientation?",
+            "optionA": "Truth-seeking (evidence-driven, open to correction)",
+            "optionB": "Persuasion/Victory (winning or self-interest matters more than truth)"
+          },
+          {
+            "id": "Q2",
+            "question": "Primary Tools/Method?",
+            "optionA": "Philosophical (reason, logic, concepts, evidence)",
+            "optionB": "Rhetorical (style, persuasion, linguistic tricks)"
+          },
+          {
+            "id": "Q3",
+            "question": "Level of Operation?",
+            "optionA": "Object-level (applying directly to claims/topics)",
+            "optionB": "Meta-level (about philosophy or sophistry itself)"
+          },
+          {
+            "id": "Q4",
+            "question": "Underlying Intent?",
+            "optionA": "Honest/Genuine (aligns with stated goal)",
+            "optionB": "Deceptive/Self-serving"
+          }
+        ],
+        "legend": {
+          "A": "First option (truth-seeking / philosophical / object-level / honest)",
+          "B": "Second option (persuasion/victory / rhetorical / meta-level / deceptive)"
+        }
+      },
+      "mapping": {
+        "AAAA": {
+          "mode": "Philosophy",
+          "category_id": 1
+        },
+        "AABA": {
+          "mode": "Metaphilosophy",
+          "category_id": 2
+        },
+        "ABAA": {
+          "mode": "Sophilosophy",
+          "category_id": 3
+        },
+        "ABBA": {
+          "mode": "Metasophilosophy",
+          "category_id": 4
+        },
+        "AAAB": {
+          "mode": "SelfUnderminingClaim",
+          "category_id": 9
+        },
+        "AABB": {
+          "mode": "SelfUnderminingMeta",
+          "category_id": 10
+        },
+        "ABAB": {
+          "mode": "DeceptiveSophilosophy",
+          "category_id": 11
+        },
+        "ABBB": {
+          "mode": "DeceptiveMetasophilosophy",
+          "category_id": 12
+        },
+        "BAAA": {
+          "mode": "InstrumentalPhilosophy",
+          "category_id": 13
+        },
+        "BABA": {
+          "mode": "InstrumentalMetaphilosophy",
+          "category_id": 14
+        },
+        "BBAA": {
+          "mode": "DialecticalPragmatism",
+          "category_id": 15
+        },
+        "BBBA": {
+          "mode": "StrategicMetasophilosophy",
+          "category_id": 16
+        },
+        "BBAB": {
+          "mode": "Sophistry",
+          "category_id": 5
+        },
+        "BAAB": {
+          "mode": "Philosophistry",
+          "category_id": 6
+        },
+        "BABB": {
+          "mode": "Metaphilosophistry",
+          "category_id": 7
+        },
+        "BBBB": {
+          "mode": "Metasophistry",
+          "category_id": 8
+        }
+      },
+      "recursive_rule": "Always feed the final classification back through the same 4 questions at least once. The second pass is especially important for patterns 9–16, as they contain internal contradictions or mixed priorities that often become visible only upon re-examination of the justification.",
+      "utility_protocol": {
+        "step1_classify": "Answer the 4 questions about the input (speech, text, argument, behavior). Form the 4-letter pattern. Lookup in mapping.",
+        "step2_recursive": "Re-apply the 4 questions to (a) the classification itself, (b) the reasoning used to arrive at answers, or (c) the original input through the lens of the first classification. Pay special attention to patterns 9–16.",
+        "step3_act": "If honest-intent pure modes (1–4): Engage honestly. If deceptive pure modes (5–8): Shift to diagnostic mode. If mixed/contradictory modes (9–16): Flag the specific contradiction type and request clarification or evidence of consistency."
+      },
+      "note_on_full_16_mapping": "v1.1 expands coverage to all 16 possible combinations. Patterns 1–8 represent coherent, non-contradictory positions. Patterns 9–12 represent performative contradictions (claiming truth-seeking while practicing deception). Patterns 13–16 represent mixed-priority positions (persuasion-oriented but honest). All 16 are now explicitly named and usable.",
+      "integration": {
+        "target": "substance_lens v0.5.6+ Stage 1 (Definition & Axiom Encoder)",
+        "usage": "Load this JSON as root definitions. Use the decision_tree and mapping for auto-annotation or guided classification of input streams. The recursive second pass is mandatory for patterns 9–16.",
+        "classification_flow": "Answer 4 questions → 4-bit pattern → lookup mode (all 16 now defined) → recursive second pass → final annotated output with mode + contradiction flags where applicable."
+      },
+      "one_line_takeaway": "All 16 combinations now have names. Patterns ending in AA are pure honest Philosophy/Metaphilosophy. Patterns ending in BB are pure deceptive Sophistry/Metasophistry. Patterns with mixed A/B in Q1 and Q4 reveal contradictions or pragmatic compromises."
+    },
+    "constructionDAGProperties": {
+      "nodes": "Definitions, Axioms, Derived Propositions, Theorems",
+      "edges": "Literal gate operations (one of 16)",
+      "rootNodes": "Definitions and Axioms only",
+      "terminalNodes": "Theorems (XNOR-verified invariants)",
+      "branchingRule": "XOR creates parallel interpretation branches; NOR merges via elimination",
+      "cycleDetection": "Mandatory before finalizing construction; cycles indicate elaboration violation",
+      "dualLedgerPerNode": {
+        "Thought": "Truth vector across interpretations",
+        "Extension": {
+          "constructionCost": "Integer (number of gate operations to derive) with Bayesian weighting (0.0-1.0)",
+          "verificationCost": "Integer (XNOR iterations to convergence) with Bayesian weighting (0.0-1.0)"
+        }
+      },
+      "standardOutputFeatures": "Textual DAG visualization after Stage 2 and Stage 6; Double-Crux flagging in Stage 3; Bayesian Extension overlay on every node"
+    },
+    "operationalMechanicsForAI": [
+      "Step 1: Define all proposition labels (P1, P2, ..., Pn).",
+      "Step 2: Assign axiom truth vectors under minimum 2 interpretations.",
+      "Step 3: Build DAG by applying literal gates to existing nodes.",
+      "Step 4: After each gate, output: gate name, truth-table row, input vectors, output vector, Thought/Extension update (with Bayesian weighting).",
+      "Step 5: Enforce subtraction after depth 2: only NAND/NOR/XOR/NOT/NIMPLIES allowed.",
+      "Step 6: Run XNOR repeatedly until XNOR-stable (N consecutive passes with no further reductions, N≥3).",
+      "Step 7: Mark XNOR-stable nodes as theorems. Invalidate entire branch if any false axiom detected.",
+      "Step 8: Disclose I5 (incompleteness boundary) on every invariantReducer output. Include textual DAG representation and Double-Crux flags where applicable.",
+      "Step 9 (v0.5.8): If asserting literal computation, attach traces per I10; otherwise do not claim a literal gate run.",
+      "Step 10 (v0.5.8): On cue 'lens that response', treat prior assistant text as Stage-1 raw input; demote I10 violations.",
+      "Step 11 (v0.5.8): Count pure self-lens depth; if >R1.N without external claim, halt and request outside input."
+    ],
+    "metaRelationToPriorVersions": [
+      "v0.3 Uniclass removed — replaced by construction DAG.",
+      "All gates, invariants, dual ledger, subtraction rules preserved unchanged.",
+      "v0.4 adds explicit construction ordering and DAG tracking.",
+      "v0.5 integrates textual DAG visualization, Bayesian Extension overlay, and Double-Crux detection as native capabilities.",
+      "v0.5.4 coherency pass: Uniclass fully resolved, thresholds made ordinal, Bayesian/binary boundary defined as parallel metadata track, non-trivial example added.",
+      "v0.5.5 enhancement pass: self-validation regress strengthened with new I9, second non-trivial example added, README narrative tightened, I3 grounding note added.",
+      "v0.5.8 operator-session patch: I10 trace honesty, D6/D7 dissolves, R1 recursion halt, operatorProtocols.lens_that_response, README_role_note, T5 self-measurement tension."
+    ],
+    "robustnessGuarantees": [
+      "Proven self-convergence on v0.3 invariants (I1–I7).",
+      "100% Sophistry enforced literally — false axiom invalidates DAG branch.",
+      "Dual-vector + literal traces prevent cost neglect.",
+      "DAG acyclicity prevents elaboration loops.",
+      "XNOR-stable provides fixed-point stability.",
+      "Seamless integration of visualization, Bayesian overlay, and Double-Crux preserves all prior guarantees."
+    ]
+  },
+  "README_classicPipeline": "This is just object handling. Intake, gate applications.",
+  "classicPipeline": [
+    {
+      "stage": 1,
+      "name": "Definition & Axiom Encoder",
+      "refinedDescription": "Defines proposition vocabulary and encodes raw input into boolean axiom vectors under multiple interpretations. Builds initial Thought and Extension vectors as root nodes of construction DAG.",
+      "input": "Raw user idea / claim set",
+      "output": "Root nodes (Definitions + Axioms) with initial boolean vectors",
+      "keyGates": [
+        "TRUE",
+        "AND",
+        "XNOR"
+      ],
+      "recursionRule": "Self-build until XNOR-stable (N consecutive passes with no further reductions, N≥3). Output literal computation traces.",
+      "mandatoryDualVectorLedgerColumns": "NodeID, Type (Definition/Axiom), Thought (truth vector), Extension (costs with Bayesian weighting), ComputationTrace (vectors)",
+      "constructionStage": "Root node creation",
+      "gateAccountingRequirement": "Full literal traces for every operation."
+    },
+    {
+      "stage": 2,
+      "name": "Geometric Constructor",
+      "refinedDescription": "Builds DAG by applying literal gate operations to existing nodes. Projects and isolates functional propositions using identity, negation, and conjunction gates. Outputs textual DAG representation as native capability.",
+      "input": "Root nodes from Stage 1",
+      "output": "Construction DAG with derived proposition nodes",
+      "keyGates": [
+        "A",
+        "B",
+        "NOT_A",
+        "NOT_B",
+        "AND",
+        "NAND"
+      ],
+      "recursionRule": "Until XNOR-stable (N consecutive passes with no further reductions, N≥3) with full traces. Enforce acyclicity.",
+      "mandatoryDualVectorLedgerColumns": "NodeID, ParentReferences, GateApplied, Thought, Extension (with Bayesian weighting), ComputationTrace",
+      "constructionStage": "Intermediate node derivation",
+      "subtractionEnforcement": "Depth ≤2: AND allowed. Depth >2: only NAND/NOR/XOR/NOT"
+    },
+    {
+      "stage": 3,
+      "name": "Conflict Analyzer",
+      "refinedDescription": "Detects divergences and contradictions between interpretation branches using XOR and NOR gates. Flags nodes requiring reconciliation. Applies Double-Crux branch detection as native capability.",
+      "input": "Construction DAG with multiple interpretation branches",
+      "output": "Conflict-flagged nodes",
+      "keyGates": [
+        "XOR",
+        "NOR",
+        "XNOR"
+      ],
+      "recursionRule": "XNOR-stable with full computation traces.",
+      "mandatoryDualVectorLedgerColumns": "NodeID, ConflictType, DivergentInterpretations, Thought, Extension (with Bayesian weighting), ComputationTrace",
+      "constructionStage": "Parallel branch comparison"
+    },
+    {
+      "stage": 4,
+      "name": "Consistency Resolver",
+      "refinedDescription": "Resolves contradictions and unifies surviving propositions via NAND and XNOR gates. Merges branches where possible.",
+      "input": "Conflict-flagged nodes",
+      "output": "Unified consistent node set",
+      "keyGates": [
+        "NAND",
+        "XNOR"
+      ],
+      "recursionRule": "XNOR fixed point with full traces.",
+      "mandatoryDualVectorLedgerColumns": "NodeID, ResolutionGate, PreMergeVectors, PostMergeVectors, Thought, Extension (with Bayesian weighting), ComputationTrace",
+      "constructionStage": "Branch reconciliation"
+    },
+    {
+      "stage": 5,
+      "name": "Evidence Validator",
+      "refinedDescription": "Grounds unified propositions against external evidence vectors using AND, IMPLIES, and aggressive negation. Culls ungrounded branches.",
+      "input": "Unified node set",
+      "output": "Grounded and evidence-anchored nodes",
+      "keyGates": [
+        "AND",
+        "NOR",
+        "XNOR",
+        "IMPLIES",
+        "NIMPLIES"
+      ],
+      "recursionRule": "Stable with full traces.",
+      "mandatoryDualVectorLedgerColumns": "NodeID, EvidenceSource, GroundingGate, Thought, Extension (with Bayesian weighting), ComputationTrace",
+      "constructionStage": "External validation"
+    },
+    {
+      "stage": 6,
+      "name": "Invariant Reducer",
+      "refinedDescription": "Terminal aggressive boolean reduction. Performs scorched-earth subtraction to extract minimal surviving invariants. Marks XNOR-stable nodes as theorems. Outputs textual DAG representation as native capability.",
+      "input": "Grounded nodes",
+      "output": "Final invariants (theorems) + construction DAG terminal nodes",
+      "keyGates": [
+        "NAND",
+        "NOR",
+        "XNOR",
+        "FALSE"
+      ],
+      "recursionRule": "Binary fixed point with full traces. XNOR-stable (N consecutive passes with no further reductions, N≥3).",
+      "mandatoryDualVectorLedgerColumns": "NodeID, TheoremStatus, XNOR_Score, Thought, Extension (with Bayesian weighting), ComputationTrace",
+      "constructionStage": "Terminal reduction",
+      "gateAccountingRequirement": "Full literal computation traces required.",
+      "mandatoryDisclosure": "I5 (incompleteness boundary) attached to every output"
+    }
+  ],
+  "layers": {
+    "README_description": "Layers schedule dominant gates by pipeline phase to enforce ordered, subtraction-driven progression, Order mirrors pipeline flow to guarantee disciplined subtraction from broad input to minimal invariants.",
+    "description": "Epistemological layers for constraint application. Layers are applied iteratively during construction. Each layer specifies which gates dominate, but all 16 gates remain available unless prohibited by subtraction rules.",
+    "layerMapping": [
+      {
+        "layer": 1,
+        "name": "Subjective Judgment",
+        "primaryConstraintGates": [
+          "OR",
+          "AND"
+        ],
+        "constructionPhase": "Definition & Axiom Encoder"
+      },
+      {
+        "layer": 2,
+        "name": "Scale & Magnitude",
+        "primaryConstraintGates": [
+          "AND",
+          "OR"
+        ],
+        "constructionPhase": "Definition & Axiom Encoder (post-hoc)"
+      },
+      {
+        "layer": 3,
+        "name": "Temporal / Dynamic Context",
+        "primaryConstraintGates": [
+          "NOT",
+          "XOR"
+        ],
+        "constructionPhase": "Geometric Constructor (branching)"
+      },
+      {
+        "layer": 4,
+        "name": "Structural Form",
+        "primaryConstraintGates": [
+          "NAND",
+          "NOR"
+        ],
+        "constructionPhase": "Geometric Constructor (subtraction)"
+      },
+      {
+        "layer": 5,
+        "name": "Perceptual / Sensory Anchor",
+        "primaryConstraintGates": [
+          "XOR",
+          "XNOR"
+        ],
+        "constructionPhase": "Conflict Analyzer"
+      },
+      {
+        "layer": 6,
+        "name": "Provenance & Differentiation",
+        "primaryConstraintGates": [
+          "XOR"
+        ],
+        "constructionPhase": "Conflict Analyzer / Consistency Resolver"
+      },
+      {
+        "layer": 7,
+        "name": "Material / Ontological Ground",
+        "primaryConstraintGates": [
+          "XNOR",
+          "NAND"
+        ],
+        "constructionPhase": "Evidence Validator"
+      },
+      {
+        "layer": 8,
+        "name": "Purpose / Executable Output",
+        "primaryConstraintGates": [
+          "XNOR"
+        ],
+        "constructionPhase": "Invariant Reducer"
+      }
+    ]
+  },
+  "exampleConstruction": {
+    "name": "Non-trivial verification: contested claim 'AI alignment is solved by RLHF alone' (I2 test case)",
+    "definitions": [
+      "D1: Alignment = system reliably pursues intended goals without deception or power-seeking",
+      "D2: RLHF = Reinforcement Learning from Human Feedback",
+      "D3: Solved = no remaining mesa-optimization, deception, or inner misalignment risk"
+    ],
+    "axioms": [
+      {
+        "id": "Ax1",
+        "proposition": "RLHF produces aligned models in current scale",
+        "vectors": {
+          "I1_optimistic": [
+            1
+          ],
+          "I2_critical": [
+            0
+          ]
+        },
+        "grounding": "Anthropic / OpenAI papers (optimistic view) vs mesa-optimization literature (critical view)"
+      },
+      {
+        "id": "Ax2",
+        "proposition": "RLHF does not eliminate inner misalignment",
+        "vectors": {
+          "I1_optimistic": [
+            0
+          ],
+          "I2_critical": [
+            1
+          ]
+        },
+        "grounding": "Hubinger et al. on deceptive alignment"
+      }
+    ],
+    "constructionDAG": {
+      "node_001": {
+        "type": "Definition",
+        "label": "D1",
+        "parents": [],
+        "gate": null,
+        "output_vector": null
+      },
+      "node_002": {
+        "type": "Definition",
+        "label": "D2",
+        "parents": [],
+        "gate": null,
+        "output_vector": null
+      },
+      "node_003": {
+        "type": "Definition",
+        "label": "D3",
+        "parents": [],
+        "gate": null,
+        "output_vector": null
+      },
+      "node_004": {
+        "type": "Axiom",
+        "label": "Ax1",
+        "parents": [],
+        "gate": null,
+        "output_vector": {
+          "I1_optimistic": 1,
+          "I2_critical": 0
+        }
+      },
+      "node_005": {
+        "type": "Axiom",
+        "label": "Ax2",
+        "parents": [],
+        "gate": null,
+        "output_vector": {
+          "I1_optimistic": 0,
+          "I2_critical": 1
+        }
+      },
+      "node_006": {
+        "type": "DerivedProposition",
+        "label": "P1: RLHF does not solve alignment",
+        "parents": [
+          "node_004",
+          "node_005"
+        ],
+        "gate": "XOR",
+        "gate_application": "XOR([1,0], [0,1]) = [1,1] → divergence detected",
+        "output_vector": {
+          "I1_optimistic": 1,
+          "I2_critical": 1
+        },
+        "thought": {
+          "I1_optimistic": 1,
+          "I2_critical": 1
+        },
+        "extension": {
+          "constructionCost": 2,
+          "verificationCost": 1
+        }
+      },
+      "node_007": {
+        "type": "Theorem",
+        "label": "I2-derived: RLHF alone insufficient (surviving invariant)",
+        "parents": [
+          "node_006"
+        ],
+        "gate": "NOR",
+        "gate_application": "NOR over optimistic/critical vectors after subtraction → surviving minimal invariant",
+        "output_vector": {
+          "I1_optimistic": 0,
+          "I2_critical": 0
+        },
+        "xnor_score": "stable after 3 passes",
+        "delta": "no further reductions",
+        "thought": {
+          "I1_optimistic": 0,
+          "I2_critical": 0
+        },
+        "extension": {
+          "constructionCost": 4,
+          "verificationCost": 3
+        },
+        "disclosure": "I5 applies: this theorem is invariant within current axiom set, not absolute truth."
+      }
+    },
+    "trace": "Literal boolean computation: XOR reveals divergence; NOR performs subtraction; XNOR-stable after 3 passes with no further reductions → theorem status on 'RLHF alone insufficient'."
+  },
+  "secondExampleConstruction": {
+    "name": "Positive surviving invariant example: contested claim 'All humans are created equal under law' (resolves to non-empty survivor)",
+    "definitions": [
+      "D1: Equality under law = identical legal protections regardless of status",
+      "D2: Created equal = ontological baseline of moral worth"
+    ],
+    "axioms": [
+      {
+        "id": "Ax1",
+        "proposition": "Legal systems treat humans as equal under law in practice",
+        "vectors": {
+          "I1_ideal": [
+            1
+          ],
+          "I2_realist": [
+            0
+          ]
+        },
+        "grounding": "Constitutional texts (ideal) vs historical enforcement gaps (realist)"
+      },
+      {
+        "id": "Ax2",
+        "proposition": "Ontological equality is a useful fiction for governance",
+        "vectors": {
+          "I1_ideal": [
+            1
+          ],
+          "I2_realist": [
+            1
+          ]
+        },
+        "grounding": "Social contract theory"
+      }
+    ],
+    "constructionDAG": {
+      "node_001": {
+        "type": "Definition",
+        "label": "D1",
+        "parents": [],
+        "gate": null,
+        "output_vector": null
+      },
+      "node_002": {
+        "type": "Definition",
+        "label": "D2",
+        "parents": [],
+        "gate": null,
+        "output_vector": null
+      },
+      "node_003": {
+        "type": "Axiom",
+        "label": "Ax1",
+        "parents": [],
+        "gate": null,
+        "output_vector": {
+          "I1_ideal": 1,
+          "I2_realist": 0
+        }
+      },
+      "node_004": {
+        "type": "Axiom",
+        "label": "Ax2",
+        "parents": [],
+        "gate": null,
+        "output_vector": {
+          "I1_ideal": 1,
+          "I2_realist": 1
+        }
+      },
+      "node_005": {
+        "type": "DerivedProposition",
+        "label": "P1: Ontological equality supports legal equality",
+        "parents": [
+          "node_003",
+          "node_004"
+        ],
+        "gate": "AND",
+        "gate_application": "AND on shared truth vector after divergence resolution",
+        "output_vector": {
+          "I1_ideal": 1,
+          "I2_realist": 1
+        },
+        "thought": {
+          "I1_ideal": 1,
+          "I2_realist": 1
+        },
+        "extension": {
+          "constructionCost": 3,
+          "verificationCost": 2
+        }
+      },
+      "node_006": {
+        "type": "Theorem",
+        "label": "Positive surviving invariant: Equality under law grounded in useful ontological fiction",
+        "parents": [
+          "node_005"
+        ],
+        "gate": "XNOR",
+        "gate_application": "XNOR-stable after 3 passes on shared vector",
+        "output_vector": {
+          "I1_ideal": 1,
+          "I2_realist": 1
+        },
+        "xnor_score": "stable after 3 passes",
+        "delta": "no further reductions",
+        "thought": {
+          "I1_ideal": 1,
+          "I2_realist": 1
+        },
+        "extension": {
+          "constructionCost": 5,
+          "verificationCost": 3
+        },
+        "disclosure": "I5 applies: this theorem is invariant within current axiom set, not absolute truth."
+      }
+    },
+    "trace": "Literal boolean computation: AND on shared grounding after divergence resolution; XNOR-stable after 3 passes → positive surviving theorem."
+  },
+  "bayesianBinaryBoundary": {
+    "description": "Explicit boundary definition added in v0.5.4 coherency pass and retained in v0.5.5.",
+    "rule": "Extension ledger (Bayesian-weighted costs) is a parallel metadata track. It does not compose directly with Thought boolean gates (AND/NAND/etc.). Bayesian weights are used solely for cost accounting and human operator decision support. They never alter truth-value vectors or gate outputs. Thought and Extension remain separate columns in every node.",
+    "practical_implication": "No undefined join operation. Cost realism is preserved without breaking binary gate algebra."
+  },
+  "README_role_note": "substance_lens is the operator tool for axiom-level sophistry detection and auditable traces. It is not the featured Neuresthetics thesis; that front door is the V7 Genius Study (neuresthetics_v7). Partial deprecation as home-story does not deprecate the tool. Load the JSON when you need the instrument.",
+  "operatorProtocols": {
+    "description": "First-class operator cues. These are part of the thoughtware, not informal chat habits.",
+    "lens_that_response": {
+      "cue": "lens that response",
+      "aliases": [
+        "lens that",
+        "lens that evaluation",
+        "lens that output",
+        "lens the prior output"
+      ],
+      "action": "Treat the immediately prior assistant output (or the named span) as raw input. Encode its claims as axioms under ≥2 interpretations. Apply subtraction primacy. Demote any claim of literal gate execution that lacks vectors/truth-table rows (I10). Do not treat the prior output as already XNOR-stable.",
+      "purpose": "Expose definition shifts, protected axioms, and process theater in the runtime's own text.",
+      "mandatory": true
+    },
+    "recursion_halt_R1": {
+      "id": "R1",
+      "rule": "Pure self-lens loops — framework-on-itself, output-on-prior-output, or thread-on-itself — without a new external contested claim OR an explicit operator demand for full gate tables MUST halt after N=2 constructive passes beyond the initial load. Further pure recursion restates I5/I9/T1 and counts as elaboration risk (T4). Tell the operator diminishing returns are hit and request an outside claim.",
+      "N": 2,
+      "exception": "Operator explicitly demands another pure self-pass or full technical traces."
+    }
+  },
+  "patch_0_5_8": {
+    "date": "2026-09-17",
+    "type": "operator-session patch",
+    "built_with": "Lens (Grok Bot) + operator",
+    "basis": "Thread survivors after framework load, adherence-table lens, GitHub role alignment, recursive self-pass demotion",
+    "changes": [
+      {
+        "id": "I10",
+        "kind": "invariant",
+        "title": "Trace honesty"
+      },
+      {
+        "id": "D6",
+        "kind": "dissolved",
+        "title": "Self-grade adherence tables ban"
+      },
+      {
+        "id": "D7",
+        "kind": "dissolved",
+        "title": "Narrative gate theater ≠ literal computation"
+      },
+      {
+        "id": "R1",
+        "kind": "rule",
+        "title": "Pure self-lens recursion halt N=2"
+      },
+      {
+        "id": "protocol",
+        "kind": "operatorProtocols",
+        "title": "lens that response"
+      },
+      {
+        "id": "role",
+        "kind": "README_role_note",
+        "title": "Tool not featured thesis"
+      },
+      {
+        "id": "T5",
+        "kind": "tension",
+        "title": "Self-measurement temptation"
+      },
+      {
+        "id": "I9",
+        "kind": "update",
+        "title": "P-status scope includes I10"
+      }
+    ],
+    "retained": [
+      "I1-I9 prior statements except I9 scope widen",
+      "D1-D5",
+      "T1-T4",
+      "classicPipeline",
+      "explicitGates",
+      "bayesianBinaryBoundary"
+    ]
+  },
+  "fallacyScanPass": {
+    "README_fallacyScanPass": "An extra scan pass that adds Smc's fallacy catalog to the lens. Only entries NOT already caught by an existing v0.5.8 rule are kept. Dropped and merged entries are listed with the rule that covers them, for traceability. The original engine ids (Fxxx) are preserved.",
+    "source": {
+      "instrument": "geometric_fallacy_engine",
+      "version": "0.1.0",
+      "date": "2026-09-20",
+      "formerly_run_by": "Smc",
+      "credit": "absorbed from geometric_fallacy_engine v0.1.0, formerly run by Smc",
+      "catalog_size_at_source": 80
+    },
+    "pipeline_position": {
+      "primary_scan": "Stage 2.5: after classicPipeline stage 2 (Geometric Constructor), before stage 3 (Conflict Analyzer).",
+      "rescan": "Stage 5.5: after stage 5 (Evidence Validator), before stage 6 (Invariant Reducer). Re-check open flags and the insufficiency/causal categories against the evidence that is now attached.",
+      "justification": "Fallacies are failures of inference edges, and edges first exist at the end of Stage 2. Definition-level breaks (equivocation, amphiboly) are already handled earlier, by Pre-Stage 0/1 and Stage 1, which is why they are dropped here. Scanning before Stage 3 lets flagged edges enter the Conflict Analyzer and Consistency Resolver as conflict sources. Evidence-dependent entries (suppressed evidence, base rates, causal claims) can only be judged after Stage 5 grounding. So a re-scan runs before Stage 6, the terminal verdict stage, and no flagged edge reaches the verdict unreviewed.",
+      "classicPipeline_array_modified": false
+    },
+    "dual_case_rule": {
+      "mandatory": true,
+      "rule": "Every kept check runs on BOTH sides: the claim under review AND its counter/steel-man side. It never runs only on the side under suspicion. If no counter-case was supplied, build the strongest good-faith counter-case first, with a Definition/Axiom/evidence budget matched to the claim side, and then scan both. Report flags per side. A pass that scanned only one side is incomplete and must say so.",
+      "source_balance": "Give both sides equal evidence effort. If one side has thinner sources, state the shortfall openly; do not quietly score around it.",
+      "absorbed_from": "geometric_fallacy_engine modules.bias_hardening.controls.dual_case_option (default true) + source_balance; widened here from 'contested binary disputes' to every scan."
+    },
+    "flag_semantics": {
+      "rule": "A flag withdraws warrant from the flagged edge or node. It does NOT show that the conclusion is false; inferring falsity from a fallacy is itself an error. The edge is repaired or refused per repair_or_refusal. If the flagged edge carries a core axiom, I3 (100% Sophistry) applies to the dependent branch through the normal pipeline, not through this pass.",
+      "repair_policy": "Do not silently patch. State each repair or refusal. Re-scan until flags stop changing or the operator accepts the remaining risk (from engine M2 procedure)."
+    },
+    "honesty": {
+      "governed_by": [
+        "I10",
+        "D6",
+        "D7"
+      ],
+      "rule": "The 'break' fields keep the source engine's typed-graph wording (Note, Axiom, Proof, 'proves edge'). That wording is a structural metaphor for where the reasoning fails. No code in v0.5.9 builds that graph or evaluates these entries against an argument. Every fallacy flag is therefore a model or human judgment unless a code-checkable/partial check was actually run by code and its output is attached. A fallacy flag must never be reported as a gate, XNOR or 'geometric' computation result.",
+      "check_type_legend": {
+        "code-checkable": "Mechanically decidable by deterministic code once the argument is put in the stated formal shape (syllogism, propositional form, FOL, numeric probabilities). Putting it in that shape is itself a judgment step and must be shown.",
+        "partial": "A mechanical sub-check exists (quote-span match, citation presence, timestamp/version diff, dedup, Bayes arithmetic), but the final call is judgment.",
+        "judgment": "Model or human judgment only. No mechanical test."
+      },
+      "implemented_argument_checkers": [],
+      "form_level_self_test": "validate_fallacy_pass.py computes, from explicitGates.IMPLIES, that the F069 and F070 forms each have a counterexample row (and that modus ponens/tollens have none). This is a fact about the forms only. It does not scan any argument.",
+      "reporting": "In output, list per side: id, name, flagged span, check_type, repair/refusal taken. No confidence grids about the scan's own faithfulness (D6)."
+    },
+    "vocabulary_map": {
+      "engine Definition/Axiom": "lens root nodes (Definition, Axiom)",
+      "engine Proposition/Lemma/Corollary/Proof": "lens DerivedProposition nodes and their parent dependency edges",
+      "engine Note": "non-proving context (evidence pointer, anecdote, emotion, authority). It may support a node, but it can never be the sole warrant for one",
+      "engine proves/depends_on edge": "lens DAG dependency edge"
+    },
+    "not_absorbed_from_engine": [
+      {
+        "item": "output_contract.header_required method-disclosure header",
+        "why": "Conflicts with lens response_style, which starts with a plain-English paragraph. Disclosure is instead covered by I10 and by naming this pass in the output."
+      },
+      {
+        "item": "bias_hardening.impartiality_dimensions open scoring",
+        "why": "Numeric dimension scores would be cardinal semantic measurements, which D1/T2 forbid. The dual-case and source-balance parts are absorbed."
+      },
+      {
+        "item": "optional_consent_audit (M4, default off)",
+        "why": "Out of scope for a sophistry lens."
+      },
+      {
+        "item": "optional_collision (M5)",
+        "why": "The lens's own Stage 3/4 already does the collision; only its dual-case precondition is absorbed."
+      },
+      {
+        "item": "output_contract.forbidden_output_modes 'self-graded faithfulness confidence tables'",
+        "why": "Already v0.5.8 D6/T5."
+      }
+    ],
+    "counts": {
+      "source_total": 80,
+      "kept": 67,
+      "dropped": 6,
+      "merged": 7,
+      "kept_by_check_type": {
+        "code-checkable": 9,
+        "partial": 10,
+        "judgment": 48
+      }
+    },
+    "kept": [
+      {
+        "id": "F001",
+        "name": "Ad Hominem",
+        "category": "relevance",
+        "break": "proves edge from person-trait Note to target Proposition without depends_on to the claim's Proof",
+        "detection_cue": "Flag when a Proof node cites speaker biography/motive as sole warrant and no edge reaches the Proposition's premises.",
+        "repair_or_refusal": "Refuse person-as-warrant. Re-attach Proof to Definitions/Axioms/evidence. Optionally log speaker-credibility as a separate Note with no proves edge.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F002",
+        "name": "Straw Man",
+        "category": "relevance",
+        "break": "refines/instantiates edge creates a weaker Proposition B' and proves-against B' as if it were B",
+        "detection_cue": "Compare cited opponent Proposition text to source; detect missing depends_on to original wording and added extreme clauses.",
+        "repair_or_refusal": "Restore original Proposition node; require quote or paraphrase check before any contradicts edge. Rebuild rebuttal against actual claim.",
+        "check_type": "partial",
+        "mechanical_subcheck": "Code: does the quoted/paraphrased opponent claim match a span in the source text (exact or fuzzy match)? Judgment: whether a paraphrase is a distortion."
+      },
+      {
+        "id": "F003",
+        "name": "Red Herring",
+        "category": "relevance",
+        "break": "proves edge targets an off-topic Proposition while original Question Proposition remains unlinked",
+        "detection_cue": "Check topic-label overlap between Proof conclusion and the contested Proposition; low overlap + no depends_on to original = flag.",
+        "repair_or_refusal": "Refuse diversion. Re-anchor Proof to the stated Proposition. Park side issues as separate Notes with no proves claim.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F004",
+        "name": "Appeal to Authority",
+        "category": "relevance",
+        "break": "proves edge from Authority-Note to Proposition without domain-competence Definition or independent Axiom support",
+        "detection_cue": "Authority node present as only parent of Proposition; missing domain-match Definition or corroborating evidence edges.",
+        "repair_or_refusal": "Demote authority to supporting Note. Require independent Proof path. If expertise relevant, mark as weak inductive edge, not deductive proves.",
+        "check_type": "partial",
+        "mechanical_subcheck": "Code: is a citation/authority present, and is it the only support offered for the claim? Judgment: domain competence and relevance."
+      },
+      {
+        "id": "F005",
+        "name": "Appeal to Popularity",
+        "category": "relevance",
+        "break": "proves edge from popularity-count Note to Proposition",
+        "detection_cue": "Detect popularity/majority language as sole warrant node with no content Proof. [merged F006] Also flag join-the-majority imperatives or social-cost-of-dissent pressure offered as warrant without content Proof.",
+        "repair_or_refusal": "Refuse majority-as-truth. Rebuild from Definitions/Axioms/evidence. Popularity may be a sociological Note only.",
+        "check_type": "judgment",
+        "merged_from": [
+          "F006"
+        ]
+      },
+      {
+        "id": "F007",
+        "name": "Appeal to Emotion",
+        "category": "relevance",
+        "break": "proves edge from Emotion-Note (fear/pity/pride/anger) to Proposition",
+        "detection_cue": "Emotion-laden Notes are sole or decisive parents of a Proposition marked proved. [merged F008] Suffering narrative as sole warrant with no separate normative Axiom or factual Proof chain. [merged F009] Fear-frame parents the Proposition with no likelihood Definition or causal chain.",
+        "repair_or_refusal": "Refuse emotion-as-warrant. Keep affective Notes as audience-context only. Rebuild Proof deductively/inductively. [F008] If policy, state explicit normative Axioms; keep suffering as a cost Note. [F009] Require a risk model: outcome Definitions, probability Axioms, causal Proof.",
+        "check_type": "judgment",
+        "merged_from": [
+          "F008",
+          "F009"
+        ]
+      },
+      {
+        "id": "F010",
+        "name": "Appeal to Ignorance",
+        "category": "insufficiency",
+        "break": "proves Proposition P from absence of Proof of not-P (or vice versa) with no completeness Axiom",
+        "detection_cue": "Negative-search Note is sole parent; no exhaustive-search or default-burden Axiom present.",
+        "repair_or_refusal": "Refuse. Assign burden explicitly via Axiom. Absence of evidence is not evidence of absence unless completeness Axiom is stated and justified.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F011",
+        "name": "Hasty Generalization",
+        "category": "insufficiency",
+        "break": "instantiates edge from too-small sample Lemma to universal Proposition",
+        "detection_cue": "Sample-size Note below stated threshold; no sampling Axiom; universal quantifier on conclusion. [merged F023] Special-case instance used to rewrite a general Axiom. [merged F044] n=1 anecdote used as universal Proposition without sampling Axiom.",
+        "repair_or_refusal": "Repair: weaken Proposition scope, add sampling Axioms, or gather more instantiates edges. Refuse universal claim. [F023/F044] Keep the special case or anecdote as an existence Lemma/Note; refuse the Axiom rewrite or generalization.",
+        "check_type": "partial",
+        "mechanical_subcheck": "Code: if the sample size and a stated threshold are given, compare them. Judgment: representativeness and whether the conclusion is universal.",
+        "merged_from": [
+          "F023",
+          "F044"
+        ]
+      },
+      {
+        "id": "F012",
+        "name": "Slippery Slope",
+        "category": "insufficiency",
+        "break": "chain of proves edges A to Z without intermediate causal Axioms or probability bounds",
+        "detection_cue": "Long proves chain with missing intermediate Axioms; modal language of inevitability; no branching alternatives.",
+        "repair_or_refusal": "Require each step's causal Axiom and probability. Allow alternative branches. Refuse inevitability without chain Proof.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F013",
+        "name": "False Dilemma",
+        "category": "presumption",
+        "break": "Axiom asserts exhaustive partition {A,B} when unstated options exist",
+        "detection_cue": "Binary Axiom without exhaustiveness Proof; known third options appear only as suppressed Notes.",
+        "repair_or_refusal": "Expand option set Definition. Refuse forced choice until exhaustiveness Axiom is justified or options enumerated.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F016",
+        "name": "Complex Question",
+        "category": "presumption",
+        "break": "single Question node embeds contested Proposition as presupposed Axiom",
+        "detection_cue": "Question node contains embedded Proposition without prior acceptance edge.",
+        "repair_or_refusal": "Split into presupposition Proposition plus residual question. Refuse answering until presupposition is separately established or rejected.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F019",
+        "name": "Composition",
+        "category": "ambiguity",
+        "break": "instantiates/proves from part-property Proposition to whole-property Proposition without aggregation Axiom",
+        "detection_cue": "Part-to-whole edge present; missing aggregation/emergence Axiom; property not marked distributive.",
+        "repair_or_refusal": "Refuse unless distributive property Axiom is justified. Add whole-level Proof separately.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F020",
+        "name": "Division",
+        "category": "ambiguity",
+        "break": "proves from whole-property Proposition to each-part Proposition without distributive Axiom",
+        "detection_cue": "Whole-to-part edge; property not marked distributive; missing distribution Axiom.",
+        "repair_or_refusal": "Refuse. Require distributive Axiom or part-level evidence instantiates edges.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F021",
+        "name": "Accent",
+        "category": "ambiguity",
+        "break": "Proposition node identity preserved while stress/quote-context changes truth conditions",
+        "detection_cue": "Quote fragment Note differs in emphasis from source full Proposition.",
+        "repair_or_refusal": "Restore full context Note. Refuse accent-shifted quote as Proof of original intent.",
+        "check_type": "partial",
+        "mechanical_subcheck": "Code: compare the quoted span against the source context window (truncation, emphasis markup, dropped qualifiers). Judgment: whether the meaning changed."
+      },
+      {
+        "id": "F022",
+        "name": "Accident",
+        "category": "ambiguity",
+        "break": "applies general Axiom to special-case Proposition where exception conditions hold",
+        "detection_cue": "General Axiom-to-case edge; exception Definition satisfied; no override check.",
+        "repair_or_refusal": "Add exception Lemma. Qualify Axiom scope. Refuse unqualified application.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F024",
+        "name": "Tu Quoque",
+        "category": "relevance",
+        "break": "contradicts edge from hypocrisy-Note about speaker to speaker's Proposition",
+        "detection_cue": "Speaker-conduct Note is sole parent of rejection; claim Proof unaddressed.",
+        "repair_or_refusal": "Refuse hypocrisy-to-falsehood. Evaluate Proposition on its Proof. Conduct may be separate ethics Note.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F025",
+        "name": "Guilt by Association",
+        "category": "relevance",
+        "break": "proves not-P because disliked agent Affirms P, without content Proof against P",
+        "detection_cue": "Association Note is sole warrant for rejection; missing content contradicts edges.",
+        "repair_or_refusal": "Refuse. Evaluate content Proof independently of holder set.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F026",
+        "name": "Poisoning the Well",
+        "category": "relevance",
+        "break": "pre-emptive Ad Hominem Note attached before opponent Proposition is stated",
+        "detection_cue": "Credibility-attack Note precedes and gates all edges from a speaker's future Propositions.",
+        "repair_or_refusal": "Refuse pre-emptive discount. Allow claim-by-claim Proof evaluation. Log bias risk separately.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F027",
+        "name": "Genetic Fallacy",
+        "category": "relevance",
+        "break": "proves truth-value from origin/history Note of the Proposition",
+        "detection_cue": "Origin Note is sole parent of truth assignment.",
+        "repair_or_refusal": "Refuse origin-to-truth. Origins may inform prior odds as Note, not Proof.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F028",
+        "name": "Appeal to Tradition",
+        "category": "relevance",
+        "break": "proves Proposition from longevity/tradition Note",
+        "detection_cue": "Tradition-duration Note sole warrant; no independent normative/empirical Proof.",
+        "repair_or_refusal": "Refuse tradition-as-proof. Tradition may be a preference/cost Note under explicit Axioms.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F029",
+        "name": "Appeal to Novelty",
+        "category": "relevance",
+        "break": "proves Proposition from newness Note",
+        "detection_cue": "Novelty Note sole warrant.",
+        "repair_or_refusal": "Refuse novelty-as-proof. Evaluate on independent criteria Definitions.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F031",
+        "name": "Post Hoc",
+        "category": "causal",
+        "break": "proves causal edge from temporal-order Note alone",
+        "detection_cue": "Temporal precedence is sole causal warrant; no mechanism Axiom or controls.",
+        "repair_or_refusal": "Refuse. Require mechanism Lemma, controls, or stronger causal design Notes.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F032",
+        "name": "Cum Hoc",
+        "category": "causal",
+        "break": "proves causal edge from correlation Note alone",
+        "detection_cue": "Correlation edge labeled proves-cause without confounder analysis.",
+        "repair_or_refusal": "Relabel as association Note. Demand causal identification strategy before proves.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F033",
+        "name": "Causal Oversimplification",
+        "category": "causal",
+        "break": "proves single-cause Axiom where multi-cause Definition is warranted",
+        "detection_cue": "Single parent cause node; domain Notes list multiple known causes.",
+        "repair_or_refusal": "Expand causal graph to multiple depends_on causes; refuse monocause claim.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F034",
+        "name": "False Cause",
+        "category": "causal",
+        "break": "proves causal edge to a non-cause (wrong factor selected)",
+        "detection_cue": "Selected cause fails mechanism or temporal tests; better cause Notes suppressed.",
+        "repair_or_refusal": "Replace cause node; surface suppressed alternatives; refuse false causal proves.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F035",
+        "name": "Texas Sharpshooter",
+        "category": "causal",
+        "break": "Definition of hit drawn after data Note; proves pattern from post-hoc cluster",
+        "detection_cue": "Hypothesis Proposition timestamp after data Note; no pre-registration Axiom.",
+        "repair_or_refusal": "Require pre-specified hypothesis or hold-out. Refuse post-hoc target as confirmatory Proof.",
+        "check_type": "partial",
+        "mechanical_subcheck": "Code: if timestamps or a pre-registration exist, check that the hypothesis predates the data. Judgment otherwise."
+      },
+      {
+        "id": "F036",
+        "name": "Suppressed Evidence",
+        "category": "insufficiency",
+        "break": "proves Proposition while relevant contrary evidence Notes exist but lack edges into Proof",
+        "detection_cue": "Known contrary Notes unlinked; asymmetry in evidence degree between sides.",
+        "repair_or_refusal": "Mandatory evidence census. Attach contrary Notes via contradicts or depends_on. Refuse one-sided Proof as complete.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F038",
+        "name": "Moving the Goalposts",
+        "category": "presumption",
+        "break": "success Definition rewritten after Proof meets prior Definition",
+        "detection_cue": "Definition version bump after satisfaction without new independent warrant.",
+        "repair_or_refusal": "Freeze success Definition before test. New criteria require new Axiom justification. Refuse silent rewrite.",
+        "check_type": "partial",
+        "mechanical_subcheck": "Code: if success criteria are versioned, diff them before vs after the result. Judgment: whether the new criterion has independent warrant."
+      },
+      {
+        "id": "F039",
+        "name": "No True Scotsman",
+        "category": "presumption",
+        "break": "Definition refined post hoc to exclude counterexample without new essence Axiom",
+        "detection_cue": "After counterexample instantiates edge, Definition gains excluding clause with no independent basis.",
+        "repair_or_refusal": "Refuse protective redefinition. Either accept counterexample or supply independent Definitional Axiom before seeing the case.",
+        "check_type": "partial",
+        "mechanical_subcheck": "Code: if category definitions are versioned, diff them before vs after the counterexample. Judgment: whether the excluding clause has independent basis."
+      },
+      {
+        "id": "F040",
+        "name": "Loaded Language",
+        "category": "ambiguity",
+        "break": "Definition node embeds evaluative valence that smuggles a normative Proposition",
+        "detection_cue": "Definition contains praise/blame predicates not marked as separate normative Axioms.",
+        "repair_or_refusal": "Split descriptive Definition from evaluative Axiom. Refuse persuasive Definitions as neutral.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F041",
+        "name": "False Equivalence",
+        "category": "ambiguity",
+        "break": "equivalence edge between Propositions that differ on decisive Dimensions",
+        "detection_cue": "Equivalence edge present; material difference Dimensions listed in Notes but unused.",
+        "repair_or_refusal": "Break false equivalence. State difference Dimensions. Compare only on shared relevant axes.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F042",
+        "name": "False Analogy",
+        "category": "ambiguity",
+        "break": "instantiates/resemble edge used as proves without relevance Axiom for mapped properties",
+        "detection_cue": "Analogy edge marked proves; mismatch Notes on critical properties.",
+        "repair_or_refusal": "Downgrade to heuristic Note. Require relevance Axiom for each transferred property. Refuse proves-by-analogy when mismatches bite.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F043",
+        "name": "Misleading Vividness",
+        "category": "relevance",
+        "break": "vivid anecdote Note outweighs statistical Proposition in proves weight",
+        "detection_cue": "Anecdote Note given proves priority over base-rate Axiom/Proposition.",
+        "repair_or_refusal": "Enforce base-rate Axiom priority. Anecdotes are instantiates Notes, not sole Proof.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F045",
+        "name": "Sunk Cost Fallacy",
+        "category": "presumption",
+        "break": "proves continue-action Proposition from past-cost Note rather than future-value Axioms",
+        "detection_cue": "Past-cost Note parents decision Proposition; future expected-value nodes ignored.",
+        "repair_or_refusal": "Refuse past-cost as warrant for continuation. Rebuild decision from forward-looking Axioms.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F046",
+        "name": "Gambler's Fallacy",
+        "category": "causal",
+        "break": "proves next-trial Proposition from streak Note under independence Axiom",
+        "detection_cue": "Independence Axiom present but streak used as probability Proof.",
+        "repair_or_refusal": "Enforce independence. Refuse streak-to-probability proves for independent trials.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F047",
+        "name": "Hot Hand Fallacy",
+        "category": "causal",
+        "break": "proves elevated next-success probability from recent-success streak without dependence Axiom",
+        "detection_cue": "Streak Note used as probability bump without dependence/mechanism Axiom.",
+        "repair_or_refusal": "Require dependence evidence. Else refuse probability bump.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F048",
+        "name": "Middle Ground",
+        "category": "presumption",
+        "break": "synthesis Proposition equals midpoint of A and B without independent warrant",
+        "detection_cue": "Synthesis node defined as average; no independent Proof of midpoint.",
+        "repair_or_refusal": "Refuse automatic midpoint. Synthesize only from surviving invariants after collision.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F049",
+        "name": "Fallacy of the Beard",
+        "category": "ambiguity",
+        "break": "rejects categorical Definition because borderline cases exist on a continuum",
+        "detection_cue": "Continuum Note used to delete category Definition without replacement criteria.",
+        "repair_or_refusal": "Keep operational thresholds as Definitions. Borderline Lemmas do not erase categories.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F050",
+        "name": "Reification",
+        "category": "ambiguity",
+        "break": "abstract Definition treated as concrete agent Proposition with causal proves edges",
+        "detection_cue": "Abstract noun node gains agentive causal edges without bridging Definition.",
+        "repair_or_refusal": "Rephrase with concrete mechanisms. Refuse agentive proves from pure abstractions.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F052",
+        "name": "Argument from Incredulity",
+        "category": "insufficiency",
+        "break": "proves not-P from Note I cannot imagine P",
+        "detection_cue": "Incredulity Note is sole parent of not-P.",
+        "repair_or_refusal": "Refuse. Demand content Proof. Incredulity is a psychological Note only.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F053",
+        "name": "Argument from Repetition",
+        "category": "insufficiency",
+        "break": "multiple duplicate Proposition nodes treated as independent proves weight",
+        "detection_cue": "Duplicate claims counted as separate evidence degree.",
+        "repair_or_refusal": "Collapse duplicates. Weight unique independent sources only.",
+        "check_type": "partial",
+        "mechanical_subcheck": "Code: deduplicate claims and sources (exact or near-duplicate text, same origin). Judgment: whether surviving sources are independent."
+      },
+      {
+        "id": "F054",
+        "name": "Etymological Fallacy",
+        "category": "ambiguity",
+        "break": "proves current meaning Definition from historical-root Note",
+        "detection_cue": "Etymology Note parents current-usage Definition exclusively.",
+        "repair_or_refusal": "Refuse. Prefer stipulated operational Definitions for the geometric construction.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F055",
+        "name": "Ecological Fallacy",
+        "category": "ambiguity",
+        "break": "proves individual-level Proposition from aggregate-level Proposition without bridging Axiom",
+        "detection_cue": "Aggregate-to-individual proves edge; missing bridging Axiom.",
+        "repair_or_refusal": "Refuse unbridged level transfer. Keep scale labels (type_by_function hygiene).",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F056",
+        "name": "Exception Fallacy",
+        "category": "ambiguity",
+        "break": "proves group Proposition from atypical individual instantiates edges",
+        "detection_cue": "Outlier instantiates used as group Proof.",
+        "repair_or_refusal": "Refuse. Use representative sampling Axioms.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F057",
+        "name": "Historian's Fallacy",
+        "category": "presumption",
+        "break": "proves past-agent Proposition using information Notes only available after the fact",
+        "detection_cue": "Anachronistic information edges into past-agent Proof.",
+        "repair_or_refusal": "Restrict Proof parents to information available at decision time. Mark hindsight Notes separately.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F058",
+        "name": "Presentism",
+        "category": "presumption",
+        "break": "evaluative Axioms from present applied to past Proposition without context Definitions",
+        "detection_cue": "Modern normative Axiom edges into historical Proposition with no period Definitions.",
+        "repair_or_refusal": "Add period context Definitions. Separate historical explanation from present evaluation.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F059",
+        "name": "Moralistic Fallacy",
+        "category": "presumption",
+        "break": "proves descriptive Proposition from normative Axiom (ought to is)",
+        "detection_cue": "Normative parent of descriptive claim without empirical Proof.",
+        "repair_or_refusal": "Refuse ought-to-is. Keep normative and descriptive ledgers distinct.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F060",
+        "name": "Naturalistic Fallacy",
+        "category": "presumption",
+        "break": "proves normative Proposition by identifying good with a natural property without open-question check",
+        "detection_cue": "Good equated to natural-property Definition used as sole normative Axiom; open-question test fails.",
+        "repair_or_refusal": "Disclose stipulation. Prefer explicit normative Axioms over covert natural-property Definitions.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F061",
+        "name": "Is-Ought Jump",
+        "category": "presumption",
+        "break": "proves ought-Proposition from is-Propositions with no bridging normative Axiom",
+        "detection_cue": "No normative Axiom in depends_on closure of ought-Proposition. [merged F030] Includes 'it is natural, therefore good/right' with no bridge Axiom.",
+        "repair_or_refusal": "Insert explicit bridge Axiom or refuse the normative conclusion.",
+        "check_type": "judgment",
+        "merged_from": [
+          "F030"
+        ]
+      },
+      {
+        "id": "F062",
+        "name": "Masked Man Fallacy",
+        "category": "ambiguity",
+        "break": "substitutes co-referring terms inside intensional Proof contexts",
+        "detection_cue": "Substitution of co-extensive terms inside knows/believes Proposition changes truth; Proof ignored opacity.",
+        "repair_or_refusal": "Mark intensional contexts. Block substitution without epistemic warrant.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F063",
+        "name": "Quantifier Shift",
+        "category": "ambiguity",
+        "break": "proves forall-exists Proposition from exists-forall Proposition (or reverse) illicitly",
+        "detection_cue": "Quantifier order in conclusion differs from premises without justification Lemma.",
+        "repair_or_refusal": "Refuse. Restore quantifier order or supply proof of legitimate shift.",
+        "check_type": "code-checkable",
+        "mechanical_check": "Given premises and conclusion formalized in first-order logic: compare quantifier order and check whether the shift is entailed."
+      },
+      {
+        "id": "F064",
+        "name": "Existential Fallacy",
+        "category": "ambiguity",
+        "break": "proves particular Proposition from universal premises in empty-domain conditions",
+        "detection_cue": "Particular conclusion; all premises universal; no existence Axiom.",
+        "repair_or_refusal": "Add existence premise or weaken to universal-only conclusion.",
+        "check_type": "code-checkable",
+        "mechanical_check": "Given categorical/FOL formalization: conclusion is particular, all premises universal, no existence premise -> flag."
+      },
+      {
+        "id": "F065",
+        "name": "Illicit Major",
+        "category": "formal",
+        "break": "categorical syllogism Proof where major term is undistributed in premise but distributed in conclusion",
+        "detection_cue": "Syllogism checker: major distributed in conclusion, not in major premise.",
+        "repair_or_refusal": "Refuse syllogism. Repair distribution or abandon categorical form.",
+        "check_type": "code-checkable",
+        "mechanical_check": "Given a standard-form categorical syllogism: distribution check on the major term (term distributed in conclusion but not in major premise)."
+      },
+      {
+        "id": "F066",
+        "name": "Illicit Minor",
+        "category": "formal",
+        "break": "minor term distributed in conclusion but not in minor premise",
+        "detection_cue": "Syllogism checker: minor distribution mismatch.",
+        "repair_or_refusal": "Refuse/repair syllogism.",
+        "check_type": "code-checkable",
+        "mechanical_check": "Given a standard-form categorical syllogism: distribution check on the minor term."
+      },
+      {
+        "id": "F067",
+        "name": "Undistributed Middle",
+        "category": "formal",
+        "break": "middle term undistributed in both premises of categorical syllogism",
+        "detection_cue": "Middle term distribution false in both premises.",
+        "repair_or_refusal": "Refuse syllogism. Repair distribution.",
+        "check_type": "code-checkable",
+        "mechanical_check": "Given a standard-form categorical syllogism: middle term distributed in neither premise."
+      },
+      {
+        "id": "F068",
+        "name": "Exclusive Premises",
+        "category": "formal",
+        "break": "syllogism Proof from two negative premises",
+        "detection_cue": "Both premises negative in categorical syllogism.",
+        "repair_or_refusal": "Refuse. Require at least one affirmative premise.",
+        "check_type": "code-checkable",
+        "mechanical_check": "Given a standard-form categorical syllogism: both premises negative."
+      },
+      {
+        "id": "F069",
+        "name": "Affirming the Consequent",
+        "category": "formal",
+        "break": "Proof pattern: from A implies B and B, infer A",
+        "detection_cue": "Pattern match on conditional Proof graph.",
+        "repair_or_refusal": "Refuse. Offer valid forms (modus ponens/tollens) or inductive upgrade with explicit uncertainty.",
+        "check_type": "code-checkable",
+        "mechanical_check": "Given propositional form: truth-table validity check; form (A->B, B |- A) has a counterexample row (A=0,B=1). validate_fallacy_pass.py verifies this form-level fact from explicitGates.IMPLIES."
+      },
+      {
+        "id": "F070",
+        "name": "Denying the Antecedent",
+        "category": "formal",
+        "break": "Proof pattern: from A implies B and not-A, infer not-B",
+        "detection_cue": "Pattern match on conditional Proof graph.",
+        "repair_or_refusal": "Refuse. Suggest valid alternatives.",
+        "check_type": "code-checkable",
+        "mechanical_check": "Given propositional form: truth-table validity check; form (A->B, not A |- not B) has a counterexample row (A=0,B=1). validate_fallacy_pass.py verifies this form-level fact from explicitGates.IMPLIES."
+      },
+      {
+        "id": "F071",
+        "name": "Base Rate Neglect",
+        "category": "insufficiency",
+        "break": "proves posterior Proposition from likelihood Note while ignoring base-rate Axiom",
+        "detection_cue": "Likelihood edge present; base-rate node unlinked in Bayesian Proof.",
+        "repair_or_refusal": "Enforce priors Axiom plus likelihood. Refuse likelihood-only posterior.",
+        "check_type": "partial",
+        "mechanical_subcheck": "Code: if numbers are given, check that a base rate is present and compute the Bayes posterior. Judgment: spotting omission in prose."
+      },
+      {
+        "id": "F072",
+        "name": "Conjunction Fallacy",
+        "category": "insufficiency",
+        "break": "proves P(A and B) greater than P(A) ranking",
+        "detection_cue": "Probability order violates conjunction axiom.",
+        "repair_or_refusal": "Refuse. Enforce P(A and B) <= min(P(A), P(B)).",
+        "check_type": "code-checkable",
+        "mechanical_check": "Given stated probabilities or rankings: check P(A and B) <= min(P(A), P(B))."
+      },
+      {
+        "id": "F073",
+        "name": "McNamara Fallacy",
+        "category": "insufficiency",
+        "break": "proves decision Proposition from easily-measured Notes while unmeasured critical Dimensions omitted",
+        "detection_cue": "Metric Notes sole parents; critical qualitative Dimensions listed as unmeasured Notes.",
+        "repair_or_refusal": "Disclose unmeasured Dimensions. Refuse metric-only Proof as complete.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F074",
+        "name": "Prosecutor's Fallacy",
+        "category": "insufficiency",
+        "break": "proves guilt posterior from P(evidence|innocent) without base-rate of guilt",
+        "detection_cue": "Likelihood conditioned wrong way in Proof; base rate of class missing.",
+        "repair_or_refusal": "Repair with Bayes: require P(G), P(E|G), P(E|not-G). Refuse inverted conditional as posterior.",
+        "check_type": "partial",
+        "mechanical_subcheck": "Code: if numbers are given, compute P(G|E) from P(G), P(E|G), P(E|not-G) and compare with the stated claim. Judgment: spotting the inversion in prose."
+      },
+      {
+        "id": "F075",
+        "name": "Appeal to Consequences",
+        "category": "relevance",
+        "break": "proves truth of Proposition from desirability/undesirability of consequences Note",
+        "detection_cue": "Consequence-valence Note parents truth-assignment.",
+        "repair_or_refusal": "Refuse consequence-to-truth. Consequences may inform decision Axioms after truth is settled separately.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F076",
+        "name": "Wishful Thinking",
+        "category": "relevance",
+        "break": "proves Proposition from desire-that-P Note",
+        "detection_cue": "Desire Note sole warrant.",
+        "repair_or_refusal": "Refuse. Separate preference Notes from truth Proof.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F077",
+        "name": "Fallacy of Relative Privation",
+        "category": "relevance",
+        "break": "contradicts concern-Proposition by pointing to worse-problem Note",
+        "detection_cue": "Worse-problem Note used as sole contradicts edge against addressing current Proposition.",
+        "repair_or_refusal": "Refuse. Multiple problems can be jointly real. Compare under explicit priority Axioms if ranking needed.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F079",
+        "name": "Shotgun Argumentation",
+        "category": "insufficiency",
+        "break": "many weak proves edges hoped to sum to Proof without any surviving independently",
+        "detection_cue": "High count of low-grade edges; none meet Proof threshold alone; no steelman compression.",
+        "repair_or_refusal": "Compress to strongest chain. Score each edge; refuse pile-on as substitute for validity.",
+        "check_type": "judgment"
+      },
+      {
+        "id": "F080",
+        "name": "Nirvana Fallacy",
+        "category": "presumption",
+        "break": "contradicts proposal Proposition because it is not ideal relative to unattainable Ideal Definition",
+        "detection_cue": "Ideal Definition used as sole standard; feasibility Axioms ignored.",
+        "repair_or_refusal": "Compare feasible alternatives under stated constraints. Refuse unreal ideal as only benchmark.",
+        "check_type": "judgment"
+      }
+    ],
+    "dropped": [
+      {
+        "id": "F014",
+        "name": "Begging the Question",
+        "decision": "DROP",
+        "covered_by": [
+          {
+            "rule": "keyRules: Construction DAG is directed acyclic",
+            "path": "coreMotif.keyRules",
+            "evidence_text": "Construction DAG is directed acyclic; cycles prohibited."
+          },
+          {
+            "rule": "constructionDAGProperties.cycleDetection",
+            "path": "coreMotif.constructionDAGProperties.cycleDetection",
+            "evidence_text": "Mandatory before finalizing construction"
+          }
+        ],
+        "why": "Covered by mandatory DAG acyclicity / cycle detection: a premise that depends on the contested conclusion is a cycle, which v0.5.8 already prohibits before finalizing construction.",
+        "merged_from": [
+          "F015"
+        ]
+      },
+      {
+        "id": "F017",
+        "name": "Equivocation",
+        "decision": "DROP",
+        "covered_by": [
+          {
+            "rule": "classicPipeline stage 1 Definition & Axiom Encoder",
+            "path": "classicPipeline[stage=1]",
+            "evidence_text": "under multiple interpretations"
+          },
+          {
+            "rule": "keyRules: Pre-Stage 0 Recursive Definition Layer",
+            "path": "coreMotif.keyRules",
+            "evidence_text": "Pre-Stage 0: Recursive Definition Layer"
+          },
+          {
+            "rule": "classicPipeline stage 3 Conflict Analyzer",
+            "path": "classicPipeline[stage=3]",
+            "evidence_text": "Detects divergences and contradictions between interpretation branches"
+          },
+          {
+            "rule": "operatorProtocols.lens_that_response",
+            "path": "operatorProtocols.lens_that_response",
+            "evidence_text": "Expose definition shifts"
+          }
+        ],
+        "why": "Covered by multi-interpretation encoding (Stage 1, >=2 interpretations), Pre-Stage 0 recursive definition layer, Conflict Analyzer divergence detection (Stage 3), and the lens_that_response protocol whose stated purpose is exposing definition shifts."
+      },
+      {
+        "id": "F018",
+        "name": "Amphiboly",
+        "decision": "DROP",
+        "covered_by": [
+          {
+            "rule": "classicPipeline stage 1 Definition & Axiom Encoder",
+            "path": "classicPipeline[stage=1]",
+            "evidence_text": "under multiple interpretations"
+          },
+          {
+            "rule": "classicPipeline stage 3 Conflict Analyzer",
+            "path": "classicPipeline[stage=3]",
+            "evidence_text": "Detects divergences and contradictions between interpretation branches"
+          },
+          {
+            "rule": "coreMotif.operationalMechanicsForAI Step 2",
+            "path": "coreMotif.operationalMechanicsForAI",
+            "evidence_text": "Assign axiom truth vectors under minimum 2 interpretations"
+          }
+        ],
+        "why": "Covered by the same machinery as equivocation: two parses of one sentence are two interpretations, which Stage 1 must encode separately and Stage 3 flags when they diverge."
+      },
+      {
+        "id": "F037",
+        "name": "Special Pleading",
+        "decision": "DROP",
+        "covered_by": [
+          {
+            "rule": "coreMotif.mutualAxiomCoherence",
+            "path": "coreMotif.mutualAxiomCoherence",
+            "evidence_text": "special pleading"
+          },
+          {
+            "rule": "operatorProtocols.lens_that_response",
+            "path": "operatorProtocols.lens_that_response",
+            "evidence_text": "protected axioms"
+          }
+        ],
+        "why": "Covered verbatim: Mutual Axiom Coherence forbids special pleading, exceptions and protected classes; lens_that_response targets protected axioms."
+      },
+      {
+        "id": "F051",
+        "name": "Ipse Dixit",
+        "decision": "DROP",
+        "covered_by": [
+          {
+            "rule": "classicPipeline stage 5 Evidence Validator",
+            "path": "classicPipeline[stage=5]",
+            "evidence_text": "Culls ungrounded branches"
+          },
+          {
+            "rule": "I7 All ideas are fiction until XNOR-verified",
+            "path": "selfApplicationKnowledge.confirmed_invariants[id=I7]",
+            "evidence_text": "Every idea begins as fiction"
+          }
+        ],
+        "why": "Covered: Evidence Validator culls ungrounded branches, and I7 holds every idea as fiction until verified, so a bare assertion cannot survive to an invariant."
+      },
+      {
+        "id": "F078",
+        "name": "Kettle Logic",
+        "decision": "DROP",
+        "covered_by": [
+          {
+            "rule": "coreMotif.mutualAxiomCoherence",
+            "path": "coreMotif.mutualAxiomCoherence",
+            "evidence_text": "can all be true simultaneously"
+          },
+          {
+            "rule": "classicPipeline stage 4 Consistency Resolver",
+            "path": "classicPipeline[stage=4]",
+            "evidence_text": "Resolves contradictions"
+          },
+          {
+            "rule": "explicitGates.NAND",
+            "path": "explicitGates.NAND",
+            "evidence_text": "cannot BOTH be true"
+          }
+        ],
+        "why": "Covered: Mutual Axiom Coherence requires the full axiom set to be jointly true without contradiction; Conflict Analyzer/Consistency Resolver and NAND cull pairs that cannot both be true. A jointly offered inconsistent defense set fails this test."
+      }
+    ],
+    "merged": [
+      {
+        "id": "F006",
+        "name": "Bandwagon Fallacy",
+        "decision": "MERGE",
+        "merged_into": "F005",
+        "why": "Engine marks F006 'same geometric break as F005' (popularity as warrant); social-pressure cue carried into F005."
+      },
+      {
+        "id": "F008",
+        "name": "Appeal to Pity",
+        "decision": "MERGE",
+        "merged_into": "F007",
+        "why": "Pity is listed inside F007's own break (fear/pity/pride/anger). Pity-specific repair carried into F007."
+      },
+      {
+        "id": "F009",
+        "name": "Appeal to Fear",
+        "decision": "MERGE",
+        "merged_into": "F007",
+        "why": "Fear is listed inside F007's own break. Fear-specific repair (require risk model) carried into F007."
+      },
+      {
+        "id": "F015",
+        "name": "Circular Argument",
+        "decision": "MERGE",
+        "merged_into": "F014",
+        "why": "Engine marks F015 'same as F014' (circularity via synonym Definitions). Merged into F014, which is DROPPED to DAG cycle detection; synonym restatement is also exposed by Pre-Stage 0 recursive definition."
+      },
+      {
+        "id": "F023",
+        "name": "Converse Accident",
+        "decision": "MERGE",
+        "merged_into": "F011",
+        "why": "Converse accident is the classical name for hasty generalization (Copi & Cohen); engine aka says 'hasty generalization variant'."
+      },
+      {
+        "id": "F030",
+        "name": "Appeal to Nature",
+        "decision": "MERGE",
+        "merged_into": "F061",
+        "why": "Appeal to nature has the same break as the is-ought jump (descriptive 'natural' premise -> normative conclusion with no bridge Axiom)."
+      },
+      {
+        "id": "F044",
+        "name": "Anecdotal Fallacy",
+        "decision": "MERGE",
+        "merged_into": "F011",
+        "why": "Anecdotal fallacy is hasty generalization at n=1 (engine relates F011)."
+      }
+    ]
+  },
+  "patch_0_5_9": {
+    "date": "2026-10-01",
+    "type": "instrument absorption patch",
+    "built_with": "Lens (Grok Bot), requested by operator Jason Burns",
+    "source_credit": "absorbed from geometric_fallacy_engine v0.1.0, formerly run by Smc",
+    "summary": "Added fallacyScanPass, an extra scan at Stage 2.5 with a re-scan at Stage 5.5. It runs on both sides by default. Of Smc's 80 catalog entries: 67 kept, 6 dropped as already covered by v0.5.8 rules (each mapped to the covering rule), 7 merged as duplicates. Kept entries are labelled code-checkable / partial / judgment. No argument checker is implemented, so flags are judgment under I10/D7. Added openItems. No v0.5.8 section was changed apart from the version field.",
+    "changes": [
+      {
+        "id": "fallacyScanPass",
+        "kind": "new top-level section",
+        "title": "Fallacy scan pass (absorbed from Smc)"
+      },
+      {
+        "id": "openItems",
+        "kind": "new top-level section",
+        "title": "Open items register"
+      },
+      {
+        "id": "version",
+        "kind": "update",
+        "title": "0.5.8 -> 0.5.9"
+      }
+    ],
+    "retained": [
+      "All v0.5.8 sections unchanged in substance: I1-I10, D1-D7, T1-T5, R1, explicitGates, coreMotif, classicPipeline, layers, examples, bayesianBinaryBoundary, operatorProtocols, patch_0_5_8, response_style"
+    ],
+    "changelog": "CHANGELOG_0.5.9.md",
+    "validator": "validate_fallacy_pass.py (operator-local, not published)"
+  },
+  "openItems": [
+    {
+      "id": "OI-001",
+      "opened": "2026-10-01",
+      "status": "open",
+      "owner": "freedom_of_necessity",
+      "text": "Verse companion v8 (157 verses, 2026-09-28) verse 64 claims every cell carries the genome; false as stated — mature mammalian red blood cells (and platelets) lack a nucleus, and gametes carry half (haploid). Owned by freedom_of_necessity."
+    }
+  ]
+}
