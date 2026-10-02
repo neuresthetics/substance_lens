@@ -1,4 +1,9 @@
-Humans: how to use: copy the substance_lens_0.5.7.json and give it to your AI.
+Humans: how to use: copy the substance_lens_0.5.9.json and give it to your AI.
+
+**Current version: 0.5.9** ([changelog](CHANGELOG_0.5.9.md)). Older versions: 0.5.8, 0.5.7.
+
+- **0.5.9:** adds a fallacy scan pass (67 fallacies absorbed from geometric_fallacy_engine v0.1.0). Every check runs on both the claim and its strongest counter-case. A flag removes support from a step; it does not prove the conclusion false. 9 entries are code-checkable once an argument is in formal form, 10 partly, 48 are judgment; no argument-scanning code ships yet, so every flag is a model or human judgment.
+- **0.5.8:** trace honesty (no gate result claimed without the vectors, truth-table rows and output), self-rated grids are not measurement, and a label is not a computation.
 
 Why use it? Power of clarity and argument.
 
@@ -8,7 +13,7 @@ WHAT THE HECK IS IT: read on.
 
 ---
 
-### grok 4.3;
+### grok 4.3; (sample session, recorded on v0.5.7)
 
 > Refer to the following content: [substance_lens_0.5.7.json]
 
